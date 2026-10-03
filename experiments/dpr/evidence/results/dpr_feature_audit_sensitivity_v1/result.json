@@ -1,0 +1,1939 @@
+{
+  "status": "complete",
+  "n": 2725,
+  "events": 359,
+  "households": 877,
+  "seeds": 20,
+  "bootstrap": 2000,
+  "bootstrap_seed": 91208,
+  "results": {
+    "conservative": {
+      "base_auroc": 0.6477599323753169,
+      "sop_auroc": 0.7157955554195108,
+      "base_auprc": 0.1929597595482856,
+      "sop_auprc": 0.2869978089965034,
+      "delta_auroc": 0.06803562304419386,
+      "conditional_ci95": [
+        0.04619881133387245,
+        0.08977231300932047
+      ],
+      "positive_seeds": 20,
+      "seed_range": [
+        0.05378658196314068,
+        0.08791091060214684
+      ],
+      "columns_base": [
+        "contact_age",
+        "age_lt5",
+        "age_ge45",
+        "contact_sex_m",
+        "bmi_h",
+        "smoke_ever_h",
+        "diabetes_h_f",
+        "site_capricorn",
+        "hh_n_contacts",
+        "idx_coughdays",
+        "idx_age",
+        "idx_sex_m",
+        "ts_low",
+        "ts_mid",
+        "ts_high",
+        "share_bedroom",
+        "sleep_same_bed",
+        "airspace_shared",
+        "rel_child",
+        "rel_spouse",
+        "rel_sibling",
+        "rel_parent"
+      ]
+    },
+    "coding": {
+      "base_auroc": 0.6433066986581021,
+      "sop_auroc": 0.7126225285321064,
+      "base_auprc": 0.19437828272415644,
+      "sop_auprc": 0.28481039701468325,
+      "delta_auroc": 0.06931582987400431,
+      "conditional_ci95": [
+        0.04690672795039232,
+        0.09032269207796369
+      ],
+      "positive_seeds": 20,
+      "seed_range": [
+        0.056254223599413344,
+        0.08302271972724085
+      ],
+      "columns_base": [
+        "contact_age",
+        "age_lt5",
+        "age_ge45",
+        "contact_sex_m",
+        "hiv_pos_h",
+        "hiv_unknown_h",
+        "bmi_h",
+        "smoke_ever_h",
+        "diabetes_h_f",
+        "site_capricorn",
+        "hh_n_contacts",
+        "idx_coughdays",
+        "idx_smear_pos",
+        "idx_smear_known",
+        "idx_xpert_pos",
+        "idx_hiv_pos",
+        "idx_age",
+        "idx_sex_m",
+        "idx_dead",
+        "ts_low",
+        "ts_mid",
+        "ts_high",
+        "share_bedroom",
+        "sleep_same_bed",
+        "airspace_shared",
+        "rel_child",
+        "rel_spouse",
+        "rel_sibling",
+        "rel_parent",
+        "diabetes_missing",
+        "airspace_missing",
+        "timespent_missing",
+        "relationship_missing",
+        "index_hiv_unknown",
+        "index_xpert_not_done"
+      ]
+    }
+  },
+  "records": {
+    "conservative": [
+      {
+        "scenario": "conservative",
+        "seed": 0,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6487130825035261,
+            "auprc": 0.1928569362129387
+          },
+          {
+            "auroc": 0.7205666628207876,
+            "auprc": 0.3088245505186958
+          }
+        ],
+        "seconds": 11.351088523864746
+      },
+      {
+        "scenario": "conservative",
+        "seed": 1,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.657687716183538,
+            "auprc": 0.2073440054256913
+          },
+          {
+            "auroc": 0.7187359458625797,
+            "auprc": 0.29155911469412743
+          }
+        ],
+        "seconds": 11.8097083568573
+      },
+      {
+        "scenario": "conservative",
+        "seed": 2,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.633300918066292,
+            "auprc": 0.18103944335571967
+          },
+          {
+            "auroc": 0.6993173956962258,
+            "auprc": 0.2804402544210387
+          }
+        ],
+        "seconds": 11.342549324035645
+      },
+      {
+        "scenario": "conservative",
+        "seed": 3,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.647473375135685,
+            "auprc": 0.2043539456862599
+          },
+          {
+            "auroc": 0.7209999128790644,
+            "auprc": 0.2758142106244005
+          }
+        ],
+        "seconds": 11.282037258148193
+      },
+      {
+        "scenario": "conservative",
+        "seed": 4,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6469212167733702,
+            "auprc": 0.19228896333470752
+          },
+          {
+            "auroc": 0.7168133987289762,
+            "auprc": 0.26023582481185464
+          }
+        ],
+        "seconds": 13.643117189407349
+      },
+      {
+        "scenario": "conservative",
+        "seed": 5,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6448197185287393,
+            "auprc": 0.18813258282483436
+          },
+          {
+            "auroc": 0.7114954897256162,
+            "auprc": 0.29041374193249664
+          }
+        ],
+        "seconds": 13.669006109237671
+      },
+      {
+        "scenario": "conservative",
+        "seed": 6,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6507863253095737,
+            "auprc": 0.19276067485253412
+          },
+          {
+            "auroc": 0.726487354513924,
+            "auprc": 0.30253300664999716
+          }
+        ],
+        "seconds": 13.094141006469727
+      },
+      {
+        "scenario": "conservative",
+        "seed": 7,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6554673096348691,
+            "auprc": 0.1969719996136816
+          },
+          {
+            "auroc": 0.7194717645756857,
+            "auprc": 0.2925675264249716
+          }
+        ],
+        "seconds": 13.716343641281128
+      },
+      {
+        "scenario": "conservative",
+        "seed": 8,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6372248920995439,
+            "auprc": 0.18486042926430474
+          },
+          {
+            "auroc": 0.7125338770935514,
+            "auprc": 0.25875268643740823
+          }
+        ],
+        "seconds": 11.48034143447876
+      },
+      {
+        "scenario": "conservative",
+        "seed": 9,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.644016793148998,
+            "auprc": 0.1930989470044656
+          },
+          {
+            "auroc": 0.7110975589655684,
+            "auprc": 0.2904058633928601
+          }
+        ],
+        "seconds": 11.423655033111572
+      },
+      {
+        "scenario": "conservative",
+        "seed": 10,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6358062336206755,
+            "auprc": 0.18060662841408653
+          },
+          {
+            "auroc": 0.7121959891404931,
+            "auprc": 0.27271581813057877
+          }
+        ],
+        "seconds": 11.599977731704712
+      },
+      {
+        "scenario": "conservative",
+        "seed": 11,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6527983479986907,
+            "auprc": 0.1915637706927289
+          },
+          {
+            "auroc": 0.7158986289048428,
+            "auprc": 0.2970007930770721
+          }
+        ],
+        "seconds": 11.540979862213135
+      },
+      {
+        "scenario": "conservative",
+        "seed": 12,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6402599971273638,
+            "auprc": 0.18716112496511209
+          },
+          {
+            "auroc": 0.7281709077295107,
+            "auprc": 0.2998287816238082
+          }
+        ],
+        "seconds": 11.80220365524292
+      },
+      {
+        "scenario": "conservative",
+        "seed": 13,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6532786904546065,
+            "auprc": 0.19065531690160897
+          },
+          {
+            "auroc": 0.7070652724177472,
+            "auprc": 0.3078787837970225
+          }
+        ],
+        "seconds": 11.593320369720459
+      },
+      {
+        "scenario": "conservative",
+        "seed": 14,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.652787752209222,
+            "auprc": 0.1985114498758267
+          },
+          {
+            "auroc": 0.710999842240468,
+            "auprc": 0.2875066720395042
+          }
+        ],
+        "seconds": 11.939102411270142
+      },
+      {
+        "scenario": "conservative",
+        "seed": 15,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6560877519737601,
+            "auprc": 0.199944805845217
+          },
+          {
+            "auroc": 0.7230095809482997,
+            "auprc": 0.2859499508920618
+          }
+        ],
+        "seconds": 12.070667743682861
+      },
+      {
+        "scenario": "conservative",
+        "seed": 16,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6504884658945083,
+            "auprc": 0.20246466252482342
+          },
+          {
+            "auroc": 0.7161246724135089,
+            "auprc": 0.28828892909956616
+          }
+        ],
+        "seconds": 12.725673198699951
+      },
+      {
+        "scenario": "conservative",
+        "seed": 17,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6454460474173351,
+            "auprc": 0.18965329105100878
+          },
+          {
+            "auroc": 0.7173938125298742,
+            "auprc": 0.30295009630152914
+          }
+        ],
+        "seconds": 12.773991107940674
+      },
+      {
+        "scenario": "conservative",
+        "seed": 18,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6449256764234266,
+            "auprc": 0.18756059395037145
+          },
+          {
+            "auroc": 0.7117933491406815,
+            "auprc": 0.2786856796039525
+          }
+        ],
+        "seconds": 12.602157592773438
+      },
+      {
+        "scenario": "conservative",
+        "seed": 19,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_age",
+          "idx_sex_m",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.656908337002616,
+            "auprc": 0.19736561916978998
+          },
+          {
+            "auroc": 0.7157396920628118,
+            "auprc": 0.26760389545712243
+          }
+        ],
+        "seconds": 12.332300424575806
+      }
+    ],
+    "coding": [
+      {
+        "scenario": "coding",
+        "seed": 0,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6421201468340959,
+            "auprc": 0.19250499108674674
+          },
+          {
+            "auroc": 0.7108220684393814,
+            "auprc": 0.28905731875084956
+          }
+        ],
+        "seconds": 12.031123638153076
+      },
+      {
+        "scenario": "coding",
+        "seed": 1,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6550116906877138,
+            "auprc": 0.21105034893177235
+          },
+          {
+            "auroc": 0.7158762600159644,
+            "auprc": 0.29195384801388435
+          }
+        ],
+        "seconds": 12.027974843978882
+      },
+      {
+        "scenario": "coding",
+        "seed": 2,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6363937112812194,
+            "auprc": 0.19123335874771
+          },
+          {
+            "auroc": 0.7015083694963704,
+            "auprc": 0.2855288472396495
+          }
+        ],
+        "seconds": 12.176656723022461
+      },
+      {
+        "scenario": "coding",
+        "seed": 3,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6411100149047438,
+            "auprc": 0.2029999605405492
+          },
+          {
+            "auroc": 0.7150250649286432,
+            "auprc": 0.2811893019821485
+          }
+        ],
+        "seconds": 12.143433570861816
+      },
+      {
+        "scenario": "coding",
+        "seed": 4,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6430266754886425,
+            "auprc": 0.1870155305370778
+          },
+          {
+            "auroc": 0.7149650221216538,
+            "auprc": 0.2674685520550401
+          }
+        ],
+        "seconds": 12.31298565864563
+      },
+      {
+        "scenario": "coding",
+        "seed": 5,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.646734024492756,
+            "auprc": 0.19315927576420222
+          },
+          {
+            "auroc": 0.7133379797832338,
+            "auprc": 0.2871141672851132
+          }
+        ],
+        "seconds": 12.421958446502686
+      },
+      {
+        "scenario": "coding",
+        "seed": 6,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6395971716305979,
+            "auprc": 0.19044235348920163
+          },
+          {
+            "auroc": 0.7218817180248506,
+            "auprc": 0.30343217382681814
+          }
+        ],
+        "seconds": 12.53489637374878
+      },
+      {
+        "scenario": "coding",
+        "seed": 7,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6510735889351702,
+            "auprc": 0.2014049637463314
+          },
+          {
+            "auroc": 0.7130436522979913,
+            "auprc": 0.2882748386013065
+          }
+        ],
+        "seconds": 12.403717994689941
+      },
+      {
+        "scenario": "coding",
+        "seed": 8,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.634001417481169,
+            "auprc": 0.1922382505933677
+          },
+          {
+            "auroc": 0.7103593856325803,
+            "auprc": 0.2559637135532613
+          }
+        ],
+        "seconds": 11.278470754623413
+      },
+      {
+        "scenario": "coding",
+        "seed": 9,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6408227512791471,
+            "auprc": 0.19015277758478238
+          },
+          {
+            "auroc": 0.708784144931563,
+            "auprc": 0.284131869890481
+          }
+        ],
+        "seconds": 11.280030727386475
+      },
+      {
+        "scenario": "coding",
+        "seed": 10,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6307449781844467,
+            "auprc": 0.17852262585068496
+          },
+          {
+            "auroc": 0.7119805414212956,
+            "auprc": 0.270965743153354
+          }
+        ],
+        "seconds": 11.346954584121704
+      },
+      {
+        "scenario": "coding",
+        "seed": 11,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6588120471771639,
+            "auprc": 0.19464377301407743
+          },
+          {
+            "auroc": 0.7150662707765773,
+            "auprc": 0.29151702806339314
+          }
+        ],
+        "seconds": 11.241884469985962
+      },
+      {
+        "scenario": "coding",
+        "seed": 12,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6392993122155325,
+            "auprc": 0.19261201991672683
+          },
+          {
+            "auroc": 0.7223220319427733,
+            "auprc": 0.304447029862686
+          }
+        ],
+        "seconds": 11.266372919082642
+      },
+      {
+        "scenario": "coding",
+        "seed": 13,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6484211096381655,
+            "auprc": 0.19617222934687173
+          },
+          {
+            "auroc": 0.7071676983826116,
+            "auprc": 0.3012587538012904
+          }
+        ],
+        "seconds": 11.22566270828247
+      },
+      {
+        "scenario": "coding",
+        "seed": 14,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6370059124505236,
+            "auprc": 0.19212136241890176
+          },
+          {
+            "auroc": 0.7026044450514131,
+            "auprc": 0.27323253740663056
+          }
+        ],
+        "seconds": 11.608654022216797
+      },
+      {
+        "scenario": "coding",
+        "seed": 15,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.646266632446191,
+            "auprc": 0.19912269867191296
+          },
+          {
+            "auroc": 0.7179577439915987,
+            "auprc": 0.27723145578618585
+          }
+        ],
+        "seconds": 11.294806003570557
+      },
+      {
+        "scenario": "coding",
+        "seed": 16,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6488920336145534,
+            "auprc": 0.20031936625009653
+          },
+          {
+            "auroc": 0.7154842158056216,
+            "auprc": 0.29059753809865907
+          }
+        ],
+        "seconds": 11.71694540977478
+      },
+      {
+        "scenario": "coding",
+        "seed": 17,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6430290301085244,
+            "auprc": 0.1971218713001674
+          },
+          {
+            "auroc": 0.7166980223547612,
+            "auprc": 0.305466053542235
+          }
+        ],
+        "seconds": 11.178477764129639
+      },
+      {
+        "scenario": "coding",
+        "seed": 18,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6402423374782492,
+            "auprc": 0.18375328045820064
+          },
+          {
+            "auroc": 0.7083191075048798,
+            "auprc": 0.28031402518081217
+          }
+        ],
+        "seconds": 11.309044599533081
+      },
+      {
+        "scenario": "coding",
+        "seed": 19,
+        "columns_base": [
+          "contact_age",
+          "age_lt5",
+          "age_ge45",
+          "contact_sex_m",
+          "hiv_pos_h",
+          "hiv_unknown_h",
+          "bmi_h",
+          "smoke_ever_h",
+          "diabetes_h_f",
+          "site_capricorn",
+          "hh_n_contacts",
+          "idx_coughdays",
+          "idx_smear_pos",
+          "idx_smear_known",
+          "idx_xpert_pos",
+          "idx_hiv_pos",
+          "idx_age",
+          "idx_sex_m",
+          "idx_dead",
+          "ts_low",
+          "ts_mid",
+          "ts_high",
+          "share_bedroom",
+          "sleep_same_bed",
+          "airspace_shared",
+          "rel_child",
+          "rel_spouse",
+          "rel_sibling",
+          "rel_parent",
+          "diabetes_missing",
+          "airspace_missing",
+          "timespent_missing",
+          "relationship_missing",
+          "index_hiv_unknown",
+          "index_xpert_not_done"
+        ],
+        "metrics": [
+          {
+            "auroc": 0.6435293868334366,
+            "auprc": 0.20097461623374757
+          },
+          {
+            "auroc": 0.709246827738364,
+            "auprc": 0.26706314419986843
+          }
+        ],
+        "seconds": 11.278687715530396
+      }
+    ]
+  },
+  "script_sha256": "44e6ca3bd67c911cb54cf8253eac16a5f5dd30ce257f487a3fbec662516ce23d",
+  "protocol_sha256": "24e93dabb01d94623e14a2df4838f79c594990125f411e1fe17a0550a2efb9e9",
+  "raw_sha256": "748694c26c80ed7dfd275c8a7d57d226b432ac133c2c336113085db5d17cbf8b",
+  "limits": [
+    "Post-hoc sensitivity, not replacement primary analysis.",
+    "No real information-availability timestamps.",
+    "Conditional fixed-prediction intervals, not full-refit.",
+    "Coding and conservative scenarios are separate; not jointly corrected."
+  ]
+}

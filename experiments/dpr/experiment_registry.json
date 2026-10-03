@@ -1,0 +1,132 @@
+[
+  {
+    "experiment": "A0",
+    "task": "primary",
+    "paper_location": "Table 2; subgroup Supplementary Table S5",
+    "accepted_result": "experiments/dpr/evidence/results/sop_unified_ci_leakfree_homeacf_20261001.json",
+    "design": "20 seeds x household 5-fold, 2000 conditional resamples",
+    "raw_input": "HomeACF (except D1, which generates synthetic data)",
+    "validation_scope": "Selected fresh fits, not all paper repetitions",
+    "complete_archived_result_present": true
+  },
+  {
+    "experiment": "A1",
+    "task": "fullrefit",
+    "paper_location": "Table 3",
+    "accepted_result": "experiments/dpr/evidence/results/homeacf_dpr_a1_fullrefit_20261001.json",
+    "design": "300 full-refit household samples, CV seed 0",
+    "raw_input": "HomeACF (except D1, which generates synthetic data)",
+    "validation_scope": "Selected fresh fits, not all paper repetitions",
+    "complete_archived_result_present": true
+  },
+  {
+    "experiment": "A2 / strong baselines",
+    "task": "same-information",
+    "paper_location": "Table 7",
+    "accepted_result": "experiments/dpr/evidence/results/dpr_same_information_baseline_v1/result.json",
+    "design": "20 seeds; 7 same-information arms; 2000 conditional resamples",
+    "raw_input": "HomeACF (except D1, which generates synthetic data)",
+    "validation_scope": "Selected fresh fits, not all paper repetitions",
+    "complete_archived_result_present": true
+  },
+  {
+    "experiment": "B1 / C1",
+    "task": "controls",
+    "paper_location": "Table 3; Figure 3",
+    "accepted_result": "experiments/dpr/evidence/results/samecohort_controls_homeacf_20261001.json",
+    "design": "20 seeds; global/within-household permutation; windows 1/2; pseudo-groups 1/2/4/8",
+    "raw_input": "HomeACF (except D1, which generates synthetic data)",
+    "validation_scope": "Selected fresh fits, not all paper repetitions",
+    "complete_archived_result_present": true
+  },
+  {
+    "experiment": "D1",
+    "task": "simulation",
+    "paper_location": "Table 6; Figures 4/S3; Supplementary Tables S4/S6",
+    "accepted_result": "experiments/dpr/evidence/results/dpr_d1_strengthened_v1/summary.json",
+    "design": "37 cells x 100 LR datasets + 8 RF datasets",
+    "raw_input": "HomeACF (except D1, which generates synthetic data)",
+    "validation_scope": "Selected fresh fits, not all paper repetitions",
+    "complete_archived_result_present": true
+  },
+  {
+    "experiment": "E1",
+    "task": "missingness",
+    "paper_location": "Table 3",
+    "accepted_result": "experiments/dpr/evidence/results/homeacf_dpr_e1_tst_missingness_ipw_20261002_v2.json",
+    "design": "2985 raw rows; 20 seeds; 2000 conditional resamples",
+    "raw_input": "HomeACF (except D1, which generates synthetic data)",
+    "validation_scope": "Selected fresh fits, not all paper repetitions",
+    "complete_archived_result_present": true
+  },
+  {
+    "experiment": "E1 full refit",
+    "task": "ipw-fullrefit",
+    "paper_location": "Table 3",
+    "accepted_result": "experiments/dpr/evidence/results/homeacf_dpr_e1_fullrefit_v2.json",
+    "design": "300 raw-household refits; fixed CV seed 0",
+    "raw_input": "HomeACF (except D1, which generates synthetic data)",
+    "validation_scope": "Selected fresh fits, not all paper repetitions",
+    "complete_archived_result_present": true
+  },
+  {
+    "experiment": "F1",
+    "task": "operating",
+    "paper_location": "Table 2",
+    "accepted_result": "experiments/dpr/evidence/results/homeacf_dpr_f1_operating_metrics_20261002.json",
+    "design": "20 seeds; AUPRC, capture, NNS",
+    "raw_input": "HomeACF (except D1, which generates synthetic data)",
+    "validation_scope": "Selected fresh fits, not all paper repetitions",
+    "complete_archived_result_present": true
+  },
+  {
+    "experiment": "F2 / calibration",
+    "task": "calibration",
+    "paper_location": "Table 5; Figures S1/S2",
+    "accepted_result": "experiments/dpr/evidence/results/homeacf_dpr_nested_calibration_v1.json",
+    "design": "20 seeds; 5 outer/4 inner household folds; 2000 conditional resamples",
+    "raw_input": "HomeACF (except D1, which generates synthetic data)",
+    "validation_scope": "Selected fresh fits, not all paper repetitions",
+    "complete_archived_result_present": true
+  },
+  {
+    "experiment": "Charged budget",
+    "task": "budget",
+    "paper_location": "Table 4; Figure 2",
+    "accepted_result": "experiments/dpr/evidence/results/homeacf_dpr_budget_audit_v2.json",
+    "design": "20 seeds; 2000 conditional resamples; previous tests charged",
+    "raw_input": "HomeACF (except D1, which generates synthetic data)",
+    "validation_scope": "Selected fresh fits, not all paper repetitions",
+    "complete_archived_result_present": true
+  },
+  {
+    "experiment": "Coding/availability",
+    "task": "coding-sensitivity",
+    "paper_location": "Supplementary Table S3",
+    "accepted_result": "experiments/dpr/evidence/results/dpr_feature_audit_sensitivity_v1/result.json",
+    "design": "2 separate scenarios x 20 seeds",
+    "raw_input": "HomeACF (except D1, which generates synthetic data)",
+    "validation_scope": "Selected fresh fits, not all paper repetitions",
+    "complete_archived_result_present": true
+  },
+  {
+    "experiment": "Index death exclusion",
+    "task": "availability",
+    "paper_location": "Results availability paragraph",
+    "accepted_result": "experiments/dpr/evidence/results/homeacf_dpr_availability_sensitivity_v1.json",
+    "design": "20 seeds; index death excluded",
+    "raw_input": "HomeACF (except D1, which generates synthetic data)",
+    "validation_scope": "Selected fresh fits, not all paper repetitions",
+    "complete_archived_result_present": true
+  },
+  {
+    "experiment": "Cohort flow",
+    "task": "cohort",
+    "paper_location": "Table 1; Supplementary Tables S1/S2",
+    "accepted_result": "experiments/dpr/evidence/results/homeacf_dpr_flow_methods_audit_v1.json",
+    "design": "Raw roster and category audit; no modelling",
+    "raw_input": "HomeACF (except D1, which generates synthetic data)",
+    "validation_scope": "Selected fresh fits, not all paper repetitions",
+    "complete_archived_result_present": true
+  }
+]

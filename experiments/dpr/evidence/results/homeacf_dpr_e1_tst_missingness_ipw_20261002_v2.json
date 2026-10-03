@@ -1,0 +1,745 @@
+{
+  "name": "homeacf_dpr_e1_tst_missingness_ipw",
+  "smoke": false,
+  "design": "Raw 2985-row TST observation audit; 5-fold household-grouped cross-fitted logistic observation model with pre-result covariates only; complete-case SOP OOF scores reweighted by stabilized inverse observation probability, truncated at 1st/99th percentiles.",
+  "raw_data": {
+    "n_total": 2985,
+    "n_tst_observed": 2725,
+    "n_tst_missing": 260,
+    "n_households": 924,
+    "raw_rda_sha256": null
+  },
+  "audit": [
+    {
+      "variable": "ageyears_h",
+      "type": "numeric",
+      "observed_mean": 24.684770642201833,
+      "missing_mean": 23.692307692307693,
+      "smd": 0.04777092494510229,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "bmi_h",
+      "type": "numeric",
+      "observed_mean": 22.71262458471761,
+      "missing_mean": 23.25135135135135,
+      "smd": -0.037869680488728644,
+      "n_missing_value": 17
+    },
+    {
+      "variable": "num_contacts",
+      "type": "numeric",
+      "observed_mean": 4.703119266055046,
+      "missing_mean": 3.996153846153846,
+      "smd": 0.2804819097065965,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "coughdays_i",
+      "type": "numeric",
+      "observed_mean": 41.17954378219279,
+      "missing_mean": 41.10852713178294,
+      "smd": 0.0015113866052541955,
+      "n_missing_value": 9
+    },
+    {
+      "variable": "ageyears_i",
+      "type": "numeric",
+      "observed_mean": 38.010275229357795,
+      "missing_mean": 37.33461538461538,
+      "smd": 0.04433155979860128,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "totalrooms_h",
+      "type": "numeric",
+      "observed_mean": 5.6069182389937104,
+      "missing_mean": 4.894957983193278,
+      "smd": 0.30176576074448547,
+      "n_missing_value": 203
+    },
+    {
+      "variable": "windows_h",
+      "type": "numeric",
+      "observed_mean": 6.936326831063673,
+      "missing_mean": 5.66023166023166,
+      "smd": 0.3279570777866276,
+      "n_missing_value": 9
+    },
+    {
+      "variable": "numsmokers_h",
+      "type": "numeric",
+      "observed_mean": 0.6334942443371704,
+      "missing_mean": 0.628,
+      "smd": 0.006979641125065075,
+      "n_missing_value": 42
+    },
+    {
+      "variable": "sex_h=Female",
+      "type": "category",
+      "observed_mean": 0.621651376146789,
+      "missing_mean": 0.5923076923076923,
+      "smd": 0.06004163343880593,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "sex_h=Male",
+      "type": "category",
+      "observed_mean": 0.378348623853211,
+      "missing_mean": 0.4076923076923077,
+      "smd": -0.06004163343880593,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "relationship_h=<missing>",
+      "type": "category",
+      "observed_mean": 0.0003669724770642202,
+      "missing_mean": 0.0,
+      "smd": 0.027091418459143854,
+      "n_missing_value": 1
+    },
+    {
+      "variable": "relationship_h=Brother/sister",
+      "type": "category",
+      "observed_mean": 0.15889908256880733,
+      "missing_mean": 0.14615384615384616,
+      "smd": 0.03541888214488402,
+      "n_missing_value": 1
+    },
+    {
+      "variable": "relationship_h=Child",
+      "type": "category",
+      "observed_mean": 0.24623853211009175,
+      "missing_mean": 0.23846153846153847,
+      "smd": 0.018130898799099817,
+      "n_missing_value": 1
+    },
+    {
+      "variable": "relationship_h=Grandchild",
+      "type": "category",
+      "observed_mean": 0.10018348623853211,
+      "missing_mean": 0.11923076923076924,
+      "smd": -0.0609064786458204,
+      "n_missing_value": 1
+    },
+    {
+      "variable": "relationship_h=Grandparent",
+      "type": "category",
+      "observed_mean": 0.026788990825688072,
+      "missing_mean": 0.011538461538461539,
+      "smd": 0.11132919054782116,
+      "n_missing_value": 1
+    },
+    {
+      "variable": "relationship_h=Other",
+      "type": "category",
+      "observed_mean": 0.2726605504587156,
+      "missing_mean": 0.2153846153846154,
+      "smd": 0.13351865466939455,
+      "n_missing_value": 1
+    },
+    {
+      "variable": "relationship_h=Parent/Parent-in-law",
+      "type": "category",
+      "observed_mean": 0.11669724770642202,
+      "missing_mean": 0.10384615384615385,
+      "smd": 0.040995058722700164,
+      "n_missing_value": 1
+    },
+    {
+      "variable": "relationship_h=Spouse",
+      "type": "category",
+      "observed_mean": 0.0781651376146789,
+      "missing_mean": 0.16538461538461538,
+      "smd": -0.26875128053203473,
+      "n_missing_value": 1
+    },
+    {
+      "variable": "employment_h=Agriculture",
+      "type": "category",
+      "observed_mean": 0.001834862385321101,
+      "missing_mean": 0.007692307692307693,
+      "smd": -0.08501212762357924,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "employment_h=Construction/Manufacturing/Transport",
+      "type": "category",
+      "observed_mean": 0.013944954128440367,
+      "missing_mean": 0.023076923076923078,
+      "smd": -0.06770278278157017,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "employment_h=Hospitality",
+      "type": "category",
+      "observed_mean": 0.007706422018348624,
+      "missing_mean": 0.007692307692307693,
+      "smd": 0.00016130685710439132,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "employment_h=Not employed",
+      "type": "category",
+      "observed_mean": 0.9409174311926606,
+      "missing_mean": 0.8961538461538462,
+      "smd": 0.16398255929671549,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "employment_h=Other",
+      "type": "category",
+      "observed_mean": 0.035596330275229356,
+      "missing_mean": 0.06538461538461539,
+      "smd": -0.13618631651123597,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "airspace_h=<missing>",
+      "type": "category",
+      "observed_mean": 0.0003669724770642202,
+      "missing_mean": 0.0,
+      "smd": 0.02709141845914386,
+      "n_missing_value": 1
+    },
+    {
+      "variable": "airspace_h=No",
+      "type": "category",
+      "observed_mean": 0.0,
+      "missing_mean": 0.0038461538461538464,
+      "smd": -0.0877058019307029,
+      "n_missing_value": 1
+    },
+    {
+      "variable": "airspace_h=Yes",
+      "type": "category",
+      "observed_mean": 0.9996330275229358,
+      "missing_mean": 0.9961538461538462,
+      "smd": 0.07580359915440132,
+      "n_missing_value": 1
+    },
+    {
+      "variable": "timespent_h=<missing>",
+      "type": "category",
+      "observed_mean": 0.0007339449541284404,
+      "missing_mean": 0.0038461538461538464,
+      "smd": -0.06503678859730906,
+      "n_missing_value": 3
+    },
+    {
+      "variable": "timespent_h=a) every now and again",
+      "type": "category",
+      "observed_mean": 0.12660550458715597,
+      "missing_mean": 0.07307692307692308,
+      "smd": 0.17911886488454007,
+      "n_missing_value": 3
+    },
+    {
+      "variable": "timespent_h=b) part of the day",
+      "type": "category",
+      "observed_mean": 0.48073394495412847,
+      "missing_mean": 0.35,
+      "smd": 0.26738960527961436,
+      "n_missing_value": 3
+    },
+    {
+      "variable": "timespent_h=c) most of the day",
+      "type": "category",
+      "observed_mean": 0.39192660550458713,
+      "missing_mean": 0.573076923076923,
+      "smd": -0.3682358108841762,
+      "n_missing_value": 3
+    },
+    {
+      "variable": "smoke_h=a) never smoked",
+      "type": "category",
+      "observed_mean": 0.9045871559633027,
+      "missing_mean": 0.8961538461538462,
+      "smd": 0.02812960738851604,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "smoke_h=b) current smoker",
+      "type": "category",
+      "observed_mean": 0.07926605504587156,
+      "missing_mean": 0.1,
+      "smd": -0.07254838651264633,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "smoke_h=c) previous smoker",
+      "type": "category",
+      "observed_mean": 0.016146788990825688,
+      "missing_mean": 0.0038461538461538464,
+      "smd": 0.12381987094814831,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "alcohol_h=No",
+      "type": "category",
+      "observed_mean": 0.8829357798165137,
+      "missing_mean": 0.8807692307692307,
+      "smd": 0.006705005731137994,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "alcohol_h=Yes",
+      "type": "category",
+      "observed_mean": 0.11706422018348624,
+      "missing_mean": 0.11923076923076924,
+      "smd": -0.00670500573113808,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "diabetes_h=<missing>",
+      "type": "category",
+      "observed_mean": 0.0003669724770642202,
+      "missing_mean": 0.007692307692307693,
+      "smd": -0.11561018139807636,
+      "n_missing_value": 3
+    },
+    {
+      "variable": "diabetes_h=No",
+      "type": "category",
+      "observed_mean": 0.9838532110091743,
+      "missing_mean": 0.9807692307692307,
+      "smd": 0.023370975383670445,
+      "n_missing_value": 3
+    },
+    {
+      "variable": "diabetes_h=Yes",
+      "type": "category",
+      "observed_mean": 0.01577981651376147,
+      "missing_mean": 0.011538461538461539,
+      "smd": 0.03651332247352406,
+      "n_missing_value": 3
+    },
+    {
+      "variable": "hivfinal_h=<missing>",
+      "type": "category",
+      "observed_mean": 0.0011009174311926607,
+      "missing_mean": 0.0,
+      "smd": 0.0469409487446083,
+      "n_missing_value": 3
+    },
+    {
+      "variable": "hivfinal_h=a) HIV negative",
+      "type": "category",
+      "observed_mean": 0.8568807339449541,
+      "missing_mean": 0.5769230769230769,
+      "smd": 0.6529151549891957,
+      "n_missing_value": 3
+    },
+    {
+      "variable": "hivfinal_h=b) HIV positive",
+      "type": "category",
+      "observed_mean": 0.10752293577981652,
+      "missing_mean": 0.2153846153846154,
+      "smd": -0.2959596719673282,
+      "n_missing_value": 3
+    },
+    {
+      "variable": "hivfinal_h=c) HIV unknown",
+      "type": "category",
+      "observed_mean": 0.0344954128440367,
+      "missing_mean": 0.2076923076923077,
+      "smd": -0.549749321326015,
+      "n_missing_value": 3
+    },
+    {
+      "variable": "site=Capricorn",
+      "type": "category",
+      "observed_mean": 0.4565137614678899,
+      "missing_mean": 0.2076923076923077,
+      "smd": 0.5472956545400497,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "site=Mangaung",
+      "type": "category",
+      "observed_mean": 0.5434862385321101,
+      "missing_mean": 0.7923076923076923,
+      "smd": -0.5472956545400497,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "dead_i=a) Not deceased",
+      "type": "category",
+      "observed_mean": 0.9743119266055046,
+      "missing_mean": 0.9769230769230769,
+      "smd": -0.016913353671218816,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "dead_i=b) Deceased",
+      "type": "category",
+      "observed_mean": 0.025688073394495414,
+      "missing_mean": 0.023076923076923078,
+      "smd": 0.016913353671218996,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "sex_i=Female",
+      "type": "category",
+      "observed_mean": 0.4179816513761468,
+      "missing_mean": 0.3230769230769231,
+      "smd": 0.19726814054444858,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "sex_i=Male",
+      "type": "category",
+      "observed_mean": 0.5820183486238533,
+      "missing_mean": 0.676923076923077,
+      "smd": -0.19726814054444858,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "xpert_i=a) Xpert negative",
+      "type": "category",
+      "observed_mean": 0.008440366972477064,
+      "missing_mean": 0.0,
+      "smd": 0.13045374220367406,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "xpert_i=b) Xpert positive",
+      "type": "category",
+      "observed_mean": 0.9229357798165138,
+      "missing_mean": 0.9730769230769231,
+      "smd": -0.22715196410979113,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "xpert_i=c) Xpert not done",
+      "type": "category",
+      "observed_mean": 0.06862385321100918,
+      "missing_mean": 0.026923076923076925,
+      "smd": 0.19632052505519443,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "culture_i=a) Culture negative",
+      "type": "category",
+      "observed_mean": 0.004403669724770643,
+      "missing_mean": 0.0,
+      "smd": 0.09403748862393953,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "culture_i=b) Culture positive",
+      "type": "category",
+      "observed_mean": 0.0363302752293578,
+      "missing_mean": 0.0,
+      "smd": 0.2745399388216641,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "culture_i=c) Culture not done",
+      "type": "category",
+      "observed_mean": 0.9592660550458716,
+      "missing_mean": 1.0,
+      "smd": -0.29136943640958407,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "smear_i=a) Smear negative",
+      "type": "category",
+      "observed_mean": 0.030825688073394496,
+      "missing_mean": 0.0038461538461538464,
+      "smd": 0.20774215148179173,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "smear_i=b) Smear positive",
+      "type": "category",
+      "observed_mean": 0.1489908256880734,
+      "missing_mean": 0.026923076923076925,
+      "smd": 0.4411372826546745,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "smear_i=c) Smear not done",
+      "type": "category",
+      "observed_mean": 0.8201834862385321,
+      "missing_mean": 0.9692307692307692,
+      "smd": -0.5003470193488715,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "hiv_i=a) HIV-negative",
+      "type": "category",
+      "observed_mean": 0.4106422018348624,
+      "missing_mean": 0.47692307692307695,
+      "smd": -0.13356258748662966,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "hiv_i=b) HIV-positive",
+      "type": "category",
+      "observed_mean": 0.5409174311926606,
+      "missing_mean": 0.47307692307692306,
+      "smd": 0.13586394074206196,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "hiv_i=c) HIV-unknown",
+      "type": "category",
+      "observed_mean": 0.04844036697247706,
+      "missing_mean": 0.05,
+      "smd": -0.007201938200206701,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "housetype_h=a) Brick/concerete house, apartment",
+      "type": "category",
+      "observed_mean": 0.9284403669724771,
+      "missing_mean": 0.9038461538461539,
+      "smd": 0.08871580441016177,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "housetype_h=b) Traditional/shack/garage/1room",
+      "type": "category",
+      "observed_mean": 0.07155963302752294,
+      "missing_mean": 0.09615384615384616,
+      "smd": -0.08871580441016162,
+      "n_missing_value": 0
+    },
+    {
+      "variable": "pipedwater_h=<missing>",
+      "type": "category",
+      "observed_mean": 0.0022018348623853213,
+      "missing_mean": 0.0038461538461538464,
+      "smd": -0.029911675394875208,
+      "n_missing_value": 7
+    },
+    {
+      "variable": "pipedwater_h=a) Piped in dwelling",
+      "type": "category",
+      "observed_mean": 0.3379816513761468,
+      "missing_mean": 0.17307692307692307,
+      "smd": 0.3846943756444024,
+      "n_missing_value": 7
+    },
+    {
+      "variable": "pipedwater_h=b) Piped outside of dwelling/yard",
+      "type": "category",
+      "observed_mean": 0.15229357798165138,
+      "missing_mean": 0.11153846153846154,
+      "smd": 0.12054037401602001,
+      "n_missing_value": 7
+    },
+    {
+      "variable": "pipedwater_h=c) Piped in yard",
+      "type": "category",
+      "observed_mean": 0.5075229357798166,
+      "missing_mean": 0.7115384615384616,
+      "smd": -0.42722644059028997,
+      "n_missing_value": 7
+    },
+    {
+      "variable": "toilet_h=<missing>",
+      "type": "category",
+      "observed_mean": 0.0047706422018348625,
+      "missing_mean": 0.0,
+      "smd": 0.09789536493753077,
+      "n_missing_value": 13
+    },
+    {
+      "variable": "toilet_h=a) Flush/chemical toilet",
+      "type": "category",
+      "observed_mean": 0.3607339449541284,
+      "missing_mean": 0.43846153846153846,
+      "smd": -0.15901677402481262,
+      "n_missing_value": 13
+    },
+    {
+      "variable": "toilet_h=b) Pit/bucket toilet",
+      "type": "category",
+      "observed_mean": 0.6344954128440367,
+      "missing_mean": 0.5615384615384615,
+      "smd": 0.14905326812372902,
+      "n_missing_value": 13
+    }
+  ],
+  "observation_model": {
+    "oof_probability_summary": {
+      "min": 0.28785187721095606,
+      "max": 0.9994555964525693,
+      "mean": 0.9135697393923643
+    },
+    "complete_case_probability_summary": {
+      "min": 0.28785187721095606,
+      "max": 0.9994555964525693,
+      "mean": 0.9211118080032173
+    },
+    "weights": {
+      "raw_min": 1.0005447000840888,
+      "raw_max": 3.4740089579722864,
+      "truncation": [
+        1.0023142727903291,
+        1.862757069021795
+      ],
+      "effective_sample_size": 2682.0978434887165
+    }
+  },
+  "ipw_per_seed": [
+    {
+      "seed": 0,
+      "weighted_exposure_auroc": 0.6451203237421117,
+      "weighted_sop_auroc": 0.7132097256472103,
+      "weighted_delta": 0.0680894019050986,
+      "unweighted_delta": 0.06920345564013863
+    },
+    {
+      "seed": 1,
+      "weighted_exposure_auroc": 0.6548405604872096,
+      "weighted_sop_auroc": 0.7122435973094341,
+      "weighted_delta": 0.057403036822224474,
+      "unweighted_delta": 0.05759635693211862
+    },
+    {
+      "seed": 2,
+      "weighted_exposure_auroc": 0.629026702680308,
+      "weighted_sop_auroc": 0.6929695335740558,
+      "weighted_delta": 0.06394283089374775,
+      "unweighted_delta": 0.06557145447224733
+    },
+    {
+      "seed": 3,
+      "weighted_exposure_auroc": 0.6353225229301466,
+      "weighted_sop_auroc": 0.7154211210874708,
+      "weighted_delta": 0.08009859815732423,
+      "unweighted_delta": 0.08082115013762758
+    },
+    {
+      "seed": 4,
+      "weighted_exposure_auroc": 0.6461470582636688,
+      "weighted_sop_auroc": 0.7195065850211307,
+      "weighted_delta": 0.07335952675746193,
+      "unweighted_delta": 0.07204665914758068
+    },
+    {
+      "seed": 5,
+      "weighted_exposure_auroc": 0.6401287828414318,
+      "weighted_sop_auroc": 0.7074720123048042,
+      "weighted_delta": 0.06734322946337234,
+      "unweighted_delta": 0.0664885789162627
+    },
+    {
+      "seed": 6,
+      "weighted_exposure_auroc": 0.6418251951605433,
+      "weighted_sop_auroc": 0.7199257513937797,
+      "weighted_delta": 0.07810055623323642,
+      "unweighted_delta": 0.0791152280331624
+    },
+    {
+      "seed": 7,
+      "weighted_exposure_auroc": 0.6474769648818235,
+      "weighted_sop_auroc": 0.7138860240303,
+      "weighted_delta": 0.0664090591484765,
+      "unweighted_delta": 0.06620955646025284
+    },
+    {
+      "seed": 8,
+      "weighted_exposure_auroc": 0.6334088960995118,
+      "weighted_sop_auroc": 0.7118757660791872,
+      "weighted_delta": 0.07846686997967545,
+      "unweighted_delta": 0.07817573470026862
+    },
+    {
+      "seed": 9,
+      "weighted_exposure_auroc": 0.638204922866915,
+      "weighted_sop_auroc": 0.7059970110797633,
+      "weighted_delta": 0.06779208821284832,
+      "unweighted_delta": 0.06904687341798976
+    },
+    {
+      "seed": 10,
+      "weighted_exposure_auroc": 0.6266251036049717,
+      "weighted_sop_auroc": 0.706076911551804,
+      "weighted_delta": 0.07945180794683226,
+      "unweighted_delta": 0.07986870639538324
+    },
+    {
+      "seed": 11,
+      "weighted_exposure_auroc": 0.6499873631531454,
+      "weighted_sop_auroc": 0.711811885560472,
+      "weighted_delta": 0.06182452240732661,
+      "unweighted_delta": 0.062285582427000774
+    },
+    {
+      "seed": 12,
+      "weighted_exposure_auroc": 0.6379355385812422,
+      "weighted_sop_auroc": 0.7187807701286255,
+      "weighted_delta": 0.08084523154738332,
+      "unweighted_delta": 0.08083410054697826
+    },
+    {
+      "seed": 13,
+      "weighted_exposure_auroc": 0.6487384907615592,
+      "weighted_sop_auroc": 0.70439400002968,
+      "weighted_delta": 0.055655509268120795,
+      "unweighted_delta": 0.05580566851190383
+    },
+    {
+      "seed": 14,
+      "weighted_exposure_auroc": 0.6430702514511747,
+      "weighted_sop_auroc": 0.7022712210871673,
+      "weighted_delta": 0.05920096963599264,
+      "unweighted_delta": 0.05946003856867377
+    },
+    {
+      "seed": 15,
+      "weighted_exposure_auroc": 0.6447270800786871,
+      "weighted_sop_auroc": 0.7214257723284799,
+      "weighted_delta": 0.07669869224979287,
+      "unweighted_delta": 0.07591883154342982
+    },
+    {
+      "seed": 16,
+      "weighted_exposure_auroc": 0.6386682605863716,
+      "weighted_sop_auroc": 0.7144846538142409,
+      "weighted_delta": 0.07581639322786926,
+      "unweighted_delta": 0.07501230288888316
+    },
+    {
+      "seed": 17,
+      "weighted_exposure_auroc": 0.6407625525549019,
+      "weighted_sop_auroc": 0.7140532763864733,
+      "weighted_delta": 0.07329072383157142,
+      "unweighted_delta": 0.07334052277270608
+    },
+    {
+      "seed": 18,
+      "weighted_exposure_auroc": 0.6347007621097293,
+      "weighted_sop_auroc": 0.7091552750113532,
+      "weighted_delta": 0.07445451290162397,
+      "unweighted_delta": 0.07472974850305047
+    },
+    {
+      "seed": 19,
+      "weighted_exposure_auroc": 0.6486138399493339,
+      "weighted_sop_auroc": 0.7094730535703533,
+      "weighted_delta": 0.060859213621019426,
+      "unweighted_delta": 0.06046192932843886
+    }
+  ],
+  "summary": {
+    "weighted_delta_mean": 0.06995513871054992,
+    "weighted_delta_range": [
+      0.055655509268120795,
+      0.08084523154738332
+    ],
+    "weighted_all_positive": true,
+    "weighted_delta_conditional_household_bootstrap_ci95": [
+      0.047476568805408834,
+      0.09083768049846774
+    ],
+    "n_bootstrap": 2000,
+    "unweighted_delta_mean": 0.07009962396720489,
+    "difference_ipw_minus_unweighted": -0.00014448525665496093
+  },
+  "runtime_sec": 266.7360944747925
+}

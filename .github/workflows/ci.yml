@@ -1,0 +1,83 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies (locked)
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.lock
+
+      - name: Install project
+        run: |
+          pip install -e .
+
+      - name: Run tests with coverage
+        run: |
+          # --timeout=600：torch NUTS 校准单测本地(快速机)40s，CI 2 核 runner 实测被 120s 击杀(≥3x 降速)，
+          # 600s 覆盖约 15x 余量；单测级超时，真死锁最多多等 10 分钟且套件继续
+          # --cov-fail-under=25：2026-09-20 CI 首次完整实测覆盖率 27%（87k 语句的
+          # 科研代码库，validation/ 大量模块无测试）。70 是从未现实校验过的期望值，
+          # 先以 25 作为防回归下限，后续按模块逐步提升
+          python -m pytest tests/ --cov=tb_risk --cov-report=html --cov-report=term --cov-fail-under=25 --timeout=600 -v --tb=short
+
+      - name: Upload coverage report
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: coverage-report-py${{ matrix.python-version }}
+          path: htmlcov/
+          retention-days: 7
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install lint tools
+        run: |
+          pip install flake8
+
+      - name: Lint with flake8 (blocking)
+        # Lint 失败直接阻断 CI — 移除 || true 确保代码质量
+        # 项目采用扁平布局，包根目录即仓库根；flake8 自动读取 .flake8 配置
+        # （含 max-line-length=100、max-complexity=15、exclude=.venv 等）
+        run: |
+          flake8 . --count --statistics
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: [test, lint]
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Build Docker image
+        run: |
+          docker build -t tb_risk:ci .
+
+      - name: Run tests in Docker
+        run: |
+          docker run --rm tb_risk:ci python -m pytest tests/ -v --tb=short --timeout=600

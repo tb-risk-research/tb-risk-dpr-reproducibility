@@ -1,0 +1,3230 @@
+{
+  "status": "complete",
+  "design": {
+    "design": "37 LR configurations x 100 independent datasets + 8 limited RF checks",
+    "configurations": [
+      {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 0
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 1.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 1
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 2
+      },
+      {
+        "sigma": 0.8,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 3
+      },
+      {
+        "sigma": 0.8,
+        "gamma": 1.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 4
+      },
+      {
+        "sigma": 0.8,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 5
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 6
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 1.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 7
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 8
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.05,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.05",
+        "config_id": 9
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.3,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.3",
+        "config_id": 10
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "small",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "hh=small",
+        "config_id": 11
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "age_sorted",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "order=age_sorted",
+        "config_id": 12
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 1,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "delay=1",
+        "config_id": 13
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.1,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "error=0.1",
+        "config_id": 14
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.1,
+        "family": "boundary",
+        "variant": "missing=0.1",
+        "config_id": 15
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.05,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.05",
+        "config_id": 16
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.3,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.3",
+        "config_id": 17
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "small",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "hh=small",
+        "config_id": 18
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "age_sorted",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "order=age_sorted",
+        "config_id": 19
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 1,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "delay=1",
+        "config_id": 20
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.1,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "error=0.1",
+        "config_id": 21
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.1,
+        "family": "boundary",
+        "variant": "missing=0.1",
+        "config_id": 22
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.05,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.05",
+        "config_id": 23
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.3,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.3",
+        "config_id": 24
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "small",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "hh=small",
+        "config_id": 25
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "age_sorted",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "order=age_sorted",
+        "config_id": 26
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 1,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "delay=1",
+        "config_id": 27
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.1,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "error=0.1",
+        "config_id": 28
+      },
+      {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.1,
+        "family": "boundary",
+        "variant": "missing=0.1",
+        "config_id": 29
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.05,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.05",
+        "config_id": 30
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.3,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.3",
+        "config_id": 31
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "small",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "hh=small",
+        "config_id": 32
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "age_sorted",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "order=age_sorted",
+        "config_id": 33
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 1,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "delay=1",
+        "config_id": 34
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.1,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "error=0.1",
+        "config_id": 35
+      },
+      {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.1,
+        "family": "boundary",
+        "variant": "missing=0.1",
+        "config_id": 36
+      }
+    ],
+    "target": 3708,
+    "cv_seeds": [
+      0,
+      1,
+      2
+    ],
+    "bootstrap_replicates": 500,
+    "versions": {
+      "python": "3.12.14",
+      "numpy": "1.26.4",
+      "pandas": "2.2.3",
+      "sklearn": "1.5.2"
+    },
+    "script_sha256": "5b6758df53d6fef25dd95defc48ed6016bb68ba515e94e7a0b595870a8da0b56",
+    "protocol_sha256": "ca4c9608a6326d4ba28aa8552e0a7430d055ce4f413e0706c3d024a06c048ad5"
+  },
+  "summaries_lr": [
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 0
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 100,
+          "proportion": 1.0,
+          "monte_carlo_exact_ci95": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "order-specific signal present": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        }
+      },
+      "mean_gain": -0.0032550433596514766,
+      "mean_achieved_pi": 0.1268684463652528
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 1.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 1
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 12,
+          "proportion": 0.12,
+          "monte_carlo_exact_ci95": [
+            0.06356890256115931,
+            0.20023568361996877
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 1,
+          "proportion": 0.01,
+          "monte_carlo_exact_ci95": [
+            0.00025314603297742064,
+            0.054459385392080624
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 87,
+          "proportion": 0.87,
+          "monte_carlo_exact_ci95": [
+            0.7879593229125502,
+            0.9289269538145705
+          ]
+        }
+      },
+      "mean_gain": 0.026321942335684877,
+      "mean_achieved_pi": 0.12448626568585569
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 2
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 6,
+          "proportion": 0.06,
+          "monte_carlo_exact_ci95": [
+            0.022334886071316378,
+            0.12602993458082298
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 94,
+          "proportion": 0.94,
+          "monte_carlo_exact_ci95": [
+            0.873970065419177,
+            0.9776651139286836
+          ]
+        }
+      },
+      "mean_gain": 0.0896737023634337,
+      "mean_achieved_pi": 0.1206652846615559
+    },
+    {
+      "config": {
+        "sigma": 0.8,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 3
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 77,
+          "proportion": 0.77,
+          "monte_carlo_exact_ci95": [
+            0.6751412672248969,
+            0.8482683886989525
+          ]
+        },
+        "order-specific signal present": {
+          "count": 3,
+          "proportion": 0.03,
+          "monte_carlo_exact_ci95": [
+            0.006229971538306395,
+            0.08517605297427999
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 20,
+          "proportion": 0.2,
+          "monte_carlo_exact_ci95": [
+            0.1266555521019559,
+            0.2918426890886279
+          ]
+        }
+      },
+      "mean_gain": 0.00900768397795943,
+      "mean_achieved_pi": 0.1223241460003463
+    },
+    {
+      "config": {
+        "sigma": 0.8,
+        "gamma": 1.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 4
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 4,
+          "proportion": 0.04,
+          "monte_carlo_exact_ci95": [
+            0.011004493986188198,
+            0.09925715671265996
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 96,
+          "proportion": 0.96,
+          "monte_carlo_exact_ci95": [
+            0.90074284328734,
+            0.9889955060138118
+          ]
+        }
+      },
+      "mean_gain": 0.061652251769572945,
+      "mean_achieved_pi": 0.12807123397804138
+    },
+    {
+      "config": {
+        "sigma": 0.8,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 5
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 2,
+          "proportion": 0.02,
+          "monte_carlo_exact_ci95": [
+            0.0024313368239425423,
+            0.07038393247107012
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 98,
+          "proportion": 0.98,
+          "monte_carlo_exact_ci95": [
+            0.9296160675289299,
+            0.9975686631760574
+          ]
+        }
+      },
+      "mean_gain": 0.12507767731228886,
+      "mean_achieved_pi": 0.1322816159405723
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 6
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 4,
+          "proportion": 0.04,
+          "monte_carlo_exact_ci95": [
+            0.011004493986188198,
+            0.09925715671265996
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 96,
+          "proportion": 0.96,
+          "monte_carlo_exact_ci95": [
+            0.90074284328734,
+            0.9889955060138118
+          ]
+        }
+      },
+      "mean_gain": 0.08891967163902047,
+      "mean_achieved_pi": 0.14509467362662085
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 1.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 7
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 1,
+          "proportion": 0.01,
+          "monte_carlo_exact_ci95": [
+            0.00025314603297742064,
+            0.054459385392080624
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 99,
+          "proportion": 0.99,
+          "monte_carlo_exact_ci95": [
+            0.9455406146079194,
+            0.9997468539670226
+          ]
+        }
+      },
+      "mean_gain": 0.1462009658919379,
+      "mean_achieved_pi": 0.13158168053058608
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 8
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 100,
+          "proportion": 1.0,
+          "monte_carlo_exact_ci95": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "mean_gain": 0.1951053171240957,
+      "mean_achieved_pi": 0.11165640080268169
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.05,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.05",
+        "config_id": 9
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 100,
+          "proportion": 1.0,
+          "monte_carlo_exact_ci95": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "order-specific signal present": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        }
+      },
+      "mean_gain": -0.006407616953688817,
+      "mean_achieved_pi": 0.04590306034899049
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.3,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.3",
+        "config_id": 10
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 100,
+          "proportion": 1.0,
+          "monte_carlo_exact_ci95": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "order-specific signal present": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        }
+      },
+      "mean_gain": -0.0018830722346355438,
+      "mean_achieved_pi": 0.289244843122484
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "small",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "hh=small",
+        "config_id": 11
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 100,
+          "proportion": 1.0,
+          "monte_carlo_exact_ci95": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "order-specific signal present": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        }
+      },
+      "mean_gain": -0.003222412761866671,
+      "mean_achieved_pi": 0.1340506991547462
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "age_sorted",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "order=age_sorted",
+        "config_id": 12
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 100,
+          "proportion": 1.0,
+          "monte_carlo_exact_ci95": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "order-specific signal present": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        }
+      },
+      "mean_gain": -0.0025162723159966598,
+      "mean_achieved_pi": 0.12616748468905603
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 1,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "delay=1",
+        "config_id": 13
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 100,
+          "proportion": 1.0,
+          "monte_carlo_exact_ci95": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "order-specific signal present": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        }
+      },
+      "mean_gain": -0.002978121613632144,
+      "mean_achieved_pi": 0.12678650455212445
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.1,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "error=0.1",
+        "config_id": 14
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 100,
+          "proportion": 1.0,
+          "monte_carlo_exact_ci95": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "order-specific signal present": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        }
+      },
+      "mean_gain": -0.0028121409630989204,
+      "mean_achieved_pi": 0.12747518100814728
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.1,
+        "family": "boundary",
+        "variant": "missing=0.1",
+        "config_id": 15
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 100,
+          "proportion": 1.0,
+          "monte_carlo_exact_ci95": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "order-specific signal present": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        }
+      },
+      "mean_gain": -0.002783282172683019,
+      "mean_achieved_pi": 0.12767194210768443
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.05,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.05",
+        "config_id": 16
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 12,
+          "proportion": 0.12,
+          "monte_carlo_exact_ci95": [
+            0.06356890256115931,
+            0.20023568361996877
+          ]
+        },
+        "order-specific signal present": {
+          "count": 2,
+          "proportion": 0.02,
+          "monte_carlo_exact_ci95": [
+            0.0024313368239425423,
+            0.07038393247107012
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 86,
+          "proportion": 0.86,
+          "monte_carlo_exact_ci95": [
+            0.7762720186294322,
+            0.9212945950730342
+          ]
+        }
+      },
+      "mean_gain": 0.058397662417209985,
+      "mean_achieved_pi": 0.04747363493444733
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.3,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.3",
+        "config_id": 17
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 5,
+          "proportion": 0.05,
+          "monte_carlo_exact_ci95": [
+            0.016431879182052155,
+            0.11283491110546275
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 6,
+          "proportion": 0.06,
+          "monte_carlo_exact_ci95": [
+            0.022334886071316378,
+            0.12602993458082298
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 89,
+          "proportion": 0.89,
+          "monte_carlo_exact_ci95": [
+            0.8116988678035574,
+            0.9437929797145125
+          ]
+        }
+      },
+      "mean_gain": 0.09906873491042377,
+      "mean_achieved_pi": 0.2787397208058616
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "small",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "hh=small",
+        "config_id": 18
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 8,
+          "proportion": 0.08,
+          "monte_carlo_exact_ci95": [
+            0.0351715625181628,
+            0.15155763586442098
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 92,
+          "proportion": 0.92,
+          "monte_carlo_exact_ci95": [
+            0.848442364135579,
+            0.9648284374818372
+          ]
+        }
+      },
+      "mean_gain": 0.054474587001562644,
+      "mean_achieved_pi": 0.12437684885495912
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "age_sorted",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "order=age_sorted",
+        "config_id": 19
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 36,
+          "proportion": 0.36,
+          "monte_carlo_exact_ci95": [
+            0.26640842273323445,
+            0.46212189332742337
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 64,
+          "proportion": 0.64,
+          "monte_carlo_exact_ci95": [
+            0.5378781066725767,
+            0.7335915772667654
+          ]
+        }
+      },
+      "mean_gain": 0.08888878073121248,
+      "mean_achieved_pi": 0.12816874103484932
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 1,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "delay=1",
+        "config_id": 20
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 3,
+          "proportion": 0.03,
+          "monte_carlo_exact_ci95": [
+            0.006229971538306395,
+            0.08517605297427999
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 97,
+          "proportion": 0.97,
+          "monte_carlo_exact_ci95": [
+            0.91482394702572,
+            0.9937700284616936
+          ]
+        }
+      },
+      "mean_gain": 0.05919765379203427,
+      "mean_achieved_pi": 0.1429139115930486
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.1,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "error=0.1",
+        "config_id": 21
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 5,
+          "proportion": 0.05,
+          "monte_carlo_exact_ci95": [
+            0.016431879182052155,
+            0.11283491110546275
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 95,
+          "proportion": 0.95,
+          "monte_carlo_exact_ci95": [
+            0.8871650888945373,
+            0.9835681208179479
+          ]
+        }
+      },
+      "mean_gain": 0.06194199419574305,
+      "mean_achieved_pi": 0.14434914496015086
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.1,
+        "family": "boundary",
+        "variant": "missing=0.1",
+        "config_id": 22
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 4,
+          "proportion": 0.04,
+          "monte_carlo_exact_ci95": [
+            0.011004493986188198,
+            0.09925715671265996
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 96,
+          "proportion": 0.96,
+          "monte_carlo_exact_ci95": [
+            0.90074284328734,
+            0.9889955060138118
+          ]
+        }
+      },
+      "mean_gain": 0.08085849166114377,
+      "mean_achieved_pi": 0.1440609164106244
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.05,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.05",
+        "config_id": 23
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 4,
+          "proportion": 0.04,
+          "monte_carlo_exact_ci95": [
+            0.011004493986188198,
+            0.09925715671265996
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 96,
+          "proportion": 0.96,
+          "monte_carlo_exact_ci95": [
+            0.90074284328734,
+            0.9889955060138118
+          ]
+        }
+      },
+      "mean_gain": 0.0634463647730028,
+      "mean_achieved_pi": 0.046739193897965416
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.3,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.3",
+        "config_id": 24
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 79,
+          "proportion": 0.79,
+          "monte_carlo_exact_ci95": [
+            0.6970846206494594,
+            0.8650563042946707
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 21,
+          "proportion": 0.21,
+          "monte_carlo_exact_ci95": [
+            0.13494369570532908,
+            0.30291537935054047
+          ]
+        }
+      },
+      "mean_gain": 0.10986719667288374,
+      "mean_achieved_pi": 0.2735313482543393
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "small",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "hh=small",
+        "config_id": 25
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 9,
+          "proportion": 0.09,
+          "monte_carlo_exact_ci95": [
+            0.041983595628392247,
+            0.1639822550296352
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 91,
+          "proportion": 0.91,
+          "monte_carlo_exact_ci95": [
+            0.8360177449703647,
+            0.9580164043716077
+          ]
+        }
+      },
+      "mean_gain": 0.0665106449679327,
+      "mean_achieved_pi": 0.11478327715745901
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "age_sorted",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "order=age_sorted",
+        "config_id": 26
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 16,
+          "proportion": 0.16,
+          "monte_carlo_exact_ci95": [
+            0.09431028997394623,
+            0.24678759741086234
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 84,
+          "proportion": 0.84,
+          "monte_carlo_exact_ci95": [
+            0.7532124025891376,
+            0.9056897100260538
+          ]
+        }
+      },
+      "mean_gain": 0.09027710367456626,
+      "mean_achieved_pi": 0.12027124494500756
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 1,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "delay=1",
+        "config_id": 27
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 9,
+          "proportion": 0.09,
+          "monte_carlo_exact_ci95": [
+            0.041983595628392247,
+            0.1639822550296352
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 91,
+          "proportion": 0.91,
+          "monte_carlo_exact_ci95": [
+            0.8360177449703647,
+            0.9580164043716077
+          ]
+        }
+      },
+      "mean_gain": 0.05293024630180848,
+      "mean_achieved_pi": 0.12033216495486823
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.1,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "error=0.1",
+        "config_id": 28
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 7,
+          "proportion": 0.07,
+          "monte_carlo_exact_ci95": [
+            0.028605288907438704,
+            0.13891972845585732
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 93,
+          "proportion": 0.93,
+          "monte_carlo_exact_ci95": [
+            0.8610802715441427,
+            0.9713947110925613
+          ]
+        }
+      },
+      "mean_gain": 0.06124333510881003,
+      "mean_achieved_pi": 0.12159244457468851
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.1,
+        "family": "boundary",
+        "variant": "missing=0.1",
+        "config_id": 29
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 8,
+          "proportion": 0.08,
+          "monte_carlo_exact_ci95": [
+            0.0351715625181628,
+            0.15155763586442098
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 92,
+          "proportion": 0.92,
+          "monte_carlo_exact_ci95": [
+            0.848442364135579,
+            0.9648284374818372
+          ]
+        }
+      },
+      "mean_gain": 0.08069235906060795,
+      "mean_achieved_pi": 0.12136392024372247
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.05,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.05",
+        "config_id": 30
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 100,
+          "proportion": 1.0,
+          "monte_carlo_exact_ci95": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "mean_gain": 0.18028368481064166,
+      "mean_achieved_pi": 0.057036913672660325
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.3,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "pi=0.3",
+        "config_id": 31
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 1,
+          "proportion": 0.01,
+          "monte_carlo_exact_ci95": [
+            0.00025314603297742064,
+            0.054459385392080624
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 99,
+          "proportion": 0.99,
+          "monte_carlo_exact_ci95": [
+            0.9455406146079194,
+            0.9997468539670226
+          ]
+        }
+      },
+      "mean_gain": 0.21997056962521955,
+      "mean_achieved_pi": 0.30998703310330095
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "small",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "hh=small",
+        "config_id": 32
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 100,
+          "proportion": 1.0,
+          "monte_carlo_exact_ci95": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "mean_gain": 0.14858658164550426,
+      "mean_achieved_pi": 0.1301885051359485
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "age_sorted",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "order=age_sorted",
+        "config_id": 33
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 100,
+          "proportion": 1.0,
+          "monte_carlo_exact_ci95": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "mean_gain": 0.21170939001285102,
+      "mean_achieved_pi": 0.12310559184075463
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 1,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "delay=1",
+        "config_id": 34
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 100,
+          "proportion": 1.0,
+          "monte_carlo_exact_ci95": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "mean_gain": 0.12142740176221231,
+      "mean_achieved_pi": 0.11187758693014892
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.1,
+        "missing": 0.0,
+        "family": "boundary",
+        "variant": "error=0.1",
+        "config_id": 35
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 2,
+          "proportion": 0.02,
+          "monte_carlo_exact_ci95": [
+            0.0024313368239425423,
+            0.07038393247107012
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 98,
+          "proportion": 0.98,
+          "monte_carlo_exact_ci95": [
+            0.9296160675289299,
+            0.9975686631760574
+          ]
+        }
+      },
+      "mean_gain": 0.15076627110121293,
+      "mean_achieved_pi": 0.11260787620617635
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.1,
+        "family": "boundary",
+        "variant": "missing=0.1",
+        "config_id": 36
+      },
+      "n_datasets": 100,
+      "outputs": {
+        "no detectable gain": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "order-specific signal present": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "household-structure-consistent": {
+          "count": 0,
+          "proportion": 0.0,
+          "monte_carlo_exact_ci95": [
+            0.0,
+            0.03621669264517641
+          ]
+        },
+        "mixed/indeterminate": {
+          "count": 100,
+          "proportion": 1.0,
+          "monte_carlo_exact_ci95": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "mean_gain": 0.1823789010907188,
+      "mean_achieved_pi": 0.11259174217794882
+    }
+  ],
+  "rf_records": [
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 0
+      },
+      "rep": 1,
+      "kind": "rf",
+      "pilot": false,
+      "data_seed": 21200001,
+      "n": 2707,
+      "households": 606,
+      "events": 345,
+      "achieved_pi": 0.12744735869966753,
+      "beta0": -2.197127342224121,
+      "arm_mean_auc": {
+        "exp": 0.6166394646312181,
+        "ep": 0.6103445454805762,
+        "fut": 0.6119598964277387,
+        "past1": 0.6142825002965635,
+        "fut1": 0.6194042549710186,
+        "past2": 0.6116576061390698,
+        "fut2": 0.6181611424036783
+      },
+      "contrasts": {
+        "gain": {
+          "mean": -0.006294919150641953,
+          "conditional_ci95": [
+            -0.017184726419485315,
+            0.004554201496788136
+          ]
+        },
+        "future_gain": {
+          "mean": -0.004679568203479367,
+          "conditional_ci95": [
+            -0.014049162491130656,
+            0.005778804098601277
+          ]
+        },
+        "order_k1": {
+          "mean": -0.005121754674455081,
+          "conditional_ci95": [
+            -0.012577589753569216,
+            0.002332758040704292
+          ]
+        },
+        "order_k2": {
+          "mean": -0.006503536264608312,
+          "conditional_ci95": [
+            -0.014178304526376008,
+            0.0006765855991064793
+          ]
+        },
+        "order_full": {
+          "mean": -0.001615350947162586,
+          "conditional_ci95": [
+            -0.010674777838444813,
+            0.00740128807017487
+          ]
+        }
+      },
+      "one_sided_centered_bootstrap_p": {
+        "order_k1": 0.906187624750499,
+        "order_k2": 0.9540918163672655,
+        "order_full": 0.6187624750499002
+      },
+      "holm_adjusted_p": {
+        "order_k1": 1.0,
+        "order_k2": 1.0,
+        "order_full": 1.0
+      },
+      "equivalence_ci96_667": {
+        "order_k1": [
+          -0.012975034358449275,
+          0.0036847334070029512
+        ],
+        "order_k2": [
+          -0.014869043794501383,
+          0.0018949536117220038
+        ],
+        "order_full": [
+          -0.011381374588444144,
+          0.008202414561288911
+        ]
+      },
+      "diagnostic_output": "no detectable gain",
+      "margin_sensitivity": {
+        "0.005": "no detectable gain",
+        "0.02": "no detectable gain"
+      },
+      "historical_rule_on_corrected_scores": "none",
+      "sklearn_auc_gate_max_error": 1.1102230246251565e-16,
+      "runtime_seconds": 72.02153396606445
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 0
+      },
+      "rep": 0,
+      "kind": "rf",
+      "pilot": false,
+      "data_seed": 21200000,
+      "n": 2769,
+      "households": 605,
+      "events": 334,
+      "achieved_pi": 0.120621162874684,
+      "beta0": -2.197127342224121,
+      "arm_mean_auc": {
+        "exp": 0.6184452450335468,
+        "ep": 0.6166697406009337,
+        "fut": 0.6152069577477489,
+        "past1": 0.6160586424686562,
+        "fut1": 0.6122158147770168,
+        "past2": 0.6169152454843905,
+        "fut2": 0.6129888067806891
+      },
+      "contrasts": {
+        "gain": {
+          "mean": -0.0017755044326131693,
+          "conditional_ci95": [
+            -0.010318969894741072,
+            0.006522606147773403
+          ]
+        },
+        "future_gain": {
+          "mean": -0.0032382872857980027,
+          "conditional_ci95": [
+            -0.010275538321220646,
+            0.004125606862467821
+          ]
+        },
+        "order_k1": {
+          "mean": 0.00384282769163935,
+          "conditional_ci95": [
+            -0.002704190666542385,
+            0.010389777911917033
+          ]
+        },
+        "order_k2": {
+          "mean": 0.003926438703701278,
+          "conditional_ci95": [
+            -0.0026284881369029677,
+            0.010725700537216679
+          ]
+        },
+        "order_full": {
+          "mean": 0.0014627828531848335,
+          "conditional_ci95": [
+            -0.007301489967620339,
+            0.010871045422905533
+          ]
+        }
+      },
+      "one_sided_centered_bootstrap_p": {
+        "order_k1": 0.1437125748502994,
+        "order_k2": 0.1536926147704591,
+        "order_full": 0.40119760479041916
+      },
+      "holm_adjusted_p": {
+        "order_k1": 0.43113772455089816,
+        "order_k2": 0.43113772455089816,
+        "order_full": 0.43113772455089816
+      },
+      "equivalence_ci96_667": {
+        "order_k1": [
+          -0.0029276091873151056,
+          0.010836289344827364
+        ],
+        "order_k2": [
+          -0.003005964447490745,
+          0.011301774306237309
+        ],
+        "order_full": [
+          -0.008396699164189761,
+          0.011554112286601265
+        ]
+      },
+      "diagnostic_output": "no detectable gain",
+      "margin_sensitivity": {
+        "0.005": "no detectable gain",
+        "0.02": "no detectable gain"
+      },
+      "historical_rule_on_corrected_scores": "none",
+      "sklearn_auc_gate_max_error": 1.1102230246251565e-16,
+      "runtime_seconds": 73.48028779029846
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 2
+      },
+      "rep": 0,
+      "kind": "rf",
+      "pilot": false,
+      "data_seed": 21202000,
+      "n": 2739,
+      "households": 606,
+      "events": 372,
+      "achieved_pi": 0.13581599123767799,
+      "beta0": -2.750704765319824,
+      "arm_mean_auc": {
+        "exp": 0.6291337128043454,
+        "ep": 0.7535164667099742,
+        "fut": 0.7513726674873901,
+        "past1": 0.704122015224268,
+        "fut1": 0.6966033861655104,
+        "past2": 0.7343384923825661,
+        "fut2": 0.7349036861384054
+      },
+      "contrasts": {
+        "gain": {
+          "mean": 0.12438275390562888,
+          "conditional_ci95": [
+            0.09758581351260714,
+            0.14973466644043745
+          ]
+        },
+        "future_gain": {
+          "mean": 0.12223895468304473,
+          "conditional_ci95": [
+            0.09185586896007472,
+            0.1534415893269362
+          ]
+        },
+        "order_k1": {
+          "mean": 0.007518629058757442,
+          "conditional_ci95": [
+            -0.008127780160253303,
+            0.02338931638358177
+          ]
+        },
+        "order_k2": {
+          "mean": -0.0005651937558393735,
+          "conditional_ci95": [
+            -0.0172654188318751,
+            0.015530349397026522
+          ]
+        },
+        "order_full": {
+          "mean": 0.0021437992225841565,
+          "conditional_ci95": [
+            -0.015518524008047662,
+            0.01872627977259365
+          ]
+        }
+      },
+      "one_sided_centered_bootstrap_p": {
+        "order_k1": 0.21357285429141717,
+        "order_k2": 0.5169660678642715,
+        "order_full": 0.3932135728542914
+      },
+      "holm_adjusted_p": {
+        "order_k1": 0.6407185628742516,
+        "order_k2": 0.7864271457085829,
+        "order_full": 0.7864271457085829
+      },
+      "equivalence_ci96_667": {
+        "order_k1": [
+          -0.010297851067404797,
+          0.024008629637663183
+        ],
+        "order_k2": [
+          -0.018544559361403232,
+          0.017325160007107307
+        ],
+        "order_full": [
+          -0.016735103551446487,
+          0.021341882668121447
+        ]
+      },
+      "diagnostic_output": "mixed/indeterminate",
+      "margin_sensitivity": {
+        "0.005": "mixed/indeterminate",
+        "0.02": "mixed/indeterminate"
+      },
+      "historical_rule_on_corrected_scores": "clustering_consistent",
+      "sklearn_auc_gate_max_error": 1.1102230246251565e-16,
+      "runtime_seconds": 71.75812458992004
+    },
+    {
+      "config": {
+        "sigma": 0.0,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 2
+      },
+      "rep": 1,
+      "kind": "rf",
+      "pilot": false,
+      "data_seed": 21202001,
+      "n": 2754,
+      "households": 606,
+      "events": 305,
+      "achieved_pi": 0.11074800290486565,
+      "beta0": -2.750704765319824,
+      "arm_mean_auc": {
+        "exp": 0.6521510954621826,
+        "ep": 0.7439365236619385,
+        "fut": 0.7475972126461787,
+        "past1": 0.6949762030671603,
+        "fut1": 0.6790674012142794,
+        "past2": 0.7181836235153414,
+        "fut2": 0.7150597879808197
+      },
+      "contrasts": {
+        "gain": {
+          "mean": 0.09178542819975595,
+          "conditional_ci95": [
+            0.06531290899276962,
+            0.1189626952849773
+          ]
+        },
+        "future_gain": {
+          "mean": 0.09544611718399616,
+          "conditional_ci95": [
+            0.06552472861057611,
+            0.12316925606738852
+          ]
+        },
+        "order_k1": {
+          "mean": 0.015908801852880794,
+          "conditional_ci95": [
+            0.00031577791479229963,
+            0.031048119117414723
+          ]
+        },
+        "order_k2": {
+          "mean": 0.0031238355345217053,
+          "conditional_ci95": [
+            -0.01394399193364495,
+            0.021317259784996087
+          ]
+        },
+        "order_full": {
+          "mean": -0.0036606889842402124,
+          "conditional_ci95": [
+            -0.02140442192574282,
+            0.015728156006357675
+          ]
+        }
+      },
+      "one_sided_centered_bootstrap_p": {
+        "order_k1": 0.017964071856287425,
+        "order_k2": 0.3812375249500998,
+        "order_full": 0.6686626746506986
+      },
+      "holm_adjusted_p": {
+        "order_k1": 0.05389221556886227,
+        "order_k2": 0.7624750499001997,
+        "order_full": 0.7624750499001997
+      },
+      "equivalence_ci96_667": {
+        "order_k1": [
+          -0.0009559505190835451,
+          0.031662325289929474
+        ],
+        "order_k2": [
+          -0.017019180905581778,
+          0.023222937105763036
+        ],
+        "order_full": [
+          -0.02332392716263298,
+          0.01654243657403375
+        ]
+      },
+      "diagnostic_output": "mixed/indeterminate",
+      "margin_sensitivity": {
+        "0.005": "mixed/indeterminate",
+        "0.02": "mixed/indeterminate"
+      },
+      "historical_rule_on_corrected_scores": "order_specific",
+      "sklearn_auc_gate_max_error": 1.1102230246251565e-16,
+      "runtime_seconds": 71.46693730354309
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 6
+      },
+      "rep": 1,
+      "kind": "rf",
+      "pilot": false,
+      "data_seed": 21206001,
+      "n": 2693,
+      "households": 606,
+      "events": 338,
+      "achieved_pi": 0.12551058299294468,
+      "beta0": -2.7083940505981445,
+      "arm_mean_auc": {
+        "exp": 0.5723258667403694,
+        "ep": 0.6685553001084603,
+        "fut": 0.6668785621259898,
+        "past1": 0.6019690364619321,
+        "fut1": 0.6214026976888319,
+        "past2": 0.6382718375858993,
+        "fut2": 0.6412877883725508
+      },
+      "contrasts": {
+        "gain": {
+          "mean": 0.09622943336809087,
+          "conditional_ci95": [
+            0.0675285048458885,
+            0.12776358187274164
+          ]
+        },
+        "future_gain": {
+          "mean": 0.09455269538562039,
+          "conditional_ci95": [
+            0.061771081540835764,
+            0.12476293579894807
+          ]
+        },
+        "order_k1": {
+          "mean": -0.019433661226899823,
+          "conditional_ci95": [
+            -0.03515853415812948,
+            -0.005218218431174479
+          ]
+        },
+        "order_k2": {
+          "mean": -0.0030159507866514743,
+          "conditional_ci95": [
+            -0.020706030315385874,
+            0.012244283490782869
+          ]
+        },
+        "order_full": {
+          "mean": 0.0016767379824704776,
+          "conditional_ci95": [
+            -0.014692663885412969,
+            0.018979802316478032
+          ]
+        }
+      },
+      "one_sided_centered_bootstrap_p": {
+        "order_k1": 0.9940119760479041,
+        "order_k2": 0.626746506986028,
+        "order_full": 0.4351297405189621
+      },
+      "holm_adjusted_p": {
+        "order_k1": 1.0,
+        "order_k2": 1.0,
+        "order_full": 1.0
+      },
+      "equivalence_ci96_667": {
+        "order_k1": [
+          -0.0366734961222105,
+          -0.004606233810917914
+        ],
+        "order_k2": [
+          -0.02196892047259046,
+          0.013784695239481152
+        ],
+        "order_full": [
+          -0.016803468637764222,
+          0.01986527574230585
+        ]
+      },
+      "diagnostic_output": "mixed/indeterminate",
+      "margin_sensitivity": {
+        "0.005": "mixed/indeterminate",
+        "0.02": "mixed/indeterminate"
+      },
+      "historical_rule_on_corrected_scores": "clustering_consistent",
+      "sklearn_auc_gate_max_error": 1.1102230246251565e-16,
+      "runtime_seconds": 69.99327516555786
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 0.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 6
+      },
+      "rep": 0,
+      "kind": "rf",
+      "pilot": false,
+      "data_seed": 21206000,
+      "n": 2717,
+      "households": 606,
+      "events": 406,
+      "achieved_pi": 0.1494295178505705,
+      "beta0": -2.7083940505981445,
+      "arm_mean_auc": {
+        "exp": 0.5872403632516437,
+        "ep": 0.6945375831587205,
+        "fut": 0.6839705726663157,
+        "past1": 0.6493357605057273,
+        "fut1": 0.6368890414161158,
+        "past2": 0.6770407681119567,
+        "fut2": 0.6623743515520474
+      },
+      "contrasts": {
+        "gain": {
+          "mean": 0.10729721990707679,
+          "conditional_ci95": [
+            0.07603960000240764,
+            0.13618818348946612
+          ]
+        },
+        "future_gain": {
+          "mean": 0.09673020941467203,
+          "conditional_ci95": [
+            0.06412689088151521,
+            0.12451241272061854
+          ]
+        },
+        "order_k1": {
+          "mean": 0.012446719089611516,
+          "conditional_ci95": [
+            -0.0025226598240074144,
+            0.026221963938878386
+          ]
+        },
+        "order_k2": {
+          "mean": 0.014666416559909448,
+          "conditional_ci95": [
+            0.0015035226270416725,
+            0.028274645683954894
+          ]
+        },
+        "order_full": {
+          "mean": 0.010567010492404752,
+          "conditional_ci95": [
+            -0.0047486123694885874,
+            0.024271829013333527
+          ]
+        }
+      },
+      "one_sided_centered_bootstrap_p": {
+        "order_k1": 0.04590818363273453,
+        "order_k2": 0.017964071856287425,
+        "order_full": 0.0658682634730539
+      },
+      "holm_adjusted_p": {
+        "order_k1": 0.09181636726546906,
+        "order_k2": 0.05389221556886227,
+        "order_full": 0.09181636726546906
+      },
+      "equivalence_ci96_667": {
+        "order_k1": [
+          -0.0031079578002308522,
+          0.027164874453748152
+        ],
+        "order_k2": [
+          0.00026216709763285503,
+          0.029064232111392696
+        ],
+        "order_full": [
+          -0.005284748236247412,
+          0.025351220718272074
+        ]
+      },
+      "diagnostic_output": "mixed/indeterminate",
+      "margin_sensitivity": {
+        "0.005": "mixed/indeterminate",
+        "0.02": "mixed/indeterminate"
+      },
+      "historical_rule_on_corrected_scores": "order_specific",
+      "sklearn_auc_gate_max_error": 1.1102230246251565e-16,
+      "runtime_seconds": 70.54112720489502
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 8
+      },
+      "rep": 0,
+      "kind": "rf",
+      "pilot": false,
+      "data_seed": 21208000,
+      "n": 2757,
+      "households": 606,
+      "events": 373,
+      "achieved_pi": 0.13529198404062387,
+      "beta0": -3.6845712661743164,
+      "arm_mean_auc": {
+        "exp": 0.6203188069405209,
+        "ep": 0.8181726853434573,
+        "fut": 0.8501913261481068,
+        "past1": 0.7674172769311046,
+        "fut1": 0.7791416263322356,
+        "past2": 0.8133614174928477,
+        "fut2": 0.83897265655457
+      },
+      "contrasts": {
+        "gain": {
+          "mean": 0.19785387840293645,
+          "conditional_ci95": [
+            0.15883458599114067,
+            0.2341297995865847
+          ]
+        },
+        "future_gain": {
+          "mean": 0.22987251920758586,
+          "conditional_ci95": [
+            0.18741811554856727,
+            0.270345021380259
+          ]
+        },
+        "order_k1": {
+          "mean": -0.011724349401131132,
+          "conditional_ci95": [
+            -0.027408730049761278,
+            0.0028315891531797456
+          ]
+        },
+        "order_k2": {
+          "mean": -0.02561123906172232,
+          "conditional_ci95": [
+            -0.04079024988229649,
+            -0.012321550625228089
+          ]
+        },
+        "order_full": {
+          "mean": -0.03201864080464941,
+          "conditional_ci95": [
+            -0.0473777231490097,
+            -0.01800156004519974
+          ]
+        }
+      },
+      "one_sided_centered_bootstrap_p": {
+        "order_k1": 0.9181636726546906,
+        "order_k2": 1.0,
+        "order_full": 1.0
+      },
+      "holm_adjusted_p": {
+        "order_k1": 1.0,
+        "order_k2": 1.0,
+        "order_full": 1.0
+      },
+      "equivalence_ci96_667": {
+        "order_k1": [
+          -0.02854833522182459,
+          0.0040796260898529205
+        ],
+        "order_k2": [
+          -0.041883988684395426,
+          -0.0101746668191591
+        ],
+        "order_full": [
+          -0.04824570892816294,
+          -0.01724433342674029
+        ]
+      },
+      "diagnostic_output": "mixed/indeterminate",
+      "margin_sensitivity": {
+        "0.005": "mixed/indeterminate",
+        "0.02": "mixed/indeterminate"
+      },
+      "historical_rule_on_corrected_scores": "clustering_consistent",
+      "sklearn_auc_gate_max_error": 1.1102230246251565e-16,
+      "runtime_seconds": 70.68448567390442
+    },
+    {
+      "config": {
+        "sigma": 1.6,
+        "gamma": 2.0,
+        "pi": 0.13,
+        "hh": "large",
+        "order": "random",
+        "delay": 0,
+        "error": 0.0,
+        "missing": 0.0,
+        "family": "primary",
+        "config_id": 8
+      },
+      "rep": 1,
+      "kind": "rf",
+      "pilot": false,
+      "data_seed": 21208001,
+      "n": 2717,
+      "households": 606,
+      "events": 307,
+      "achieved_pi": 0.11299227088700772,
+      "beta0": -3.6845712661743164,
+      "arm_mean_auc": {
+        "exp": 0.5630984722541347,
+        "ep": 0.7937493523637036,
+        "fut": 0.8289136379814472,
+        "past1": 0.7409234054631219,
+        "fut1": 0.7620978460179941,
+        "past2": 0.7920477020737877,
+        "fut2": 0.8213303237956219
+      },
+      "contrasts": {
+        "gain": {
+          "mean": 0.2306508801095688,
+          "conditional_ci95": [
+            0.19005376180163808,
+            0.2711243913360955
+          ]
+        },
+        "future_gain": {
+          "mean": 0.2658151657273125,
+          "conditional_ci95": [
+            0.22133004048853291,
+            0.3095537514858172
+          ]
+        },
+        "order_k1": {
+          "mean": -0.021174440554872276,
+          "conditional_ci95": [
+            -0.04197376116721142,
+            0.00021892838677849594
+          ]
+        },
+        "order_k2": {
+          "mean": -0.029282621721834084,
+          "conditional_ci95": [
+            -0.050634715948281166,
+            -0.008587519516341395
+          ]
+        },
+        "order_full": {
+          "mean": -0.035164285617743686,
+          "conditional_ci95": [
+            -0.056098733454161956,
+            -0.015024677252195372
+          ]
+        }
+      },
+      "one_sided_centered_bootstrap_p": {
+        "order_k1": 0.9760479041916168,
+        "order_k2": 0.9900199600798403,
+        "order_full": 0.998003992015968
+      },
+      "holm_adjusted_p": {
+        "order_k1": 1.0,
+        "order_k2": 1.0,
+        "order_full": 1.0
+      },
+      "equivalence_ci96_667": {
+        "order_k1": [
+          -0.04374430204406637,
+          0.0012692308420608816
+        ],
+        "order_k2": [
+          -0.05287733240925289,
+          -0.006592159427045739
+        ],
+        "order_full": [
+          -0.05836595824484586,
+          -0.013912075504122108
+        ]
+      },
+      "diagnostic_output": "mixed/indeterminate",
+      "margin_sensitivity": {
+        "0.005": "mixed/indeterminate",
+        "0.02": "mixed/indeterminate"
+      },
+      "historical_rule_on_corrected_scores": "clustering_consistent",
+      "sklearn_auc_gate_max_error": 1.1102230246251565e-16,
+      "runtime_seconds": 70.28477907180786
+    }
+  ],
+  "limits": [
+    "Diagnostics are not causal classification.",
+    "Conditional dataset intervals omit model refits.",
+    "Boundary variants are one-at-a-time, not a factorial grid.",
+    "Only trigger-style time mechanism evaluated.",
+    "RF checks limited to two datasets per corner.",
+    "Analysis rule was frozen after seeing historical results, not preregistered."
+  ]
+}

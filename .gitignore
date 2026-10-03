@@ -1,0 +1,103 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 测试 / 覆盖率
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+pytest_output*.txt
+
+# 分发 / 打包
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+venv_ci/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志
+*.log
+tb_risk_assessment.log
+
+# 模型文件（体积大）
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 备份文件和一次性拆分脚本（不应提交到版本控制）
+*.bak
+split_*.py
+write_*.py
+recover_*.py
+
+# AI 配置文件（含 API Key，绝不提交）
+ai_config.json
+.tb_risk/ai_config.json
+**/ai_config.json
+
+# 运行时数据目录（消息队列、审计日志、训练产物）
+msg_queue/
+catboost_info/
+audit.db
+audit.db-*
+*.db-wal
+*.db-shm
+
+# Hypothesis 测试缓存
+.hypothesis/
+
+# 根目录临时调试脚本（下划线开头）
+/_debug_cli.py
+/_import_check.py
+/_syntax_check.py
+/check_*.py
+
+# 数据目录（数据文件体积大且需遵守各数据集 license，不入库；
+# 但 data/ 同时是 tb_risk.data Python 包（dbc_reader/evaluate_ensemble 等源码被 tests 引用），
+# 故仅保留 *.py 源码入库，其余（数据集/中间产物/临时脚本）一律排除）
+/data/*
+!/data/__init__.py
+!/data/*.py
+/data/_*.py
+
+# GUI 截图与冒烟/运行日志等临时产物
+/_shots/
+/_screenshot_*.py
+/_smoke_deploy_*.py
+/_t*_run_log.txt
+
+# DPR local runtime and private submission materials
+/.python-dpr/
+/submission_private/
+
+# DPR independent-repository local-only generated material
+/docs/dpr_manuscript*
+/docs/dpr_supplement_v*
+/docs/dpr_tables_v*
+/docs/dpr_submission_progress_*.md
+/docs/dpr_environment_actual.txt
+/docs/dpr_format_revision_v*_status.md
+/experiments/dpr/MERGE_HANDOFF.md

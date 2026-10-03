@@ -1,0 +1,338 @@
+{
+  "name": "homeacf_dpr_f1_final_performance",
+  "date": "20261002",
+  "sample": {
+    "n": 2725,
+    "events": 359,
+    "households": 877
+  },
+  "primary": {
+    "exposure_auroc": 0.6440512883302684,
+    "sop_auroc": 0.7141509122974732,
+    "delta_auroc": {
+      "arms": [
+        "exposure_prior",
+        "exposure"
+      ],
+      "mask": null,
+      "mean": 0.07009962396720489,
+      "sd": 0.007887432410226746,
+      "share_positive": 1.0,
+      "min": 0.05580566851190383,
+      "max": 0.08083410054697826,
+      "ci95_unified": [
+        0.048267901015897646,
+        0.09134251466556075
+      ],
+      "ci_excludes_zero": true
+    },
+    "ipw_delta_auroc": {
+      "weighted_delta_mean": 0.06995513871054992,
+      "weighted_delta_range": [
+        0.055655509268120795,
+        0.08084523154738332
+      ],
+      "weighted_all_positive": true,
+      "weighted_delta_conditional_household_bootstrap_ci95": [
+        0.047476568805408834,
+        0.09083768049846774
+      ],
+      "n_bootstrap": 2000,
+      "unweighted_delta_mean": 0.07009962396720489,
+      "difference_ipw_minus_unweighted": -0.00014448525665496093
+    },
+    "ipw_fullrefit": {
+      "mean": 0.06307307948003821,
+      "ci95_percentile": [
+        0.03004601547349546,
+        0.10329879926334218
+      ],
+      "n_effective": 300,
+      "seed_fixed": 0
+    },
+    "brier_delta_nested": {
+      "mean": -0.0055362664721640455,
+      "ci95_unified": [
+        -0.007980587276303118,
+        -0.003157423609674272
+      ]
+    }
+  },
+  "operating": {
+    "exposure": {
+      "auprc": 0.19356384428500434,
+      "budgets": {
+        "0.05": {
+          "capture_rate": 0.08384401114206128,
+          "nns": 4.600919442919581
+        },
+        "0.1": {
+          "capture_rate": 0.16253481894150418,
+          "nns": 4.7104183274748035
+        },
+        "0.2": {
+          "capture_rate": 0.31838440111420613,
+          "nns": 4.780515722512126
+        },
+        "0.3": {
+          "capture_rate": 0.4615598885793871,
+          "nns": 4.9426117208458695
+        }
+      }
+    },
+    "exposure_prior": {
+      "auprc": 0.2851252974956145,
+      "budgets": {
+        "0.05": {
+          "capture_rate": 0.15557103064066852,
+          "nns": 2.463997155952039
+        },
+        "0.1": {
+          "capture_rate": 0.2618384401114206,
+          "nns": 2.910317479127875
+        },
+        "0.2": {
+          "capture_rate": 0.42701949860724236,
+          "nns": 3.5590543526949565
+        },
+        "0.3": {
+          "capture_rate": 0.5573816155988858,
+          "nns": 4.0918572128927275
+        }
+      }
+    }
+  },
+  "dca_exploratory": {
+    "0.05": {
+      "arms_mean": [
+        0.08666151617576051,
+        0.08977305649444714
+      ],
+      "delta_mean": 0.0031115403186866256,
+      "conditional_ci95": [
+        0.0017785507015493469,
+        0.004382414833347166
+      ],
+      "treat_all_nb": 0.08604538870111059,
+      "treat_none_nb": 0.0
+    },
+    "0.1": {
+      "arms_mean": [
+        0.04817533129459734,
+        0.053975535168195705
+      ],
+      "delta_mean": 0.00580020387359837,
+      "conditional_ci95": [
+        0.0023555699813395522,
+        0.009404950817858472
+      ],
+      "treat_all_nb": 0.03527013251783895,
+      "treat_none_nb": 0.0
+    },
+    "0.2": {
+      "arms_mean": [
+        0.001830275229357798,
+        0.01946788990825688
+      ],
+      "delta_mean": 0.017637614678899082,
+      "conditional_ci95": [
+        0.010439177438348522,
+        0.024808122260083748
+      ],
+      "treat_all_nb": -0.08532110091743117,
+      "treat_none_nb": 0.0
+    },
+    "0.3": {
+      "arms_mean": [
+        -0.0006553079947575362,
+        0.007905635648754912
+      ],
+      "delta_mean": 0.008560943643512448,
+      "conditional_ci95": [
+        0.0022374747842436103,
+        0.015473598387320554
+      ],
+      "treat_all_nb": -0.2403669724770642,
+      "treat_none_nb": 0.0
+    }
+  },
+  "calibration_nested": {
+    "exposure": {
+      "raw": {
+        "brier": {
+          "mean": 0.1809646336876302,
+          "seed_min": 0.17884090989549642,
+          "seed_max": 0.18281011567324476
+        },
+        "auroc": {
+          "mean": 0.6440512883302684,
+          "seed_min": 0.6295853278925916,
+          "seed_max": 0.6572297426165008
+        },
+        "auprc": {
+          "mean": 0.19356384428500434,
+          "seed_min": 0.17820323411724415,
+          "seed_max": 0.20701642340015255
+        },
+        "mean_prediction": {
+          "mean": 0.3828554724308358,
+          "seed_min": 0.38094676678763173,
+          "seed_max": 0.3862087101923538
+        },
+        "calibration_in_large_offset": {
+          "mean": -1.4979900624738878,
+          "seed_min": -1.5084679069398816,
+          "seed_max": -1.484474661412956
+        },
+        "calibration_intercept": {
+          "mean": -1.5355679360647785,
+          "seed_min": -1.5651014023567613,
+          "seed_max": -1.5030641454097815
+        },
+        "calibration_slope": {
+          "mean": 0.8647440241427076,
+          "seed_min": 0.76828799776039,
+          "seed_max": 0.9419410616480742
+        },
+        "ece_10_equal_width": {
+          "mean": 0.25118199720344253,
+          "seed_min": 0.24920364752157667,
+          "seed_max": 0.2544655909262988
+        }
+      },
+      "nested_calibrated": {
+        "brier": {
+          "mean": 0.1115387486893565,
+          "seed_min": 0.11077069685458295,
+          "seed_max": 0.11252911692194821
+        },
+        "auroc": {
+          "mean": 0.6405700417003182,
+          "seed_min": 0.6266255707009939,
+          "seed_max": 0.6536024506883731
+        },
+        "auprc": {
+          "mean": 0.189516554945892,
+          "seed_min": 0.17395808999891466,
+          "seed_max": 0.20305025975246477
+        },
+        "mean_prediction": {
+          "mean": 0.1384584360857303,
+          "seed_min": 0.1364249643858109,
+          "seed_max": 0.13985264173244702
+        },
+        "calibration_in_large_offset": {
+          "mean": -0.0591380780382277,
+          "seed_min": -0.07128761132447599,
+          "seed_max": -0.0414585530887311
+        },
+        "calibration_intercept": {
+          "mean": -0.061251966303775406,
+          "seed_min": -0.33297948436891717,
+          "seed_max": 0.1828042609417154
+        },
+        "calibration_slope": {
+          "mean": 0.9988492152597026,
+          "seed_min": 0.8439676295113226,
+          "seed_max": 1.135819114406801
+        },
+        "ece_10_equal_width": {
+          "mean": 0.008417608095322061,
+          "seed_min": 0.005792301468767478,
+          "seed_max": 0.016155661461052864
+        }
+      }
+    },
+    "exposure_prior": {
+      "raw": {
+        "brier": {
+          "mean": 0.16526637239690797,
+          "seed_min": 0.16345956555473423,
+          "seed_max": 0.16788636669347312
+        },
+        "auroc": {
+          "mean": 0.7141509122974732,
+          "seed_min": 0.6971452588551368,
+          "seed_max": 0.7233309865621844
+        },
+        "auprc": {
+          "mean": 0.2851252974956145,
+          "seed_min": 0.2611645733513966,
+          "seed_max": 0.3019299604189132
+        },
+        "mean_prediction": {
+          "mean": 0.3686456644836288,
+          "seed_min": 0.3658343720178702,
+          "seed_max": 0.3713570911633716
+        },
+        "calibration_in_large_offset": {
+          "mean": -1.4487801947456336,
+          "seed_min": -1.4574493198744667,
+          "seed_max": -1.4334044929540932
+        },
+        "calibration_intercept": {
+          "mean": -1.3810500610746885,
+          "seed_min": -1.4078765166772793,
+          "seed_max": -1.3542821294783645
+        },
+        "calibration_slope": {
+          "mean": 1.2557004371327696,
+          "seed_min": 1.1796397132133891,
+          "seed_max": 1.3087318120843405
+        },
+        "ece_10_equal_width": {
+          "mean": 0.237121963608111,
+          "seed_min": 0.23458755671915552,
+          "seed_max": 0.239882907843489
+        }
+      },
+      "nested_calibrated": {
+        "brier": {
+          "mean": 0.10600248221719247,
+          "seed_min": 0.10482330010751831,
+          "seed_max": 0.10732085758747066
+        },
+        "auroc": {
+          "mean": 0.7129470540173347,
+          "seed_min": 0.6961327723059028,
+          "seed_max": 0.7216509652764206
+        },
+        "auprc": {
+          "mean": 0.28165541464238714,
+          "seed_min": 0.25811048258168034,
+          "seed_max": 0.3024307263680992
+        },
+        "mean_prediction": {
+          "mean": 0.1410401701831751,
+          "seed_min": 0.13835174271925257,
+          "seed_max": 0.14386345208243972
+        },
+        "calibration_in_large_offset": {
+          "mean": -0.08511590080361163,
+          "seed_min": -0.10970178334911386,
+          "seed_max": -0.0606510569890548
+        },
+        "calibration_intercept": {
+          "mean": -0.045061301580006846,
+          "seed_min": -0.14726148234615064,
+          "seed_max": 0.06238940107285561
+        },
+        "calibration_slope": {
+          "mean": 1.0249507905661168,
+          "seed_min": 0.968439056716774,
+          "seed_max": 1.0965951530865163
+        },
+        "ece_10_equal_width": {
+          "mean": 0.012869435602302592,
+          "seed_min": 0.008365300412437755,
+          "seed_max": 0.019381592453132302
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Capture and NNS exclude acquisition costs of earlier household results.",
+    "IPW assumes adequate observation modelling and missing at random; it does not reconstruct missing household trajectories.",
+    "Conditional 20-seed CI and fixed-seed full-refit bootstrap describe different uncertainty estimates."
+  ]
+}

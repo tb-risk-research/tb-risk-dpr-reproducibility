@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "completed": 3708,
+  "target": 3708,
+  "completed_lr": 3700,
+  "completed_rf": 8,
+  "elapsed_session_seconds": 3940.7623834609985,
+  "estimated_remaining_seconds": 0.0,
+  "workers": 4,
+  "pid": 13940,
+  "updated_at": "2026-10-02 19:56:43",
+  "error": null
+}

@@ -1,0 +1,390 @@
+{
+  "flow": {
+    "raw_contacts": 2985,
+    "raw_households": 924,
+    "contacts_missing_household_id": 0,
+    "duplicate_contact_ids": 0,
+    "missing_tst": 260,
+    "complete_case_contacts": 2725,
+    "complete_case_households": 877,
+    "positive10": 359,
+    "positive5": 458,
+    "households_no_observed_tst": 47
+  },
+  "numeric": {
+    "ageyears_h": {
+      "All contacts": {
+        "n_nonmissing": 2985,
+        "n_missing": 0,
+        "median": 17.0,
+        "q1": 8.0,
+        "q3": 37.0
+      },
+      "TST recorded": {
+        "n_nonmissing": 2725,
+        "n_missing": 0,
+        "median": 16.0,
+        "q1": 8.0,
+        "q3": 37.0
+      },
+      "TST missing": {
+        "n_nonmissing": 260,
+        "n_missing": 0,
+        "median": 21.0,
+        "q1": 4.0,
+        "q3": 37.25
+      }
+    },
+    "bmi_h": {
+      "All contacts": {
+        "n_nonmissing": 2968,
+        "n_missing": 17,
+        "median": 20.1,
+        "q1": 16.6,
+        "q3": 25.8
+      },
+      "TST recorded": {
+        "n_nonmissing": 2709,
+        "n_missing": 16,
+        "median": 20.2,
+        "q1": 16.6,
+        "q3": 25.7
+      },
+      "TST missing": {
+        "n_nonmissing": 259,
+        "n_missing": 1,
+        "median": 19.8,
+        "q1": 16.35,
+        "q3": 26.4
+      }
+    },
+    "num_contacts": {
+      "All contacts": {
+        "n_nonmissing": 2985,
+        "n_missing": 0,
+        "median": 4.0,
+        "q1": 3.0,
+        "q3": 6.0
+      },
+      "TST recorded": {
+        "n_nonmissing": 2725,
+        "n_missing": 0,
+        "median": 4.0,
+        "q1": 3.0,
+        "q3": 6.0
+      },
+      "TST missing": {
+        "n_nonmissing": 260,
+        "n_missing": 0,
+        "median": 4.0,
+        "q1": 2.0,
+        "q3": 5.0
+      }
+    },
+    "ageyears_i": {
+      "All contacts": {
+        "n_nonmissing": 2985,
+        "n_missing": 0,
+        "median": 36.0,
+        "q1": 27.0,
+        "q3": 46.0
+      },
+      "TST recorded": {
+        "n_nonmissing": 2725,
+        "n_missing": 0,
+        "median": 36.0,
+        "q1": 28.0,
+        "q3": 46.0
+      },
+      "TST missing": {
+        "n_nonmissing": 260,
+        "n_missing": 0,
+        "median": 36.0,
+        "q1": 26.0,
+        "q3": 47.0
+      }
+    },
+    "coughdays_i": {
+      "All contacts": {
+        "n_nonmissing": 2976,
+        "n_missing": 9,
+        "median": 30.0,
+        "q1": 7.0,
+        "q3": 60.0
+      },
+      "TST recorded": {
+        "n_nonmissing": 2718,
+        "n_missing": 7,
+        "median": 30.0,
+        "q1": 7.0,
+        "q3": 60.0
+      },
+      "TST missing": {
+        "n_nonmissing": 258,
+        "n_missing": 2,
+        "median": 30.0,
+        "q1": 7.0,
+        "q3": 60.0
+      }
+    }
+  },
+  "categorical": {
+    "sex_h": {
+      "All contacts": {
+        "Female": 1848,
+        "Male": 1137
+      },
+      "TST recorded": {
+        "Female": 1694,
+        "Male": 1031
+      },
+      "TST missing": {
+        "Female": 154,
+        "Male": 106
+      }
+    },
+    "hivfinal_h": {
+      "All contacts": {
+        "a) HIV negative": 2485,
+        "b) HIV positive": 349,
+        "c) HIV unknown": 148,
+        "<missing>": 3
+      },
+      "TST recorded": {
+        "a) HIV negative": 2335,
+        "b) HIV positive": 293,
+        "c) HIV unknown": 94,
+        "<missing>": 3
+      },
+      "TST missing": {
+        "a) HIV negative": 150,
+        "b) HIV positive": 56,
+        "c) HIV unknown": 54
+      }
+    },
+    "site": {
+      "All contacts": {
+        "Mangaung": 1687,
+        "Capricorn": 1298
+      },
+      "TST recorded": {
+        "Mangaung": 1481,
+        "Capricorn": 1244
+      },
+      "TST missing": {
+        "Mangaung": 206,
+        "Capricorn": 54
+      }
+    },
+    "smoke_h": {
+      "All contacts": {
+        "a) never smoked": 2698,
+        "b) current smoker": 242,
+        "c) previous smoker": 45
+      },
+      "TST recorded": {
+        "a) never smoked": 2465,
+        "b) current smoker": 216,
+        "c) previous smoker": 44
+      },
+      "TST missing": {
+        "a) never smoked": 233,
+        "b) current smoker": 26,
+        "c) previous smoker": 1
+      }
+    },
+    "dead_i": {
+      "All contacts": {
+        "a) Not deceased": 2909,
+        "b) Deceased": 76
+      },
+      "TST recorded": {
+        "a) Not deceased": 2655,
+        "b) Deceased": 70
+      },
+      "TST missing": {
+        "a) Not deceased": 254,
+        "b) Deceased": 6
+      }
+    }
+  },
+  "raw_missing_counts": {
+    "record_id": 0,
+    "contact_id": 0,
+    "sex_h": 0,
+    "relationship_h": 1,
+    "employment_h": 0,
+    "airspace_h": 1,
+    "timespent_h": 3,
+    "genhealth_h": 2,
+    "weight_h": 4,
+    "height_h": 17,
+    "smoke_h": 0,
+    "alcohol_h": 0,
+    "art_h": 2660,
+    "cough_h": 0,
+    "haemopt_h": 0,
+    "wl_h": 0,
+    "ns_h": 0,
+    "fev_h": 9,
+    "diabetes_h": 3,
+    "h59": 256,
+    "h60": 262,
+    "tstdiam_h": 260,
+    "hivfinal_h": 3,
+    "ageyears_h": 0,
+    "sleepsamebed_h": 0,
+    "sharebedroom_h": 0,
+    "bmi_h": 17,
+    "tstdone_h": 0,
+    "tstread_h": 0,
+    "site": 0,
+    "dead_i": 0,
+    "sex_i": 0,
+    "xpert_i": 0,
+    "culture_i": 0,
+    "smear_i": 0,
+    "weight_i": 75,
+    "height_i": 76,
+    "smoke_i": 0,
+    "alcohol_i": 0,
+    "hiv_i": 0,
+    "cd4_i": 2447,
+    "art_i": 0,
+    "coughdays_i": 9,
+    "ageyears_i": 0,
+    "microconf_i": 0,
+    "bmi_i": 76,
+    "housetype_h": 0,
+    "totalrooms_h": 203,
+    "windows_h": 9,
+    "numsmokers_h": 42,
+    "pipedwater_h": 7,
+    "toilet_h": 13,
+    "death1year_h": 5,
+    "num_contacts": 0,
+    "tst_observed": 0
+  },
+  "baseline_features": [
+    "contact_age",
+    "age_lt5",
+    "age_ge45",
+    "contact_sex_m",
+    "hiv_pos_h",
+    "hiv_unknown_h",
+    "bmi_h",
+    "smoke_ever_h",
+    "diabetes_h_f",
+    "site_capricorn",
+    "hh_n_contacts",
+    "idx_coughdays",
+    "idx_smear_pos",
+    "idx_smear_known",
+    "idx_xpert_pos",
+    "idx_hiv_pos",
+    "idx_age",
+    "idx_sex_m",
+    "idx_dead",
+    "ts_low",
+    "ts_mid",
+    "ts_high",
+    "share_bedroom",
+    "sleep_same_bed",
+    "airspace_shared",
+    "rel_child",
+    "rel_spouse",
+    "rel_sibling",
+    "rel_parent"
+  ],
+  "prior_features": [
+    "prior_n",
+    "prior_pos",
+    "prior_rate",
+    "prior_screened"
+  ],
+  "rf_parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": 7,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 2,
+    "min_samples_split": 5,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 300,
+    "n_jobs": null,
+    "oob_score": false,
+    "random_state": 0,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "seed0_folds": [
+    {
+      "fold": 0,
+      "train_n": 2156,
+      "test_n": 569,
+      "train_households": 699,
+      "test_households": 178,
+      "test_events": 70
+    },
+    {
+      "fold": 1,
+      "train_n": 2228,
+      "test_n": 497,
+      "train_households": 704,
+      "test_households": 173,
+      "test_events": 65
+    },
+    {
+      "fold": 2,
+      "train_n": 2103,
+      "test_n": 622,
+      "train_households": 699,
+      "test_households": 178,
+      "test_events": 82
+    },
+    {
+      "fold": 3,
+      "train_n": 2166,
+      "test_n": 559,
+      "train_households": 697,
+      "test_households": 180,
+      "test_events": 81
+    },
+    {
+      "fold": 4,
+      "train_n": 2247,
+      "test_n": 478,
+      "train_households": 709,
+      "test_households": 168,
+      "test_events": 61
+    }
+  ],
+  "issues": [
+    {
+      "variable": "idx_dead",
+      "severity": "requires temporal availability confirmation",
+      "reason": "Derived from dead_i. The code does not establish whether death status was known at contact ranking; include exclusion sensitivity if timing cannot be verified."
+    },
+    {
+      "variable": "smoke_ever_h",
+      "severity": "coding review",
+      "mapping": {
+        "a) never smoked": true,
+        "b) current smoker": false,
+        "c) previous smoker": false
+      },
+      "reason": "Code uses substring smoked rather than explicit category whitelist; mapping must be checked against labels."
+    }
+  ],
+  "source_sha256": "748694c26c80ed7dfd275c8a7d57d226b432ac133c2c336113085db5d17cbf8b",
+  "versions": {
+    "python": "3.12.14"
+  },
+  "classification": "descriptive local-data audit; no clinical date reconstruction"
+}

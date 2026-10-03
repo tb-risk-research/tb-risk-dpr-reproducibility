@@ -1,0 +1,255 @@
+{
+  "source_rows": 2985,
+  "source_households": 924,
+  "analysis_rows": 2725,
+  "analysis_households": 877,
+  "events": 359,
+  "outcome": "TST induration >=10 mm; missing TST excluded from primary analysis",
+  "predictor_table_cells": [
+    [
+      "Predictor",
+      "Raw variable",
+      "Frozen coding / missing handling",
+      "Availability assumption",
+      "Raw empty: all / complete case"
+    ],
+    [
+      "contact_age",
+      "ageyears_h",
+      "Age, numeric",
+      "Questionnaire/census assumed available; no individual timestamp",
+      "0/0"
+    ],
+    [
+      "age_lt5",
+      "ageyears_h",
+      "Age <5 years",
+      "Derived from age",
+      "0/0"
+    ],
+    [
+      "age_ge45",
+      "ageyears_h",
+      "Age >=45 years",
+      "Derived from age",
+      "0/0"
+    ],
+    [
+      "contact_sex_m",
+      "sex_h",
+      "Male=1; Female=0",
+      "Census assumed available",
+      "0/0"
+    ],
+    [
+      "hiv_pos_h",
+      "hivfinal_h",
+      "HIV positive=1; unknown/empty not positive",
+      "Test/history result timing not separable",
+      "3/3"
+    ],
+    [
+      "hiv_unknown_h",
+      "hivfinal_h",
+      "Explicit HIV unknown=1; raw empty=0 in frozen coding",
+      "Test/history timing not separable",
+      "3/3"
+    ],
+    [
+      "bmi_h",
+      "bmi_h",
+      "Numeric; restore raw missing; training-fold median",
+      "Anthropometry must precede ranking; cost not measured",
+      "17/16"
+    ],
+    [
+      "smoke_ever_h",
+      "smoke_h",
+      "Actually never-smoking=1; current/previous=0",
+      "Questionnaire assumed available; legacy name misleading",
+      "0/0"
+    ],
+    [
+      "diabetes_h_f",
+      "diabetes_h",
+      "Yes=1; No and raw empty=0",
+      "History question; empty differs from negative",
+      "3/1"
+    ],
+    [
+      "site_capricorn",
+      "site",
+      "Capricorn=1; Mangaung=0",
+      "Study-site context",
+      "0/0"
+    ],
+    [
+      "hh_n_contacts",
+      "num_contacts",
+      "Original roster size, not complete-case household size",
+      "Full household roster assumed known before ranking",
+      "0/0"
+    ],
+    [
+      "idx_coughdays",
+      "coughdays_i",
+      "Numeric; raw missing fixed at 30 days",
+      "Index history; individual collection time absent",
+      "9/7"
+    ],
+    [
+      "idx_smear_pos",
+      "smear_i",
+      "Smear positive=1; negative/not done=0",
+      "Index laboratory availability time absent",
+      "0/0"
+    ],
+    [
+      "idx_smear_known",
+      "smear_i",
+      "Positive or negative=1; not done=0",
+      "Explicit test-not-done distinction",
+      "0/0"
+    ],
+    [
+      "idx_xpert_pos",
+      "xpert_i",
+      "Xpert positive=1; negative/not done=0",
+      "Index laboratory availability time absent",
+      "0/0"
+    ],
+    [
+      "idx_hiv_pos",
+      "hiv_i",
+      "HIV positive=1; negative/unknown=0",
+      "Index history/test timing absent",
+      "0/0"
+    ],
+    [
+      "idx_age",
+      "ageyears_i",
+      "Numeric age",
+      "Index registration assumed available",
+      "0/0"
+    ],
+    [
+      "idx_sex_m",
+      "sex_i",
+      "Male=1; Female=0",
+      "Index registration assumed available",
+      "0/0"
+    ],
+    [
+      "idx_dead",
+      "dead_i",
+      "Deceased=1; not deceased=0",
+      "Deceased index cases eligible in source study; timing per row absent",
+      "0/0"
+    ],
+    [
+      "ts_low",
+      "timespent_h",
+      "a) every now and again=1",
+      "Exposure history; recalled",
+      "3/2"
+    ],
+    [
+      "ts_mid",
+      "timespent_h",
+      "Neither low nor high=1; missing assigned middle",
+      "Exposure history; raw missing neutralized",
+      "3/2"
+    ],
+    [
+      "ts_high",
+      "timespent_h",
+      "c) most of the day=1",
+      "Exposure history; recalled",
+      "3/2"
+    ],
+    [
+      "share_bedroom",
+      "sharebedroom_h",
+      "Yes=1; No=0",
+      "Exposure history",
+      "0/0"
+    ],
+    [
+      "sleep_same_bed",
+      "sleepsamebed_h",
+      "Yes=1; No=0",
+      "Exposure history",
+      "0/0"
+    ],
+    [
+      "airspace_shared",
+      "airspace_h",
+      "Yes=1; No and raw empty=0",
+      "Exposure history; empty differs from No",
+      "1/1"
+    ],
+    [
+      "rel_child",
+      "relationship_h",
+      "Exact Child=1",
+      "Relationship from census",
+      "1/1"
+    ],
+    [
+      "rel_spouse",
+      "relationship_h",
+      "Exact Spouse=1",
+      "Relationship from census",
+      "1/1"
+    ],
+    [
+      "rel_sibling",
+      "relationship_h",
+      "Exact Brother/sister=1",
+      "Relationship from census",
+      "1/1"
+    ],
+    [
+      "rel_parent",
+      "relationship_h",
+      "Frozen match Parent; actual label Parent/Parent-in-law",
+      "Coding mismatch: frozen column constant zero",
+      "1/1"
+    ],
+    [
+      "prior_n",
+      "earlier same-household TST",
+      "Count of results assumed available earlier",
+      "Simulated; observed return times absent",
+      "Structural zero for first member"
+    ],
+    [
+      "prior_pos",
+      "earlier same-household TST",
+      "Positive count excluding target",
+      "Same availability constraint",
+      "Structural zero for first member"
+    ],
+    [
+      "prior_rate",
+      "prior_pos/prior_n",
+      "Training-fold prevalence fallback when prior_n=0",
+      "Same availability constraint",
+      "Undefined rate replaced within fold"
+    ],
+    [
+      "prior_screened",
+      "prior_n",
+      "Indicator prior_n>0",
+      "Same availability constraint",
+      "Structural zero for first member"
+    ]
+  ],
+  "individual_timestamp_fields": [],
+  "known_frozen_coding_defects": [
+    "rel_parent constant because Parent/Parent-in-law not matched",
+    "smoke_ever_h means never-smoking; name is misleading",
+    "Unknown, not done and true missing retained as distinct reporting categories"
+  ],
+  "rule": "Do not silently replace frozen primary coding with sensitivity coding."
+}

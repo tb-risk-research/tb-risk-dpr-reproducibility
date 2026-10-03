@@ -1,0 +1,26 @@
+{
+  "scientific_validation_reused": true,
+  "this_adjustment_training_runs": 0,
+  "previous_selected_fit_families": 6,
+  "previous_final_zip_seed0_check": "passed",
+  "previous_environment": "Python 3.12.14, Windows, separate venv; offline copied existing dependencies; wheel built/installed",
+  "previous_data_fetch_and_sha256": "passed",
+  "previous_synthetic_records_reconstructed": 3708,
+  "previous_figures_pixel_checked": 7,
+  "previous_accepted_tables_checked": 14,
+  "previous_runner_contract_tests": 7,
+  "unverified": [
+    "All experimental repetitions from scratch",
+    "Fresh dependency installation from PyPI",
+    "Linux",
+    "All non-DPR optional project modules",
+    "Real clinical implementation"
+  ],
+  "table_export_scope": "Accepted 14-table snapshots, not automatic regenerated manuscript tables",
+  "current_verification_scope": "No training; executable/config/result/required-protocol hash equality; task/dependency closure; CLI manifest audit; isolated snapshot preparation; ZIP inventory/hash validation",
+  "publication_status": "Private team repository prepared; public release and DOI pending",
+  "project_licence_notice": "Copyright holder reported as Zhenyao Guo; explicit MIT release authorization scope pending",
+  "repository_url": "https://github.com/tb-risk-research/tb-risk-dpr-reproducibility",
+  "history_scope": "Clean initial commit; complete original history retained locally",
+  "github_actions_enabled": false
+}

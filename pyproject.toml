@@ -1,0 +1,231 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tb_risk"
+version = "5.0.0"
+description = "结核病SEIR传播动力学模型：家庭社会关系网络分析工具"
+authors = [{name = "郭臻尧"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Healthcare Industry",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.optional-dependencies]
+health_interop = [
+    "requests>=2.28.0",
+    "psycopg2-binary>=2.9.0",
+    "pymysql>=1.0.0",
+    "lxml>=4.9.0",
+    "zeep>=4.2.0",
+]
+full = [
+    "numpy>=1.20.0",
+    "scipy>=1.7.0",
+    "matplotlib>=3.4.0",
+    "seaborn>=0.11.0",
+    "scikit-learn>=1.0.0",
+    "xgboost>=1.5.0",
+    "lightgbm>=3.3.0",
+    "catboost>=1.0.0",
+    "shap>=0.40.0",
+    "joblib>=1.1.0",
+    "statsmodels>=0.13.5",
+    "openpyxl>=3.0.0",
+    "reportlab>=3.6.0",
+    "click>=8.0.0",
+    "requests>=2.28.0",
+    "psycopg2-binary>=2.9.0",
+    "pymysql>=1.0.0",
+    "lxml>=4.9.0",
+    "zeep>=4.2.0",
+    "httpx>=0.24.0",
+    "tenacity>=8.0.0",
+]
+cli = [
+    "click>=8.0.0",
+]
+ml = [
+    "numpy>=1.20.0",
+    "scipy>=1.7.0",
+    "scikit-learn>=1.0.0",
+    "xgboost>=1.5.0",
+    "lightgbm>=3.3.0",
+    "catboost>=1.0.0",
+    "shap>=0.40.0",
+    "joblib>=1.1.0",
+    "statsmodels>=0.13.5",
+]
+gnn = [
+    "torch>=1.10.0",
+    "torch-geometric>=2.0.0",
+]
+viz = [
+    "matplotlib>=3.4.0",
+    "seaborn>=0.11.0",
+]
+export = [
+    "openpyxl>=3.0.0",
+    "reportlab>=3.6.0",
+]
+ai = [
+    "httpx>=0.24.0",
+    "tenacity>=8.0.0",
+]
+# ai_local 为 ai（远程调用）的超集 + 本地大模型专属依赖，
+# 一键 `pip install -e '.[ai_local]'` 即具备完整本地 AI 能力（模型推理 + 中文分词检索）。
+ai_local = [
+    "httpx>=0.24.0",
+    "tenacity>=8.0.0",
+    "torch>=1.10.0",
+    "transformers>=4.30.0",
+    "jieba>=0.42.1",
+]
+api = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.25.0",
+    "pydantic>=2.0.0",
+]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "pytest-timeout>=2.1.0",
+    "hypothesis>=6.0.0",
+    "black>=23.0.0",
+    "isort>=5.0.0",
+    "openpyxl>=3.0.0",
+    "reportlab>=3.6.0",
+    "click>=8.0.0",
+    "httpx>=0.24.0",
+    "tenacity>=8.0.0",
+    "flake8>=6.0.0",
+]
+
+[project.scripts]
+tb-risk = "tb_risk.main:main"
+
+[tool.setuptools]
+# 项目采用"flat layout"但包目录=项目根目录（即 tb_risk/ 本身就是包）。
+# 使用 package-dir 显式告诉 setuptools：名为 "tb_risk" 的包，代码就在 "."。
+package-dir = {"tb_risk" = "."}
+# 显式枚举全部子包。原因：packages.find 在此布局下会把根下子目录识别为顶层包名
+# （core/gui/seir/...），被 include=["tb_risk","tb_risk.*"] 全部过滤，导致普通
+# wheel 缺失所有子包（2026-09-21 Docker CI 实测 ModuleNotFoundError 的根因之一）。
+# 注意：新增包目录时需同步此清单（找 __init__.py 即包）。
+packages = [
+    "tb_risk",
+    "tb_risk.ai",
+    "tb_risk.api",
+    "tb_risk.cli",
+    "tb_risk.core",
+    "tb_risk.data",
+    "tb_risk.data_io",
+    "tb_risk.export_utils",
+    "tb_risk.gui",
+    "tb_risk.gui.charts",
+    "tb_risk.gui.charts.network_charts",
+    "tb_risk.gui.deploy_panel",
+    "tb_risk.gui.import_panel",
+    "tb_risk.gui.results_panel",
+    "tb_risk.gui.tabs",
+    "tb_risk.gui.training_panel",
+    "tb_risk.gui.training_panel.ml_tab",
+    "tb_risk.gui.wizard",
+    "tb_risk.health_interop",
+    "tb_risk.health_interop.adapters",
+    "tb_risk.health_interop.fhir",
+    "tb_risk.health_interop.hl7v2",
+    "tb_risk.health_interop.mapping",
+    "tb_risk.health_interop.messaging",
+    "tb_risk.health_interop.terminology",
+    "tb_risk.karamay",
+    "tb_risk.ml",
+    "tb_risk.ml.framework",
+    "tb_risk.ml.gnn",
+    "tb_risk.ml.uncertainty",
+    "tb_risk.ops",
+    "tb_risk.persistence",
+    "tb_risk.scoring",
+    "tb_risk.scoring.ml",
+    "tb_risk.scoring.ml.gnn_scalable",
+    "tb_risk.scoring.ml.gnn_training",
+    "tb_risk.security",
+    "tb_risk.seir",
+    "tb_risk.seir.extensions",
+    "tb_risk.seir.inference",
+    "tb_risk.seir.uncertainty",
+    "tb_risk.tests",
+    "tb_risk.validation",
+    "tb_risk.validation.causal",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-v",
+    "--tb=short",
+]
+markers = [
+    "slow: marks tests as slow (deselect with -m 'not slow')",
+]
+# 精确忽略第三方库(matplotlib 内部调用 pyparsing)的废弃 API 警告
+# 背景:matplotlib 3.9.x 仍使用 pyparsing camelCase API(oneOf/parseString/resetCache/enablePackrat),
+# 这些 API 在 pyparsing 3.x 中被弃用。matplotlib 3.10+ 已修复但需 Python 3.10+,
+# 本项目运行于 Python 3.9,故通过 filterwarnings 精确屏蔽这 4 类警告。
+# 注意:pyparsing.util.PyparsingDeprecationWarning 在部分 pyparsing 3.x 版本中不存在
+# (AttributeError: module 'pyparsing.util' has no attribute 'PyparsingDeprecationWarning'),
+# 导致 pytest 解析 filterwarnings 时直接报错退出。改用标准库 DeprecationWarning + module 限定,
+# 既能匹配相同警告，又避免因类别不存在而崩溃。
+filterwarnings = [
+    "ignore:'oneOf' deprecated:DeprecationWarning:pyparsing",
+    "ignore:'parseString' deprecated:DeprecationWarning:pyparsing",
+    "ignore:'resetCache' deprecated:DeprecationWarning:pyparsing",
+    "ignore:'enablePackrat' deprecated:DeprecationWarning:pyparsing",
+]
+
+[tool.coverage.run]
+source = ["tb_risk"]
+omit = [
+    "*/tests/*",
+    "*/__pycache__/*",
+    "*/_GNNFrameworkPlaceholder*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if settings.DEBUG",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+line_length = 100

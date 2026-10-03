@@ -1,0 +1,35 @@
+{
+  "purpose": "Independent DPR paper reproduction repository",
+  "source_repository": "https://github.com/tiande888/tb_risk",
+  "base_commit": "3cc3c82f42dbf1e2bb8c3c4209e078a99db7c5c7",
+  "recommended_repository_name": "tb-risk-dpr-reproducibility",
+  "remote_repository_created": true,
+  "local_git_history_preserved": true,
+  "local_git_config_unchanged": true,
+  "default_delivery": "independent_repository",
+  "future_upstream_contributions": "Selective general improvements only, separately authorised",
+  "added": [
+    "DPR protocols and experiment runners",
+    "isolated delivery entry and manifest",
+    "pinned dependencies and dataset acquisition",
+    "aggregate evidence and synthetic journal",
+    "dictionary, table snapshots and validation checks"
+  ],
+  "modified": [
+    "Portable figure source paths",
+    "simulation reporting without manuscript writes",
+    "root/DPR documentation and release policy"
+  ],
+  "this_revision_changes": [
+    "Documentation",
+    "source/validation metadata",
+    "curated upload scope"
+  ],
+  "this_revision_model_fits": 0,
+  "data_archive_role": "private local handoff only; fetched from fixed author version for public reproduction",
+  "local_history_publication": "Not uploaded; retained in D:\\tb_risk_DPR; original source/base documented",
+  "repository_url": "https://github.com/tb-risk-research/tb-risk-dpr-reproducibility",
+  "repository_visibility": "private",
+  "history_delivery": "Clean initial commit authorised by user; full source history retained locally",
+  "github_actions_enabled": false
+}

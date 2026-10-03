@@ -1,0 +1,102 @@
+name: 文档翻译 (English → 中文)
+
+on:
+  workflow_dispatch: # 支持手动触发：Actions → 文档翻译 → Run workflow
+  push:
+    branches: [main, master]
+    paths:
+      - 'README.md'
+      - 'docs/**'
+
+permissions:
+  contents: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: 翻译英文文档为中文
+        env:
+          # 可选：设置 TRANSLATE_API_KEY 后可使用需要密钥的翻译服务；
+          # 不设置时默认使用免费的 MyMemory 公共 API（无需注册）。
+          TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}
+        run: |
+          python - <<'PY'
+          import glob, json, os, re, urllib.parse, urllib.request
+
+          API_KEY = os.environ.get("TRANSLATE_API_KEY", "").strip()
+
+          def has_chinese(text):
+              return re.search(r"[\u4e00-\u9fff]", text) is not None
+
+          def translate(line):
+              """将单行英文翻译为中文（跳过代码块与空行）。"""
+              if API_KEY:
+                  # 预留：接入自定义翻译服务时在此扩展（如 DeepL / 百度 / 腾讯）
+                  return line
+              q = urllib.parse.quote(line)
+              url = "https://api.mymemory.translated.net/get?q={}&langpair=en|zh-CN".format(q)
+              try:
+                  with urllib.request.urlopen(url, timeout=20) as resp:
+                      data = json.loads(resp.read().decode("utf-8"))
+                  status = data.get("responseStatus", 200)
+                  if status != 200:
+                      return line
+                  t = data["responseData"]["translatedText"]
+                  return t if t else line
+              except Exception as exc:
+                  print("  [warn] 翻译失败:", exc)
+                  return line
+
+          # 待翻译的目标文件：README + docs 下全部 Markdown
+          targets = ["README.md"] + sorted(glob.glob("docs/*.md"))
+          changed = False
+
+          for path in targets:
+              if not os.path.exists(path):
+                  continue
+              with open(path, encoding="utf-8") as f:
+                  content = f.read()
+              # 已是中文的文档直接跳过，避免重复翻译/死循环
+              if has_chinese(content):
+                  print("[skip] {} 已是中文，跳过".format(path))
+                  continue
+
+              print("[translate] {} ...".format(path))
+              lines = content.split("\n")
+              out = []
+              in_code = False
+              for line in lines:
+                  if line.lstrip().startswith("```"):
+                      in_code = not in_code
+                      out.append(line)
+                      continue
+                  if in_code or not line.strip():
+                      out.append(line)
+                      continue
+                  out.append(translate(line))
+
+              out_path = re.sub(r"\.md$", "", path) + ".zh-CN.md"
+              with open(out_path, "w", encoding="utf-8") as f:
+                  f.write("\n".join(out))
+              changed = True
+              print("  -> 已生成 {}".format(out_path))
+
+          if not changed:
+              print("没有需要翻译的英文文档，退出。")
+          PY
+
+      - name: 提交翻译结果
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: 自动生成中文翻译 (auto translate)"
+            git push
+            echo "已提交并推送翻译结果"
+          else
+            echo "无变更，无需提交"
+          fi

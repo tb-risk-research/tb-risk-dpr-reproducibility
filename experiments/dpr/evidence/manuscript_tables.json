@@ -1,0 +1,1951 @@
+{
+  "main": [
+    [
+      [
+        "Characteristic",
+        "All contacts (N=2985)",
+        "TST recorded (N=2725)",
+        "TST missing (N=260)"
+      ],
+      [
+        "Households represented",
+        "924",
+        "877",
+        "176"
+      ],
+      [
+        "Contact age, years",
+        "17.0 [8.0, 37.0]",
+        "16.0 [8.0, 37.0]",
+        "21.0 [4.0, 37.2]"
+      ],
+      [
+        "Contact age, years missing",
+        "0 (0.0%)",
+        "0 (0.0%)",
+        "0 (0.0%)"
+      ],
+      [
+        "Contact BMI, kg/m²",
+        "20.1 [16.6, 25.8]",
+        "20.2 [16.6, 25.7]",
+        "19.8 [16.4, 26.4]"
+      ],
+      [
+        "Contact BMI, kg/m² missing",
+        "17 (0.6%)",
+        "16 (0.6%)",
+        "1 (0.4%)"
+      ],
+      [
+        "Female",
+        "1848 (61.9%)",
+        "1694 (62.2%)",
+        "154 (59.2%)"
+      ],
+      [
+        "Male",
+        "1137 (38.1%)",
+        "1031 (37.8%)",
+        "106 (40.8%)"
+      ],
+      [
+        "HIV negative",
+        "2485 (83.2%)",
+        "2335 (85.7%)",
+        "150 (57.7%)"
+      ],
+      [
+        "HIV positive",
+        "349 (11.7%)",
+        "293 (10.8%)",
+        "56 (21.5%)"
+      ],
+      [
+        "HIV status explicitly unknown",
+        "148 (5.0%)",
+        "94 (3.4%)",
+        "54 (20.8%)"
+      ],
+      [
+        "HIV status empty",
+        "3 (0.1%)",
+        "3 (0.1%)",
+        "0 (0.0%)"
+      ],
+      [
+        "Mangaung site",
+        "1687 (56.5%)",
+        "1481 (54.3%)",
+        "206 (79.2%)"
+      ],
+      [
+        "Capricorn site",
+        "1298 (43.5%)",
+        "1244 (45.7%)",
+        "54 (20.8%)"
+      ],
+      [
+        "TST >=10 mm",
+        "359/2985 (12.0%; outcome missing for 260)",
+        "359/2725 (13.2%)",
+        "Not observed"
+      ],
+      [
+        "TST <10 mm",
+        "2366/2985 (79.3%; outcome missing for 260)",
+        "2366/2725 (86.8%)",
+        "Not observed"
+      ]
+    ],
+    [
+      [
+        "Measure",
+        "Exposure model",
+        "Exposure + SOP model",
+        "Paired difference or interpretation"
+      ],
+      [
+        "AUROC",
+        "0.644",
+        "0.714",
+        "+0.070 (conditional 95% CI +0.048 to +0.091)"
+      ],
+      [
+        "AUPRC",
+        "0.194",
+        "0.285",
+        "Descriptive 20-seed mean"
+      ],
+      [
+        "Fully nested-calibrated Brier score difference",
+        "—",
+        "—",
+        "−0.0055 (conditional 95% CI −0.0080 to −0.0032); lower is better"
+      ],
+      [
+        "Capture at 5% budget",
+        "8.4%",
+        "15.6%",
+        "Simulated ranking efficiency"
+      ],
+      [
+        "Capture at 10% budget",
+        "16.3%",
+        "26.2%",
+        "NNS: 4.71 versus 2.91"
+      ],
+      [
+        "Capture at 20% budget",
+        "31.8%",
+        "42.7%",
+        "Simulated ranking efficiency"
+      ],
+      [
+        "Capture at 30% budget",
+        "46.2%",
+        "55.7%",
+        "Simulated ranking efficiency"
+      ],
+      [
+        "IPW sensitivity AUROC difference",
+        "—",
+        "—",
+        "+0.070 (conditional household-bootstrap 95% CI +0.047 to +0.091); full-refit mean +0.063 (95% CI +0.030 to +0.103; 300 replicates, fixed seed 0)"
+      ]
+    ],
+    [
+      [
+        "Analysis",
+        "Result",
+        "Interpretation retained in manuscript"
+      ],
+      [
+        "Full-pipeline household bootstrap",
+        "ΔAUROC +0.063 (95% CI +0.033 to +0.099)",
+        "The primary result was robust to household resampling and refitting."
+      ],
+      [
+        "Logistic-regression replication",
+        "Same-four-feature LR ΔAUROC +0.059 (conditional 95% CI +0.039 to +0.081); corrected single-rate LR +0.059 (+0.039 to +0.079)",
+        "The direction did not depend entirely on random forest flexibility."
+      ],
+      [
+        "Global outcome permutation",
+        "ΔAUROC +0.002 (95% CI −0.002 to +0.006)",
+        "Global permutation removed the detectable gain; this alone does not identify its sole source."
+      ],
+      [
+        "Missing-outcome IPW sensitivity",
+        "ΔAUROC +0.070 [conditional 95% CI +0.047,+0.091]; full-refit mean +0.063 [+0.030,+0.103]",
+        "The direction persisted under the specified observation-model assumptions."
+      ],
+      [
+        "Within-household outcome permutation",
+        "ΔAUROC +0.061 (95% CI +0.039 to +0.082)",
+        "Benefit was consistent with household positive-count information."
+      ],
+      [
+        "Fold-clean future-result control",
+        "Future gain +0.066; future minus SOP −0.0041 [conditional 95% CI −0.0075, −0.0010]; matched-window past minus future +0.0015 [−0.0005, +0.0037] and +0.0008 [−0.0015, +0.0033]",
+        "Unmatched and matched contrasts differ; neither identifies a causal time mechanism."
+      ],
+      [
+        "Strengthened known-truth simulation",
+        "Time-only: order-specific output 6/100; both strong mechanisms: 0/100, all indeterminate; household-only/age-sorted: 36/100",
+        "Predictive order contrasts do not identify causal mechanisms; diagnostic abstention does not establish attribution reliability."
+      ]
+    ],
+    [
+      [
+        "Baseline",
+        "Total budget",
+        "Static capture",
+        "Charged cascade capture",
+        "Difference, percentage points [conditional 95% CI]",
+        "Mean NNS"
+      ],
+      [
+        "RF",
+        "10%",
+        "16.3%",
+        "19.1%",
+        "+2.80 [+0.94, +4.81]",
+        "4.71 → 4.01"
+      ],
+      [
+        "RF",
+        "20%",
+        "31.8%",
+        "34.3%",
+        "+2.48 [+0.73, +4.00]",
+        "4.78 → 4.43"
+      ],
+      [
+        "RF",
+        "30%",
+        "46.2%",
+        "47.7%",
+        "+1.56 [+0.15, +2.92]",
+        "4.94 → 4.78"
+      ],
+      [
+        "LR",
+        "10%",
+        "17.7%",
+        "20.8%",
+        "+3.11 [+0.60, +5.65]",
+        "4.33 → 3.67"
+      ],
+      [
+        "LR",
+        "20%",
+        "32.7%",
+        "34.2%",
+        "+1.46 [-0.90, +3.85]",
+        "4.65 → 4.45"
+      ],
+      [
+        "LR",
+        "30%",
+        "49.5%",
+        "48.6%",
+        "-0.86 [-3.28, +1.52]",
+        "4.61 → 4.69"
+      ]
+    ],
+    [
+      [
+        "Measure",
+        "Baseline",
+        "SOP"
+      ],
+      [
+        "Brier score",
+        "0.1115",
+        "0.1060"
+      ],
+      [
+        "Mean predicted probability",
+        "0.1385",
+        "0.1410"
+      ],
+      [
+        "Calibration-in-the-large offset",
+        "-0.0591",
+        "-0.0851"
+      ],
+      [
+        "Joint calibration intercept",
+        "-0.0613",
+        "-0.0451"
+      ],
+      [
+        "Calibration slope",
+        "0.9988",
+        "1.0250"
+      ],
+      [
+        "ECE (10 equal-width bins)",
+        "0.0084",
+        "0.0129"
+      ]
+    ],
+    [
+      [
+        "Household strength σ",
+        "Time-trigger strength γ",
+        "Mean ΔAUROC",
+        "No detectable gain",
+        "Order-specific signal",
+        "Household-structure consistent",
+        "Indeterminate"
+      ],
+      [
+        "0",
+        "0",
+        "-0.0033",
+        "100",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "+0.0263",
+        "0",
+        "12",
+        "1",
+        "87"
+      ],
+      [
+        "0",
+        "2",
+        "+0.0897",
+        "0",
+        "6",
+        "0",
+        "94"
+      ],
+      [
+        "0.8",
+        "0",
+        "+0.0090",
+        "77",
+        "3",
+        "0",
+        "20"
+      ],
+      [
+        "0.8",
+        "1",
+        "+0.0617",
+        "0",
+        "4",
+        "0",
+        "96"
+      ],
+      [
+        "0.8",
+        "2",
+        "+0.1251",
+        "0",
+        "2",
+        "0",
+        "98"
+      ],
+      [
+        "1.6",
+        "0",
+        "+0.0889",
+        "0",
+        "4",
+        "0",
+        "96"
+      ],
+      [
+        "1.6",
+        "1",
+        "+0.1462",
+        "0",
+        "1",
+        "0",
+        "99"
+      ],
+      [
+        "1.6",
+        "2",
+        "+0.1951",
+        "0",
+        "0",
+        "0",
+        "100"
+      ]
+    ],
+    [
+      [
+        "Model",
+        "AUROC",
+        "AUPRC",
+        "Capture at 10% free-evidence budget"
+      ],
+      [
+        "RF baseline",
+        "0.64405",
+        "0.19356",
+        "16.25%"
+      ],
+      [
+        "RF with four SOP features",
+        "0.71415",
+        "0.28513",
+        "26.18%"
+      ],
+      [
+        "RF with one shrinkage rate",
+        "0.70825",
+        "0.27571",
+        "24.96%"
+      ],
+      [
+        "RF with shrinkage rate, count and availability",
+        "0.70770",
+        "0.27538",
+        "24.85%"
+      ],
+      [
+        "LR baseline",
+        "0.65702",
+        "0.20649",
+        "17.66%"
+      ],
+      [
+        "LR with four SOP features",
+        "0.71647",
+        "0.30850",
+        "28.29%"
+      ],
+      [
+        "LR with one shrinkage rate",
+        "0.71606",
+        "0.30973",
+        "28.54%"
+      ]
+    ]
+  ],
+  "supplement": [
+    [
+      [
+        "Characteristic",
+        "All contacts",
+        "TST recorded",
+        "TST missing"
+      ],
+      [
+        "Census roster size (contact-weighted)",
+        "4.0 [3.0, 6.0]; missing 0",
+        "4.0 [3.0, 6.0]; missing 0",
+        "4.0 [2.0, 5.0]; missing 0"
+      ],
+      [
+        "Index-case age, years (contact-weighted)",
+        "36.0 [27.0, 46.0]; missing 0",
+        "36.0 [28.0, 46.0]; missing 0",
+        "36.0 [26.0, 47.0]; missing 0"
+      ],
+      [
+        "Index cough duration, days (contact-weighted)",
+        "30.0 [7.0, 60.0]; missing 9",
+        "30.0 [7.0, 60.0]; missing 7",
+        "30.0 [7.0, 60.0]; missing 2"
+      ],
+      [
+        "smoke_h = a) never smoked",
+        "2698 (90.4%)",
+        "2465 (90.5%)",
+        "233 (89.6%)"
+      ],
+      [
+        "smoke_h = c) previous smoker",
+        "45 (1.5%)",
+        "44 (1.6%)",
+        "1 (0.4%)"
+      ],
+      [
+        "smoke_h = b) current smoker",
+        "242 (8.1%)",
+        "216 (7.9%)",
+        "26 (10.0%)"
+      ],
+      [
+        "diabetes_h = No",
+        "2936 (98.4%)",
+        "2681 (98.4%)",
+        "255 (98.1%)"
+      ],
+      [
+        "diabetes_h = Yes",
+        "46 (1.5%)",
+        "43 (1.6%)",
+        "3 (1.2%)"
+      ],
+      [
+        "diabetes_h = empty",
+        "3 (0.1%)",
+        "1 (0.0%)",
+        "2 (0.8%)"
+      ],
+      [
+        "relationship_h = Parent/Parent-in-law",
+        "345 (11.6%)",
+        "318 (11.7%)",
+        "27 (10.4%)"
+      ],
+      [
+        "relationship_h = Grandparent",
+        "76 (2.5%)",
+        "73 (2.7%)",
+        "3 (1.2%)"
+      ],
+      [
+        "relationship_h = Other",
+        "799 (26.8%)",
+        "743 (27.3%)",
+        "56 (21.5%)"
+      ],
+      [
+        "relationship_h = Brother/sister",
+        "471 (15.8%)",
+        "433 (15.9%)",
+        "38 (14.6%)"
+      ],
+      [
+        "relationship_h = Grandchild",
+        "304 (10.2%)",
+        "273 (10.0%)",
+        "31 (11.9%)"
+      ],
+      [
+        "relationship_h = Spouse",
+        "256 (8.6%)",
+        "213 (7.8%)",
+        "43 (16.5%)"
+      ],
+      [
+        "relationship_h = Child",
+        "733 (24.6%)",
+        "671 (24.6%)",
+        "62 (23.8%)"
+      ],
+      [
+        "relationship_h = empty",
+        "1 (0.0%)",
+        "1 (0.0%)",
+        "0 (0.0%)"
+      ],
+      [
+        "timespent_h = c) most of the day",
+        "1217 (40.8%)",
+        "1068 (39.2%)",
+        "149 (57.3%)"
+      ],
+      [
+        "timespent_h = b) part of the day",
+        "1401 (46.9%)",
+        "1310 (48.1%)",
+        "91 (35.0%)"
+      ],
+      [
+        "timespent_h = a) every now and again",
+        "364 (12.2%)",
+        "345 (12.7%)",
+        "19 (7.3%)"
+      ],
+      [
+        "timespent_h = empty",
+        "3 (0.1%)",
+        "2 (0.1%)",
+        "1 (0.4%)"
+      ],
+      [
+        "sharebedroom_h = Yes",
+        "498 (16.7%)",
+        "429 (15.7%)",
+        "69 (26.5%)"
+      ],
+      [
+        "sharebedroom_h = No",
+        "2487 (83.3%)",
+        "2296 (84.3%)",
+        "191 (73.5%)"
+      ],
+      [
+        "sleepsamebed_h = No",
+        "2949 (98.8%)",
+        "2689 (98.7%)",
+        "260 (100.0%)"
+      ],
+      [
+        "sleepsamebed_h = Yes",
+        "36 (1.2%)",
+        "36 (1.3%)",
+        "0 (0.0%)"
+      ],
+      [
+        "airspace_h = Yes",
+        "2983 (99.9%)",
+        "2724 (100.0%)",
+        "259 (99.6%)"
+      ],
+      [
+        "airspace_h = No",
+        "1 (0.0%)",
+        "0 (0.0%)",
+        "1 (0.4%)"
+      ],
+      [
+        "airspace_h = empty",
+        "1 (0.0%)",
+        "1 (0.0%)",
+        "0 (0.0%)"
+      ],
+      [
+        "dead_i = a) Not deceased",
+        "2909 (97.5%)",
+        "2655 (97.4%)",
+        "254 (97.7%)"
+      ],
+      [
+        "dead_i = b) Deceased",
+        "76 (2.5%)",
+        "70 (2.6%)",
+        "6 (2.3%)"
+      ],
+      [
+        "smear_i = c) Smear not done",
+        "2487 (83.3%)",
+        "2235 (82.0%)",
+        "252 (96.9%)"
+      ],
+      [
+        "smear_i = b) Smear positive",
+        "413 (13.8%)",
+        "406 (14.9%)",
+        "7 (2.7%)"
+      ],
+      [
+        "smear_i = a) Smear negative",
+        "85 (2.8%)",
+        "84 (3.1%)",
+        "1 (0.4%)"
+      ],
+      [
+        "xpert_i = b) Xpert positive",
+        "2768 (92.7%)",
+        "2515 (92.3%)",
+        "253 (97.3%)"
+      ],
+      [
+        "xpert_i = c) Xpert not done",
+        "194 (6.5%)",
+        "187 (6.9%)",
+        "7 (2.7%)"
+      ],
+      [
+        "xpert_i = a) Xpert negative",
+        "23 (0.8%)",
+        "23 (0.8%)",
+        "0 (0.0%)"
+      ],
+      [
+        "hiv_i = b) HIV-positive",
+        "1597 (53.5%)",
+        "1474 (54.1%)",
+        "123 (47.3%)"
+      ],
+      [
+        "hiv_i = a) HIV-negative",
+        "1243 (41.6%)",
+        "1119 (41.1%)",
+        "124 (47.7%)"
+      ],
+      [
+        "hiv_i = c) HIV-unknown",
+        "145 (4.9%)",
+        "132 (4.8%)",
+        "13 (5.0%)"
+      ]
+    ],
+    [
+      [
+        "Predictor",
+        "Raw variable",
+        "Frozen coding / missing handling",
+        "Availability assumption",
+        "Raw empty: all / complete case"
+      ],
+      [
+        "contact_age",
+        "ageyears_h",
+        "Age, numeric",
+        "Questionnaire/census assumed available; no individual timestamp",
+        "0/0"
+      ],
+      [
+        "age_lt5",
+        "ageyears_h",
+        "Age <5 years",
+        "Derived from age",
+        "0/0"
+      ],
+      [
+        "age_ge45",
+        "ageyears_h",
+        "Age >=45 years",
+        "Derived from age",
+        "0/0"
+      ],
+      [
+        "contact_sex_m",
+        "sex_h",
+        "Male=1; Female=0",
+        "Census assumed available",
+        "0/0"
+      ],
+      [
+        "hiv_pos_h",
+        "hivfinal_h",
+        "HIV positive=1; unknown/empty not positive",
+        "Test/history result timing not separable",
+        "3/3"
+      ],
+      [
+        "hiv_unknown_h",
+        "hivfinal_h",
+        "Explicit HIV unknown=1; raw empty=0 in frozen coding",
+        "Test/history timing not separable",
+        "3/3"
+      ],
+      [
+        "bmi_h",
+        "bmi_h",
+        "Numeric; restore raw missing; training-fold median",
+        "Anthropometry must precede ranking; cost not measured",
+        "17/16"
+      ],
+      [
+        "smoke_ever_h",
+        "smoke_h",
+        "Actually never-smoking=1; current/previous=0",
+        "Questionnaire assumed available; legacy name misleading",
+        "0/0"
+      ],
+      [
+        "diabetes_h_f",
+        "diabetes_h",
+        "Yes=1; No and raw empty=0",
+        "History question; empty differs from negative",
+        "3/1"
+      ],
+      [
+        "site_capricorn",
+        "site",
+        "Capricorn=1; Mangaung=0",
+        "Study-site context",
+        "0/0"
+      ],
+      [
+        "hh_n_contacts",
+        "num_contacts",
+        "Original roster size, not complete-case household size",
+        "Full household roster assumed known before ranking",
+        "0/0"
+      ],
+      [
+        "idx_coughdays",
+        "coughdays_i",
+        "Numeric; raw missing fixed at 30 days",
+        "Index history; individual collection time absent",
+        "9/7"
+      ],
+      [
+        "idx_smear_pos",
+        "smear_i",
+        "Smear positive=1; negative/not done=0",
+        "Index laboratory availability time absent",
+        "0/0"
+      ],
+      [
+        "idx_smear_known",
+        "smear_i",
+        "Positive or negative=1; not done=0",
+        "Explicit test-not-done distinction",
+        "0/0"
+      ],
+      [
+        "idx_xpert_pos",
+        "xpert_i",
+        "Xpert positive=1; negative/not done=0",
+        "Index laboratory availability time absent",
+        "0/0"
+      ],
+      [
+        "idx_hiv_pos",
+        "hiv_i",
+        "HIV positive=1; negative/unknown=0",
+        "Index history/test timing absent",
+        "0/0"
+      ],
+      [
+        "idx_age",
+        "ageyears_i",
+        "Numeric age",
+        "Index registration assumed available",
+        "0/0"
+      ],
+      [
+        "idx_sex_m",
+        "sex_i",
+        "Male=1; Female=0",
+        "Index registration assumed available",
+        "0/0"
+      ],
+      [
+        "idx_dead",
+        "dead_i",
+        "Deceased=1; not deceased=0",
+        "Deceased index cases eligible in source study; timing per row absent",
+        "0/0"
+      ],
+      [
+        "ts_low",
+        "timespent_h",
+        "a) every now and again=1",
+        "Exposure history; recalled",
+        "3/2"
+      ],
+      [
+        "ts_mid",
+        "timespent_h",
+        "Neither low nor high=1; missing assigned middle",
+        "Exposure history; raw missing neutralized",
+        "3/2"
+      ],
+      [
+        "ts_high",
+        "timespent_h",
+        "c) most of the day=1",
+        "Exposure history; recalled",
+        "3/2"
+      ],
+      [
+        "share_bedroom",
+        "sharebedroom_h",
+        "Yes=1; No=0",
+        "Exposure history",
+        "0/0"
+      ],
+      [
+        "sleep_same_bed",
+        "sleepsamebed_h",
+        "Yes=1; No=0",
+        "Exposure history",
+        "0/0"
+      ],
+      [
+        "airspace_shared",
+        "airspace_h",
+        "Yes=1; No and raw empty=0",
+        "Exposure history; empty differs from No",
+        "1/1"
+      ],
+      [
+        "rel_child",
+        "relationship_h",
+        "Exact Child=1",
+        "Relationship from census",
+        "1/1"
+      ],
+      [
+        "rel_spouse",
+        "relationship_h",
+        "Exact Spouse=1",
+        "Relationship from census",
+        "1/1"
+      ],
+      [
+        "rel_sibling",
+        "relationship_h",
+        "Exact Brother/sister=1",
+        "Relationship from census",
+        "1/1"
+      ],
+      [
+        "rel_parent",
+        "relationship_h",
+        "Frozen match Parent; actual label Parent/Parent-in-law",
+        "Coding mismatch: frozen column constant zero",
+        "1/1"
+      ],
+      [
+        "prior_n",
+        "earlier same-household TST",
+        "Count of results assumed available earlier",
+        "Simulated; observed return times absent",
+        "Structural zero for first member"
+      ],
+      [
+        "prior_pos",
+        "earlier same-household TST",
+        "Positive count excluding target",
+        "Same availability constraint",
+        "Structural zero for first member"
+      ],
+      [
+        "prior_rate",
+        "prior_pos/prior_n",
+        "Training-fold prevalence fallback when prior_n=0",
+        "Same availability constraint",
+        "Undefined rate replaced within fold"
+      ],
+      [
+        "prior_screened",
+        "prior_n",
+        "Indicator prior_n>0",
+        "Same availability constraint",
+        "Structural zero for first member"
+      ]
+    ],
+    [
+      [
+        "Scenario",
+        "Baseline AUROC",
+        "SOP AUROC",
+        "Difference [conditional 95% CI]",
+        "Positive seeds"
+      ],
+      [
+        "conservative",
+        "0.6478",
+        "0.7158",
+        "+0.0680 [+0.0462, +0.0898]",
+        "20/20"
+      ],
+      [
+        "coding",
+        "0.6433",
+        "0.7126",
+        "+0.0693 [+0.0469, +0.0903]",
+        "20/20"
+      ]
+    ],
+    [
+      [
+        "Cell",
+        "σ",
+        "γ",
+        "Target positivity",
+        "Household",
+        "Order",
+        "Delay",
+        "Error",
+        "Missing"
+      ],
+      [
+        "0",
+        "0.0",
+        "0.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "1",
+        "0.0",
+        "1.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "2",
+        "0.0",
+        "2.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "3",
+        "0.8",
+        "0.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "4",
+        "0.8",
+        "1.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "5",
+        "0.8",
+        "2.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "6",
+        "1.6",
+        "0.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "7",
+        "1.6",
+        "1.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "8",
+        "1.6",
+        "2.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "9",
+        "0.0",
+        "0.0",
+        "0.05",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "10",
+        "0.0",
+        "0.0",
+        "0.3",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "11",
+        "0.0",
+        "0.0",
+        "0.13",
+        "small",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "12",
+        "0.0",
+        "0.0",
+        "0.13",
+        "large",
+        "age_sorted",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "13",
+        "0.0",
+        "0.0",
+        "0.13",
+        "large",
+        "random",
+        "1",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "14",
+        "0.0",
+        "0.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.1",
+        "0.0"
+      ],
+      [
+        "15",
+        "0.0",
+        "0.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.1"
+      ],
+      [
+        "16",
+        "1.6",
+        "0.0",
+        "0.05",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "17",
+        "1.6",
+        "0.0",
+        "0.3",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "18",
+        "1.6",
+        "0.0",
+        "0.13",
+        "small",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "19",
+        "1.6",
+        "0.0",
+        "0.13",
+        "large",
+        "age_sorted",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "20",
+        "1.6",
+        "0.0",
+        "0.13",
+        "large",
+        "random",
+        "1",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "21",
+        "1.6",
+        "0.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.1",
+        "0.0"
+      ],
+      [
+        "22",
+        "1.6",
+        "0.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.1"
+      ],
+      [
+        "23",
+        "0.0",
+        "2.0",
+        "0.05",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "24",
+        "0.0",
+        "2.0",
+        "0.3",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "25",
+        "0.0",
+        "2.0",
+        "0.13",
+        "small",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "26",
+        "0.0",
+        "2.0",
+        "0.13",
+        "large",
+        "age_sorted",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "27",
+        "0.0",
+        "2.0",
+        "0.13",
+        "large",
+        "random",
+        "1",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "28",
+        "0.0",
+        "2.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.1",
+        "0.0"
+      ],
+      [
+        "29",
+        "0.0",
+        "2.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.1"
+      ],
+      [
+        "30",
+        "1.6",
+        "2.0",
+        "0.05",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "31",
+        "1.6",
+        "2.0",
+        "0.3",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "32",
+        "1.6",
+        "2.0",
+        "0.13",
+        "small",
+        "random",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "33",
+        "1.6",
+        "2.0",
+        "0.13",
+        "large",
+        "age_sorted",
+        "0",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "34",
+        "1.6",
+        "2.0",
+        "0.13",
+        "large",
+        "random",
+        "1",
+        "0.0",
+        "0.0"
+      ],
+      [
+        "35",
+        "1.6",
+        "2.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.1",
+        "0.0"
+      ],
+      [
+        "36",
+        "1.6",
+        "2.0",
+        "0.13",
+        "large",
+        "random",
+        "0",
+        "0.0",
+        "0.1"
+      ]
+    ],
+    [
+      [
+        "Cell",
+        "Mean gain",
+        "No gain [MC interval]",
+        "Order specific [MC interval]",
+        "Household consistent [MC interval]",
+        "Indeterminate [MC interval]"
+      ],
+      [
+        "0",
+        "-0.00326",
+        "100 [96.4, 100.0]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]"
+      ],
+      [
+        "1",
+        "+0.02632",
+        "0 [0.0, 3.6]",
+        "12 [6.4, 20.0]",
+        "1 [0.0, 5.4]",
+        "87 [78.8, 92.9]"
+      ],
+      [
+        "2",
+        "+0.08967",
+        "0 [0.0, 3.6]",
+        "6 [2.2, 12.6]",
+        "0 [0.0, 3.6]",
+        "94 [87.4, 97.8]"
+      ],
+      [
+        "3",
+        "+0.00901",
+        "77 [67.5, 84.8]",
+        "3 [0.6, 8.5]",
+        "0 [0.0, 3.6]",
+        "20 [12.7, 29.2]"
+      ],
+      [
+        "4",
+        "+0.06165",
+        "0 [0.0, 3.6]",
+        "4 [1.1, 9.9]",
+        "0 [0.0, 3.6]",
+        "96 [90.1, 98.9]"
+      ],
+      [
+        "5",
+        "+0.12508",
+        "0 [0.0, 3.6]",
+        "2 [0.2, 7.0]",
+        "0 [0.0, 3.6]",
+        "98 [93.0, 99.8]"
+      ],
+      [
+        "6",
+        "+0.08892",
+        "0 [0.0, 3.6]",
+        "4 [1.1, 9.9]",
+        "0 [0.0, 3.6]",
+        "96 [90.1, 98.9]"
+      ],
+      [
+        "7",
+        "+0.14620",
+        "0 [0.0, 3.6]",
+        "1 [0.0, 5.4]",
+        "0 [0.0, 3.6]",
+        "99 [94.6, 100.0]"
+      ],
+      [
+        "8",
+        "+0.19511",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "100 [96.4, 100.0]"
+      ],
+      [
+        "9",
+        "-0.00641",
+        "100 [96.4, 100.0]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]"
+      ],
+      [
+        "10",
+        "-0.00188",
+        "100 [96.4, 100.0]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]"
+      ],
+      [
+        "11",
+        "-0.00322",
+        "100 [96.4, 100.0]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]"
+      ],
+      [
+        "12",
+        "-0.00252",
+        "100 [96.4, 100.0]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]"
+      ],
+      [
+        "13",
+        "-0.00298",
+        "100 [96.4, 100.0]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]"
+      ],
+      [
+        "14",
+        "-0.00281",
+        "100 [96.4, 100.0]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]"
+      ],
+      [
+        "15",
+        "-0.00278",
+        "100 [96.4, 100.0]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]"
+      ],
+      [
+        "16",
+        "+0.05840",
+        "12 [6.4, 20.0]",
+        "2 [0.2, 7.0]",
+        "0 [0.0, 3.6]",
+        "86 [77.6, 92.1]"
+      ],
+      [
+        "17",
+        "+0.09907",
+        "0 [0.0, 3.6]",
+        "5 [1.6, 11.3]",
+        "6 [2.2, 12.6]",
+        "89 [81.2, 94.4]"
+      ],
+      [
+        "18",
+        "+0.05447",
+        "0 [0.0, 3.6]",
+        "8 [3.5, 15.2]",
+        "0 [0.0, 3.6]",
+        "92 [84.8, 96.5]"
+      ],
+      [
+        "19",
+        "+0.08889",
+        "0 [0.0, 3.6]",
+        "36 [26.6, 46.2]",
+        "0 [0.0, 3.6]",
+        "64 [53.8, 73.4]"
+      ],
+      [
+        "20",
+        "+0.05920",
+        "0 [0.0, 3.6]",
+        "3 [0.6, 8.5]",
+        "0 [0.0, 3.6]",
+        "97 [91.5, 99.4]"
+      ],
+      [
+        "21",
+        "+0.06194",
+        "0 [0.0, 3.6]",
+        "5 [1.6, 11.3]",
+        "0 [0.0, 3.6]",
+        "95 [88.7, 98.4]"
+      ],
+      [
+        "22",
+        "+0.08086",
+        "0 [0.0, 3.6]",
+        "4 [1.1, 9.9]",
+        "0 [0.0, 3.6]",
+        "96 [90.1, 98.9]"
+      ],
+      [
+        "23",
+        "+0.06345",
+        "0 [0.0, 3.6]",
+        "4 [1.1, 9.9]",
+        "0 [0.0, 3.6]",
+        "96 [90.1, 98.9]"
+      ],
+      [
+        "24",
+        "+0.10987",
+        "0 [0.0, 3.6]",
+        "79 [69.7, 86.5]",
+        "0 [0.0, 3.6]",
+        "21 [13.5, 30.3]"
+      ],
+      [
+        "25",
+        "+0.06651",
+        "0 [0.0, 3.6]",
+        "9 [4.2, 16.4]",
+        "0 [0.0, 3.6]",
+        "91 [83.6, 95.8]"
+      ],
+      [
+        "26",
+        "+0.09028",
+        "0 [0.0, 3.6]",
+        "16 [9.4, 24.7]",
+        "0 [0.0, 3.6]",
+        "84 [75.3, 90.6]"
+      ],
+      [
+        "27",
+        "+0.05293",
+        "0 [0.0, 3.6]",
+        "9 [4.2, 16.4]",
+        "0 [0.0, 3.6]",
+        "91 [83.6, 95.8]"
+      ],
+      [
+        "28",
+        "+0.06124",
+        "0 [0.0, 3.6]",
+        "7 [2.9, 13.9]",
+        "0 [0.0, 3.6]",
+        "93 [86.1, 97.1]"
+      ],
+      [
+        "29",
+        "+0.08069",
+        "0 [0.0, 3.6]",
+        "8 [3.5, 15.2]",
+        "0 [0.0, 3.6]",
+        "92 [84.8, 96.5]"
+      ],
+      [
+        "30",
+        "+0.18028",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "100 [96.4, 100.0]"
+      ],
+      [
+        "31",
+        "+0.21997",
+        "0 [0.0, 3.6]",
+        "1 [0.0, 5.4]",
+        "0 [0.0, 3.6]",
+        "99 [94.6, 100.0]"
+      ],
+      [
+        "32",
+        "+0.14859",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "100 [96.4, 100.0]"
+      ],
+      [
+        "33",
+        "+0.21171",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "100 [96.4, 100.0]"
+      ],
+      [
+        "34",
+        "+0.12143",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "100 [96.4, 100.0]"
+      ],
+      [
+        "35",
+        "+0.15077",
+        "0 [0.0, 3.6]",
+        "2 [0.2, 7.0]",
+        "0 [0.0, 3.6]",
+        "98 [93.0, 99.8]"
+      ],
+      [
+        "36",
+        "+0.18238",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "0 [0.0, 3.6]",
+        "100 [96.4, 100.0]"
+      ]
+    ],
+    [
+      [
+        "Subgroup",
+        "N",
+        "TST-positive",
+        "Mean ΔAUROC",
+        "Conditional 95% CI"
+      ],
+      [
+        "Age <15 years",
+        "1260",
+        "133",
+        "+0.08672",
+        "[+0.05382, +0.12055]"
+      ],
+      [
+        "Age ≥15 years",
+        "1465",
+        "226",
+        "+0.05581",
+        "[+0.03281, +0.07915]"
+      ],
+      [
+        "HIV positive",
+        "293",
+        "57",
+        "+0.07206",
+        "[+0.02726, +0.11934]"
+      ],
+      [
+        "HIV not coded positive (includes unknown/empty)",
+        "2432",
+        "302",
+        "+0.07001",
+        "[+0.04738, +0.09309]"
+      ],
+      [
+        "Male",
+        "1031",
+        "127",
+        "+0.07228",
+        "[+0.04258, +0.10447]"
+      ],
+      [
+        "Female",
+        "1694",
+        "232",
+        "+0.06894",
+        "[+0.04521, +0.09181]"
+      ]
+    ],
+    [
+      [
+        "Cell",
+        "Margin ±0.005",
+        "Margin ±0.01",
+        "Margin ±0.02"
+      ],
+      [
+        "0",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "1",
+        "0/100",
+        "1/100",
+        "66/100"
+      ],
+      [
+        "2",
+        "0/100",
+        "0/100",
+        "10/100"
+      ],
+      [
+        "3",
+        "0/100",
+        "0/100",
+        "19/100"
+      ],
+      [
+        "4",
+        "0/100",
+        "0/100",
+        "44/100"
+      ],
+      [
+        "5",
+        "0/100",
+        "0/100",
+        "7/100"
+      ],
+      [
+        "6",
+        "0/100",
+        "0/100",
+        "34/100"
+      ],
+      [
+        "7",
+        "0/100",
+        "0/100",
+        "7/100"
+      ],
+      [
+        "8",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "9",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "10",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "11",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "12",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "13",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "14",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "15",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "16",
+        "0/100",
+        "0/100",
+        "2/100"
+      ],
+      [
+        "17",
+        "0/100",
+        "6/100",
+        "92/100"
+      ],
+      [
+        "18",
+        "0/100",
+        "0/100",
+        "34/100"
+      ],
+      [
+        "19",
+        "0/100",
+        "0/100",
+        "12/100"
+      ],
+      [
+        "20",
+        "0/100",
+        "0/100",
+        "25/100"
+      ],
+      [
+        "21",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "22",
+        "0/100",
+        "0/100",
+        "21/100"
+      ],
+      [
+        "23",
+        "0/100",
+        "0/100",
+        "1/100"
+      ],
+      [
+        "24",
+        "0/100",
+        "0/100",
+        "2/100"
+      ],
+      [
+        "25",
+        "0/100",
+        "0/100",
+        "10/100"
+      ],
+      [
+        "26",
+        "0/100",
+        "0/100",
+        "6/100"
+      ],
+      [
+        "27",
+        "0/100",
+        "0/100",
+        "10/100"
+      ],
+      [
+        "28",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "29",
+        "0/100",
+        "0/100",
+        "2/100"
+      ],
+      [
+        "30",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "31",
+        "0/100",
+        "0/100",
+        "23/100"
+      ],
+      [
+        "32",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "33",
+        "0/100",
+        "0/100",
+        "1/100"
+      ],
+      [
+        "34",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "35",
+        "0/100",
+        "0/100",
+        "0/100"
+      ],
+      [
+        "36",
+        "0/100",
+        "0/100",
+        "0/100"
+      ]
+    ]
+  ]
+}

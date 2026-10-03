@@ -1,0 +1,49 @@
+{
+  "name": "homeacf_dpr_f2_dca_nested",
+  "date": "20261002",
+  "design": "Fully nested Platt calibration: outer test households excluded from ALL model and calibrator training; conditional household-bootstrap CI of 20-seed mean difference. Thresholds are illustrative, not observed clinical action thresholds.",
+  "rows": [
+    {
+      "threshold": 0.05,
+      "exposure_nb": 0.08666151617576051,
+      "sop_nb": 0.08977305649444714,
+      "delta_nb": 0.0031115403186866256,
+      "ci95": [
+        0.0017785507015493469,
+        0.004382414833347166
+      ]
+    },
+    {
+      "threshold": 0.1,
+      "exposure_nb": 0.04817533129459734,
+      "sop_nb": 0.053975535168195705,
+      "delta_nb": 0.00580020387359837,
+      "ci95": [
+        0.0023555699813395522,
+        0.009404950817858472
+      ]
+    },
+    {
+      "threshold": 0.2,
+      "exposure_nb": 0.001830275229357798,
+      "sop_nb": 0.01946788990825688,
+      "delta_nb": 0.017637614678899082,
+      "ci95": [
+        0.010439177438348522,
+        0.024808122260083748
+      ]
+    },
+    {
+      "threshold": 0.3,
+      "exposure_nb": -0.0006553079947575362,
+      "sop_nb": 0.007905635648754912,
+      "delta_nb": 0.008560943643512448,
+      "ci95": [
+        0.0022374747842436103,
+        0.015473598387320554
+      ]
+    }
+  ],
+  "interpretation": "Exploratory only; prior-result acquisition costs omitted. Does not establish real-world clinical utility.",
+  "supersedes": "homeacf_dpr_f2_dca_exploratory_20261002.json"
+}

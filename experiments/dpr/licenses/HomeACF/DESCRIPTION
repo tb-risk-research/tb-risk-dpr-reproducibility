@@ -1,0 +1,15 @@
+Package: tstsa
+Title: Reproducable analysis of TST prevalence in HomeACF Study
+Version: 0.1.0.000
+Authors@R: 
+    person(given = "Peter",
+           family = "MacPherson",
+           role = c("aut", "cre"),
+           email = "peter.macpherson@lstmed.ac.uk",
+           comment = c(ORCID = "0000-0002-0329-9613"))
+Description: Code and data for reproducible analysis of the prevalence of tubercilin skin test positivity in participants in the HomeACF trial in South Africa.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/petermacp/tstsa
+BugReports: https://github.com/petermacp/tstsa/issues

@@ -1,0 +1,64 @@
+[flake8]
+# Flake8 配置 — 与 black (line-length=100) 兼容
+# 文献: black 官方兼容指南 https://black.readthedocs.io/en/stable/guides/using_black_with_other_tools.html#flake8
+# 注意: 多行选项值中不能写 # 注释 — flake8 的 configparser 不剥离行内注释，
+#       "#" 会被当成错误码触发 ValueError（曾导致 CI lint 自建仓起持续失败）。
+
+max-line-length = 100
+max-complexity = 15
+statistics = True
+count = True
+
+# 与 black 兼容的忽略规则：
+#   E203 冒号前空格（black 会处理）
+#   W503 二元操作符前换行（black 风格）
+#   E501 行过长（由 max-line-length 与 black 格式化处理）
+#   E402 模块级导入不在顶部（条件导入常见）
+#
+# 存量代码技术债（2026-09 盘点：全库 6034 处，均为风格/噪音类，不影响运行正确性，
+# 后续分批清理后逐类从忽略清单移除）：
+#   E301/E302/E303/E305/E306 空行规范
+#   E701/E702/E704           复合语句（冒号/分号同行）
+#   E731                     lambda 赋值
+#   E741                     歧义变量名
+#   W291/W292/W293/W391      尾随空白/文件末尾换行
+#   W504                     二元操作符后换行（与 W503 二选一）
+#   F401                     未使用的导入（754 处，含条件导入守卫，需逐文件甄别）
+#   F403/F405                星号导入（gui 命名空间聚合模式，23/1884 处）
+#   F402                     循环变量遮蔽导入（health_interop 遗留，4 处，良性）
+#   F541                     无占位符 f-string（8 处）
+#   F811                     守卫式重导入（37 处，均为 try/except 双路径导入回退）
+#   F841                     未使用的局部变量（49 处）
+#   C901                     函数圈复杂度超 15（121 处，需重构，分批处理）
+#   E114/E116/E117/E123-E129/E131 缩进风格（约 1220 处，后续统一 black 格式化消除）
+#   E226/E231/E241/E261/E265 运算符/逗号空格与注释格式（约 320 处）
+# 保持强制的错误类：E9 语法错误、F821 未定义名、F632 is 字面量比较、W605 无效转义、
+#                   E711/E712/E713/E714/E721/E722 比较与裸 except 类
+ignore =
+    E203, W503, E501, E402,
+    E301, E302, E303, E305, E306,
+    E701, E702, E704, E731, E741,
+    W291, W292, W293, W391, W504,
+    F401, F402, F403, F405, F541,
+    F811, F841,
+    C901,
+    E114, E116, E117, E123, E124, E125, E126, E127, E128, E129, E131,
+    E226, E231, E241, E261, E265
+
+# 排除目录/文件（值内不要写注释）
+exclude =
+    .venv,
+    venv_ci,
+    .git,
+    __pycache__,
+    build,
+    dist,
+    tools,
+    *.egg-info,
+    .pytest_cache,
+    .hypothesis,
+    catboost_info,
+    htmlcov,
+    data,
+    _shots,
+    *_pb2.py
