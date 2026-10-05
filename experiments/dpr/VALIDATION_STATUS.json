@@ -18,11 +18,21 @@
   ],
   "table_export_scope": "Accepted 14-table snapshots, not automatic regenerated manuscript tables",
   "current_verification_scope": "No training; executable/config/result/required-protocol hash equality; task/dependency closure; CLI manifest audit; isolated snapshot preparation; ZIP inventory/hash validation",
-  "publication_status": "Private team repository prepared; public release and DOI pending",
+  "publication_status": "Public GitHub access authorized 2026-10-05; Zenodo 0.17-MIT-r1 published DOI 10.5281/zenodo.23153355",
   "project_licence_notice": "MIT complete: Copyright (c) 2026 Zhenyao Guo; root LICENSE and LICENSING.md added under user instruction; third-party notices preserved",
   "repository_url": "https://github.com/tb-risk-research/tb-risk-dpr-reproducibility",
   "history_scope": "Clean initial commit; complete original history retained locally",
   "github_actions_enabled": false,
   "licence_spdx": "MIT",
-  "licence_completion_model_fits": 0
+  "licence_completion_model_fits": 0,
+  "archived_software_version": "0.17-MIT-r1",
+  "version_doi": "10.5281/zenodo.23153355",
+  "manuscript_version": "0.18",
+  "current_publication_snapshot": {
+    "main_tables": 5,
+    "supplement_table_blocks": 15,
+    "figure_pairs": 11,
+    "export_mode": "accepted immutable display snapshots; no refits"
+  },
+  "historical_counts_note": "Previous 14-table and 7-figure validation counts refer to an earlier validation round, not the current publication inventory."
 }

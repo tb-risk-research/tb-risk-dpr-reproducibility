@@ -11,6 +11,7 @@
     "Dockerfile",
     "LICENSE",
     "LICENSING.md",
+    "PUBLICATION_STATUS.md",
     "README.md",
     "REPOSITORY_PROVENANCE.json",
     "__init__.py",
@@ -258,6 +259,7 @@
     "experiments/dpr/licenses/HomeACF/data_provenance.json",
     "experiments/dpr/licenses/HomeACF/source_audit_20261003.md",
     "experiments/dpr/plot_figures.py",
+    "experiments/dpr/release_manifest.json",
     "experiments/dpr/requirements-dpr.txt",
     "experiments/dpr/reviewer_sources/dpr_major_analysis.py",
     "experiments/dpr/reviewer_sources/dpr_major_plots.py",
@@ -702,10 +704,11 @@
     "validation/typed_network.py",
     "validation/validator.py",
     "启动.bat",
-    "启动.vbs",
-    "experiments/dpr/release_manifest.json"
+    "启动.vbs"
   ],
-  "public_release_authorized": false,
+  "public_release_authorized": true,
   "licence_spdx": "MIT",
-  "licence_notice_complete": true
+  "licence_notice_complete": true,
+  "repository_visibility": "public",
+  "version_doi": "10.5281/zenodo.23153355"
 }

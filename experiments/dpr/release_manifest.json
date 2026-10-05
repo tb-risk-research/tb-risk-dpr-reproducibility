@@ -46,9 +46,14 @@
       "sha256": "e7c248e1c59abdb47e70db52b0f90116d923bec05e68102bb3726ef3cd289232"
     },
     {
+      "path": "PUBLICATION_STATUS.md",
+      "bytes": 1765,
+      "sha256": "7af85be111bfec1fcb87f0df1a298eab8a31a7dccdb942457e626108b00c2319"
+    },
+    {
       "path": "README.md",
-      "bytes": 6897,
-      "sha256": "51f649201672d630416bb5ac8f78b86d26cb149c48b37026ebd9239486fdae8d"
+      "bytes": 7698,
+      "sha256": "6c60ba3acc911a29f6276b9330115080ad0c907438509f13ce7d6b2ee7b30171"
     },
     {
       "path": "REPOSITORY_PROVENANCE.json",
@@ -867,8 +872,8 @@
     },
     {
       "path": "experiments/dpr/VALIDATION_STATUS.json",
-      "bytes": 1595,
-      "sha256": "59b79930c6b196849421c12e3867a82a58256d8df52e33f40346e54ce04567c3"
+      "bytes": 2073,
+      "sha256": "d5de6c37c7104a180446ce85c19010d3dfc81d84d19bd6c4c12ad55edf2056c0"
     },
     {
       "path": "experiments/dpr/VERIFICATION.md",
@@ -3509,12 +3514,15 @@
   "delivery_target": "independent_repository",
   "source_repository": "https://github.com/tiande888/tb_risk",
   "repository_url": "https://github.com/tb-risk-research/tb-risk-dpr-reproducibility",
-  "repository_visibility": "private",
+  "repository_visibility": "public",
   "history_scope": "clean_initial_commit",
   "paper_version": "0.17",
   "licence_spdx": "MIT",
   "licence_notice": "LICENSE",
   "licence_scope": "LICENSING.md",
   "licence_completed_on": "2026-10-05",
-  "archive_revision": "MIT-r1"
+  "archive_revision": "MIT-r1",
+  "public_access_authorized_on": "2026-10-05",
+  "version_doi": "10.5281/zenodo.23153355",
+  "archived_commit": "104b5d68a3b5246d95be81801a21dcad754ddc02"
 }
