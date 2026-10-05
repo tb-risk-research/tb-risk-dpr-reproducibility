@@ -1,0 +1,28 @@
+{
+  "type": "programmatic method schematic, not model-generated image",
+  "sources": [
+    {
+      "path": "experiments\\dpr\\run_nested_calibration_v1.py",
+      "sha256": "442795fbc592a3f302b40a64fc20505883004efdd9788316cbb37d0615c3cc53"
+    },
+    {
+      "path": "experiments\\dpr\\run_same_information_baseline_v1.py",
+      "sha256": "cede96f03945cbeb0a299fbe500f30d6375a034c93dc535e77b1b26d0d747e43"
+    },
+    {
+      "path": "data\\run_sop_fullrefit_bootstrap.py",
+      "sha256": "7f834a2bc40048b2507eef5f1c51e0edb2298ba8a998a48dcddde2009391293e"
+    },
+    {
+      "path": "data\\run_homeacf_e1_fullrefit.py",
+      "sha256": "427b0b644b52a63c3eedcf93d968528fa99d1818122cb4ed91ec7dfb8aacdb3c"
+    },
+    {
+      "path": "data\\run_sop_unified_ci_leakfree.py",
+      "sha256": "d8c24fae0c4c8cfaf1208b41f60eaa1a77b1452b0cef9d7242de551fef3fd6ff"
+    }
+  ],
+  "writer_script": "dbaa14f556521a297a393a42d8328636a045d9e71efcf77c5e1c8b37679ae19a",
+  "human_final_check": "pending",
+  "limits": "Full-refit principal inference concerns raw RF, not all nested-calibration refits."
+}

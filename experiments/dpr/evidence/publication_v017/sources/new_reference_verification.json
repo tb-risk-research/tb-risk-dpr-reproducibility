@@ -1,0 +1,39 @@
+{
+  "checked_date": "2026-10-04",
+  "assistant_opened_source": true,
+  "human_check_new_references": "Pending Jiangdong Wu",
+  "entries": [
+    {
+      "title": "Bull LM, Lunt M, Martin GP, Hyrich K, Sergeant JC. Harnessing repeated measurements of predictor variables for clinical risk prediction: a review of existing methods. Diagn Progn Res. 2020;4:9. https://doi.org/10.1186/s41512-020-00078-z.",
+      "support": "As cited in revised manuscript; no clinical causation claim",
+      "verification": "Assistant inspected public original/publisher or author-institution source; human final verification pending"
+    },
+    {
+      "title": "Welten M, de Kroon MLA, Renders CM, Steyerberg EW, Raat H, Twisk JWR, et al. Repeatedly measured predictors: a comparison of methods for prediction modeling. Diagn Progn Res. 2018;2:5. https://doi.org/10.1186/s41512-018-0024-7.",
+      "support": "As cited in revised manuscript; no clinical causation claim",
+      "verification": "Assistant inspected public original/publisher or author-institution source; human final verification pending"
+    },
+    {
+      "title": "Sisk R, Lin L, Sperrin M, Barrett JK, Tom B, Diaz-Ordaz K, et al. Informative presence and observation in routine health data: a review of methodology for clinical risk prediction. J Am Med Inform Assoc. 2021;28(1):155–166. https://doi.org/10.1093/jamia/ocaa242.",
+      "support": "As cited in revised manuscript; no clinical causation claim",
+      "verification": "Assistant inspected public original/publisher or author-institution source; human final verification pending"
+    },
+    {
+      "title": "Moons KGM, Damen JAA, Kaul T, Hooft L, Andaur Navarro C, Dhiman P, et al. PROBAST+AI: an updated quality, risk of bias, and applicability assessment tool for prediction models using regression or artificial intelligence methods. BMJ. 2025;388:e082505. https://doi.org/10.1136/bmj-2024-082505.",
+      "support": "As cited in revised manuscript; no clinical causation claim",
+      "verification": "Assistant inspected public original/publisher or author-institution source; human final verification pending"
+    },
+    {
+      "title": "World Health Organization. Testing for TB infection. WHO TB Knowledge Sharing Platform. https://tbksp.who.int/en/node/633. Accessed 4 October 2026.",
+      "support": "As cited in revised manuscript; no clinical causation claim",
+      "verification": "Assistant inspected public original/publisher or author-institution source; human final verification pending"
+    },
+    {
+      "title": "Kassis T, Agarwal V, He Y, Patel D, Brueckner AM. Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents. arXiv. 2026. https://doi.org/10.48550/arXiv.2609.00065.",
+      "support": "As cited in revised manuscript; no clinical causation claim",
+      "verification": "Assistant inspected public original/publisher or author-institution source; human final verification pending"
+    }
+  ],
+  "Zhu2026": "Specific cited sentence and uniquely identified source not verified; omitted",
+  "upstream_anonymous_api": "404; not evidence of a specific privacy/deletion state"
+}

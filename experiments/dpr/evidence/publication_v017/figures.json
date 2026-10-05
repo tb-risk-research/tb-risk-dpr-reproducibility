@@ -1,0 +1,90 @@
+[
+  {
+    "path": "figures/Figure_1_workflow.pdf",
+    "sha256": "de04249836284efa1e74476d8281dee731806502b7bd835e50e6d8c13baef46a"
+  },
+  {
+    "path": "figures/Figure_1_workflow.png",
+    "sha256": "6b60e4676b545c32232dd661bd2ee5286507a3488e783a3a6a9dc20b12f1a650"
+  },
+  {
+    "path": "figures/Figure_2_performance_budget.pdf",
+    "sha256": "6a27dd0372f02a485219df1ad6e61bec2a86a64b2ea52b037fc030399c7255aa"
+  },
+  {
+    "path": "figures/Figure_2_performance_budget.png",
+    "sha256": "bc5a470a6d23491dda988c5d9da92072c4bae47ffe1125f012098f1d033b8214"
+  },
+  {
+    "path": "figures/Figure_3_same_information.pdf",
+    "sha256": "c3724fa8d103c4b019b6928b09c371928f4ac0e78e3a8f517d3c38c7d4fa32b7"
+  },
+  {
+    "path": "figures/Figure_3_same_information.png",
+    "sha256": "48539eb8e1b24c15b701cd895c33fbb9155413d2cc9b037fd880039ef9c2b52c"
+  },
+  {
+    "path": "figures/Figure_S1_calibration.pdf",
+    "sha256": "5cc2bcb832fbe8eda7faa431ca5422116b8855716aa754400d0cff7765d36183"
+  },
+  {
+    "path": "figures/Figure_S1_calibration.png",
+    "sha256": "e3982a9c4c29d1573678a63e8e6efbeef87db2faadc2ccb55e728869aa7d78a1"
+  },
+  {
+    "path": "figures/Figure_S2_dca.pdf",
+    "sha256": "c64a36639a384dfd7d253346f18357ad1463f63907021a951ac9d775224d1dfe"
+  },
+  {
+    "path": "figures/Figure_S2_dca.png",
+    "sha256": "c467db3e2f13b30b2eb85378aa1668d8cf14ecb66cce59fcaf4003964b809771"
+  },
+  {
+    "path": "figures/Figure_S3_simulation_boundaries.pdf",
+    "sha256": "a3353664300f5be4e2d39a9a29f0663119b900be20ee1cacf80a8159fd2d60b7"
+  },
+  {
+    "path": "figures/Figure_S3_simulation_boundaries.png",
+    "sha256": "bf7c2ff135a9ca9a2190b920ea3b4715aff109ca6f4a201e567720a1aac91bdb"
+  },
+  {
+    "path": "figures/Figure_S4_all_diagnostic_outputs.pdf",
+    "sha256": "eb1c40bdd682bc4b4132596aa042f7426f32b7204b2b06423e2928ec66234927"
+  },
+  {
+    "path": "figures/Figure_S4_all_diagnostic_outputs.png",
+    "sha256": "dca0adf6fef373e7e6c3b54e15038fe3b4703deacde0d0e5e4b0584a37fd0f2e"
+  },
+  {
+    "path": "figures/Figure_S5_order_sensitivity.pdf",
+    "sha256": "a21be2e8a3dd835b8423fad44907ccb1ace1b5742fbe6d7d41c273428f31c2c9"
+  },
+  {
+    "path": "figures/Figure_S5_order_sensitivity.png",
+    "sha256": "5fea93fafd104b17f5cdf886bbd0aa35090b3f31d7dbad89fc2b2a10bec2b998"
+  },
+  {
+    "path": "figures/Figure_S6_charged_parameter_surface.pdf",
+    "sha256": "5b0a67d766e3afa36a11921aa82a22406050a41eb5b68f768309f72e552386b4"
+  },
+  {
+    "path": "figures/Figure_S6_charged_parameter_surface.png",
+    "sha256": "3da71daea7207e6fd542391b4cf2d6a3f6603838071c3bec1e4cf3dc91b60d9e"
+  },
+  {
+    "path": "figures/Figure_S7_household_controls.pdf",
+    "sha256": "c132a8b5d7a824c31319fff8d611a931a7362249bfd3e2fe5fc4ec2018c5e05c"
+  },
+  {
+    "path": "figures/Figure_S7_household_controls.png",
+    "sha256": "085bbc913a9b741660fccc60b4722b1381cb06c362e52e0c59e2fb89f8d0dce5"
+  },
+  {
+    "path": "figures/Figure_S8_model_dataflow.pdf",
+    "sha256": "5c0466cb0c24bb61aa734ef9f085214d20d702ed6e62482a16c7fbedbae12f7c"
+  },
+  {
+    "path": "figures/Figure_S8_model_dataflow.png",
+    "sha256": "1e8849f7962e0e6756af2b15e7c0ef7715f56b724edcff4a8a887f5287f3d870"
+  }
+]

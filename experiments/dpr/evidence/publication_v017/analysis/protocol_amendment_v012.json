@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-10-04T10:33:18.193192+00:00",
+  "status": "post-hoc revision after v0.11 results",
+  "scope": "2000-resample interval harmonization using saved predictions; no refitting or order selection",
+  "original_protocol_retained": true,
+  "original_resamples": 1000,
+  "new_resamples": 2000,
+  "seed": 91303,
+  "old_first_1000_intervals_reproduced": true,
+  "script_sha256": "e0afc908dca0fbf453483fc030fe6754580ad333f5604fc0f9d216d74a10be65"
+}

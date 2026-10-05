@@ -1,0 +1,28 @@
+{
+  "checked_date": "2026-10-05",
+  "new_claim_human_check": "Pending Jiangdong Wu / analysis authors",
+  "sources": [
+    {
+      "id": "E-BCG-parent",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230376",
+      "locator": "Discussion: BCG status not recorded; South Africa high coverage"
+    },
+    {
+      "id": "E-BCG-CDC",
+      "url": "https://www.cdc.gov/tb/hcp/testing-diagnosis/tuberculin-skin-test.html",
+      "locator": "BCG vaccine subsection and false positives; page dated31Jan2025"
+    },
+    {
+      "id": "E-DPR",
+      "url": "https://link.springer.com/journal/41512/submission-guidelines/research",
+      "locator": "Reporting standards, structured abstract<=350, declarations"
+    },
+    {
+      "id": "E-OSF",
+      "url": "https://osf.io/esru5/",
+      "status": "Public page inaccessible in browser tool; no global no-results assertion made"
+    }
+  ],
+  "numeric_claims": "See checks/numeric_capture_audit.json and archived samecohort_controls_homeacf_20261001.json",
+  "RF_simulation": "No new RF simulation performed; existing limited validation remains a limitation."
+}

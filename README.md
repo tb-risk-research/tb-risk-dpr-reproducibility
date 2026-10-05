@@ -45,6 +45,14 @@ py -3.12 -m venv .venv
 
 团队仓库：[tb-risk-research/tb-risk-dpr-reproducibility](https://github.com/tb-risk-research/tb-risk-dpr-reproducibility)。用户已确认团队归属、仓库名称及使用洁净交付树建立独立提交历史。当前仓库为私有，公开时机仍待确认；公开归档和 DOI 由主负责人处理。日后确有通用改进时，再选择性向源项目贡献。
 
-负责人通过用户确认版权持有人为郭臻尧。源项目 pyproject 声明 MIT，但基础提交没有根级版权许可正文；MIT 公开授权范围尚待明确，不据此补写新许可。源项目、第三方和数据源的既有版权及许可说明继续保留。
+本仓库第一方代码及随仓库提供的第一方支持材料采用 [MIT 许可证](LICENSE)，版权通知为 Copyright (c) 2026 Zhenyao Guo（郭臻尧）。本次按用户授权补齐源项目已声明 MIT 的根级许可正文。范围与排除项见 [LICENSING.md](LICENSING.md)；第三方代码、依赖和数据保留各自原许可。许可已补齐，公开发布时间与 DOI 归档尚未执行。
 
 首次上传保留上游工作流源码，但仓库 GitHub Actions 已关闭，避免自动运行原项目全量测试、构建或向翻译服务发送文档。只有明确审核后再启用。
+
+## Current paper delivery: v0.17 (local preparation, not uploaded)
+
+This candidate retains the upstream repository and base commit recorded above. It adds current aggregate reviewer sensitivities, original sensitivity execution sources, portable path adapters, and accepted table/figure snapshots. No model fitting was repeated. The existing .git and source repository have not been altered; this staging folder is a file-level delivery candidate, not a replacement Git history.
+
+Use `python experiments/dpr/export_publication.py --output data/processed/publication_v017` to export exactly 5 main tables, 15 supplementary table blocks (S1–S13 with S4a/b and S9a/b), and 11 PNG/PDF figure pairs. This copies audited accepted displays, not freshly fitted results. `delivery.py tables/figures` now select these snapshots; the older v0.8 generators are retained explicitly in experiments/dpr/legacy. Existing model-run entry points and dependencies are unchanged. See REVIEWER_SENSITIVITY_RUN_ORDER.md for regeneration dependencies and limits.
+
+No participant-level raw data, prediction caches, private ethics originals, author correspondence, manuscript drafts, local environments, or newly explored external-validation experiments are included. Original data are recovered from the pinned author source and checksum; source licence notices are retained. The first-party repository licence is MIT; see root LICENSE and LICENSING.md. The complete permission notice has been added under the user's instruction. Access, public release timing and archive DOI remain separate steps; no release has been published.

@@ -31,5 +31,10 @@
   "repository_url": "https://github.com/tb-risk-research/tb-risk-dpr-reproducibility",
   "repository_visibility": "private",
   "history_delivery": "Clean initial commit authorised by user; full source history retained locally",
-  "github_actions_enabled": false
+  "github_actions_enabled": false,
+  "licence_spdx": "MIT",
+  "licence_notice": "LICENSE",
+  "licence_scope": "LICENSING.md; first-party repository materials only, third-party terms preserved",
+  "licence_completion_authorization": "User instructed selection of appropriate licence and completion in current conversation; source already declares MIT",
+  "licence_completion_publication": false
 }

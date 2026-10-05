@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="936pt" height="529.2pt" viewBox="0 0 936 529.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-05T10:48:18.876064</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 529.2 
+L 936 529.2 
+L 936 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 22.7664 119.5992 
+L 300.0672 119.5992 
+Q 305.712 119.5992 305.712 113.9544 
+L 305.712 54.684 
+Q 305.712 49.0392 300.0672 49.0392 
+L 22.7664 49.0392 
+Q 17.1216 49.0392 17.1216 54.684 
+L 17.1216 113.9544 
+Q 17.1216 119.5992 22.7664 119.5992 
+z
+" clip-path="url(#pb723c60d1f)" style="fill: #edf2f6; stroke: #364653; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 22.7664 209.916 
+L 300.0672 209.916 
+Q 305.712 209.916 305.712 204.2712 
+L 305.712 138.6504 
+Q 305.712 133.0056 300.0672 133.0056 
+L 22.7664 133.0056 
+Q 17.1216 133.0056 17.1216 138.6504 
+L 17.1216 204.2712 
+Q 17.1216 209.916 22.7664 209.916 
+z
+" clip-path="url(#pb723c60d1f)" style="fill: #edf2f6; stroke: #364653; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 22.7664 307.2888 
+L 300.0672 307.2888 
+Q 305.712 307.2888 305.712 301.644 
+L 305.712 230.3784 
+Q 305.712 224.7336 300.0672 224.7336 
+L 22.7664 224.7336 
+Q 17.1216 224.7336 17.1216 230.3784 
+L 17.1216 301.644 
+Q 17.1216 307.2888 22.7664 307.2888 
+z
+" clip-path="url(#pb723c60d1f)" style="fill: #edf2f6; stroke: #364653; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 22.7664 415.9512 
+L 300.0672 415.9512 
+Q 305.712 415.9512 305.712 410.3064 
+L 305.712 329.868 
+Q 305.712 324.2232 300.0672 324.2232 
+L 22.7664 324.2232 
+Q 17.1216 324.2232 17.1216 329.868 
+L 17.1216 410.3064 
+Q 17.1216 415.9512 22.7664 415.9512 
+z
+" clip-path="url(#pb723c60d1f)" style="fill: #edf2f6; stroke: #364653; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 22.7664 504.1512 
+L 300.0672 504.1512 
+Q 305.712 504.1512 305.712 498.5064 
+L 305.712 440.6472 
+Q 305.712 435.0024 300.0672 435.0024 
+L 22.7664 435.0024 
+Q 17.1216 435.0024 17.1216 440.6472 
+L 17.1216 498.5064 
+Q 17.1216 504.1512 22.7664 504.1512 
+z
+" clip-path="url(#pb723c60d1f)" style="fill: #edf2f6; stroke: #364653; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 326.1744 128.772 
+L 603.4752 128.772 
+Q 609.12 128.772 609.12 123.1272 
+L 609.12 54.684 
+Q 609.12 49.0392 603.4752 49.0392 
+L 326.1744 49.0392 
+Q 320.5296 49.0392 320.5296 54.684 
+L 320.5296 123.1272 
+Q 320.5296 128.772 326.1744 128.772 
+z
+" clip-path="url(#pb723c60d1f)" style="fill: #edf2f6; stroke: #364653; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 326.1744 224.028 
+L 603.4752 224.028 
+Q 609.12 224.028 609.12 218.3832 
+L 609.12 153.468 
+Q 609.12 147.8232 603.4752 147.8232 
+L 326.1744 147.8232 
+Q 320.5296 147.8232 320.5296 153.468 
+L 320.5296 218.3832 
+Q 320.5296 224.028 326.1744 224.028 
+z
+" clip-path="url(#pb723c60d1f)" style="fill: #edf2f6; stroke: #364653; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 326.1744 315.756 
+L 603.4752 315.756 
+Q 609.12 315.756 609.12 310.1112 
+L 609.12 245.196 
+Q 609.12 239.5512 603.4752 239.5512 
+L 326.1744 239.5512 
+Q 320.5296 239.5512 320.5296 245.196 
+L 320.5296 310.1112 
+Q 320.5296 315.756 326.1744 315.756 
+z
+" clip-path="url(#pb723c60d1f)" style="fill: #edf2f6; stroke: #364653; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 326.1744 425.124 
+L 603.4752 425.124 
+Q 609.12 425.124 609.12 419.4792 
+L 609.12 341.1576 
+Q 609.12 335.5128 603.4752 335.5128 
+L 326.1744 335.5128 
+Q 320.5296 335.5128 320.5296 341.1576 
+L 320.5296 419.4792 
+Q 320.5296 425.124 326.1744 425.124 
+z
+" clip-path="url(#pb723c60d1f)" style="fill: #edf2f6; stroke: #364653; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 629.5824 168.9912 
+L 909 168.9912 
+Q 914.6448 168.9912 914.6448 163.3464 
+L 914.6448 54.684 
+Q 914.6448 49.0392 909 49.0392 
+L 629.5824 49.0392 
+Q 623.9376 49.0392 623.9376 54.684 
+L 623.9376 163.3464 
+Q 623.9376 168.9912 629.5824 168.9912 
+z
+" clip-path="url(#pb723c60d1f)" style="fill: #eef4ef; stroke: #364653; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 629.5824 307.9944 
+L 909 307.9944 
+Q 914.6448 307.9944 914.6448 302.3496 
+L 914.6448 193.6872 
+Q 914.6448 188.0424 909 188.0424 
+L 629.5824 188.0424 
+Q 623.9376 188.0424 623.9376 193.6872 
+L 623.9376 302.3496 
+Q 623.9376 307.9944 629.5824 307.9944 
+z
+" clip-path="url(#pb723c60d1f)" style="fill: #f3f1e8; stroke: #364653; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 629.5824 481.572 
+L 909 481.572 
+Q 914.6448 481.572 914.6448 475.9272 
+L 914.6448 332.6904 
+Q 914.6448 327.0456 909 327.0456 
+L 629.5824 327.0456 
+Q 623.9376 327.0456 623.9376 332.6904 
+L 623.9376 475.9272 
+Q 623.9376 481.572 629.5824 481.572 
+z
+" clip-path="url(#pb723c60d1f)" style="fill: #eaf0f8; stroke: #364653; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font: 700 11.2px 'DejaVu Sans'; text-anchor: start" x="19.944" y="29.32545" transform="rotate(-0 19.944 29.32545)">A  Frozen raw-score comparisons</text>
+   </g>
+   <g id="text_2">
+    <text style="font: 700 11.2px 'DejaVu Sans'; text-anchor: start" x="323.352" y="29.32545" transform="rotate(-0 323.352 29.32545)">B  Separate nested calibration</text>
+   </g>
+   <g id="text_3">
+    <text style="font: 700 11.2px 'DejaVu Sans'; text-anchor: start" x="626.76" y="29.32545" transform="rotate(-0 626.76 29.32545)">C  Distinct uncertainty procedures</text>
+   </g>
+   <g id="text_4">
+    <text style="font: 10px 'DejaVu Sans'" transform="translate(43.074613 81.289708)">2725 complete-case contacts / 877 households</text>
+    <text style="font: 10px 'DejaVu Sans'" transform="translate(64.414456 92.867442)">20 seeds: outer five-fold household CV</text>
+   </g>
+   <g id="text_5">
+    <text style="font: 10px 'DejaVu Sans'" transform="translate(84.032425 162.642441)">Outer training households only</text>
+    <text style="font: 10px 'DejaVu Sans'" transform="translate(66.190238 174.220175)">Estimate fills and fallback prevalence;</text>
+    <text style="font: 10px 'DejaVu Sans'" transform="translate(60.451175 185.797909)">EB arms estimate shrinkage parameters</text>
+   </g>
+   <g id="text_6">
+    <text style="font: 9.6px 'DejaVu Sans'" transform="translate(68.94705 251.988262)">Fit RF baseline / four-feature / EB arms</text>
+    <text style="font: 9.6px 'DejaVu Sans'" transform="translate(90.82905 263.102887)">Fit standardised LR baseline /</text>
+    <text style="font: 9.6px 'DejaVu Sans'" transform="translate(92.5533 274.217512)">four-feature / single-EB arms</text>
+    <text style="font: 9.6px 'DejaVu Sans'" transform="translate(87.5388 285.332137)">Frozen settings; no new tuning</text>
+   </g>
+   <g id="text_7">
+    <text style="font: 9.5px 'DejaVu Sans'" transform="translate(80.974808 356.210335)">Predict outer held-out households</text>
+    <text style="font: 9.5px 'DejaVu Sans'" transform="translate(62.104691 367.209182)">Own TST excluded from household priors;</text>
+    <text style="font: 9.5px 'DejaVu Sans'" transform="translate(85.447972 378.20803)">other results assumed available</text>
+    <text style="font: 9.5px 'DejaVu Sans'" transform="translate(62.112855 389.206878)">Held-out target labels used for evaluation</text>
+   </g>
+   <g id="text_8">
+    <text style="font: 10px 'DejaVu Sans'" transform="translate(71.13555 466.547308)">Pool outer OOF predictions per seed</text>
+    <text style="font: 10px 'DejaVu Sans'" transform="translate(59.374613 478.125042)">Raw AUROC / AUPRC / simulated capture</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 161.064 116.658195 
+Q 161.064 126.302389 161.064 134.828548 
+" style="fill: none; stroke: #364653; stroke-linecap: round"/>
+    <path d="M 163.064 130.828548 
+L 161.064 134.828548 
+L 159.064 130.828548 
+" style="fill: none; stroke: #364653; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 161.064 206.975512 
+Q 161.064 217.325331 161.064 226.557117 
+" style="fill: none; stroke: #364653; stroke-linecap: round"/>
+    <path d="M 163.064 222.557117 
+L 161.064 226.557117 
+L 159.064 222.557117 
+" style="fill: none; stroke: #364653; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 161.064 304.349432 
+Q 161.064 315.754856 161.064 326.042245 
+" style="fill: none; stroke: #364653; stroke-linecap: round"/>
+    <path d="M 163.064 322.042245 
+L 161.064 326.042245 
+L 159.064 322.042245 
+" style="fill: none; stroke: #364653; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 161.064 413.014329 
+Q 161.064 425.477067 161.064 436.821771 
+" style="fill: none; stroke: #364653; stroke-linecap: round"/>
+    <path d="M 163.064 432.821771 
+L 161.064 436.821771 
+L 159.064 432.821771 
+" style="fill: none; stroke: #364653; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font: 9.8px 'DejaVu Sans'" transform="translate(390.01405 80.263608)">Within each outer training set:</text>
+    <text style="font: 9.8px 'DejaVu Sans'" transform="translate(394.932425 91.609787)">inner four-fold household CV</text>
+    <text style="font: 9.8px 'DejaVu Sans'" transform="translate(396.990425 102.955967)">Fold-local fills and RF fitting</text>
+   </g>
+   <g id="text_10">
+    <text style="font: 9.8px 'DejaVu Sans'" transform="translate(402.405691 177.283608)">Fit Platt logistic calibrator</text>
+    <text style="font: 9.8px 'DejaVu Sans'" transform="translate(376.151644 188.629787)">on inner OOF score logits and labels</text>
+    <text style="font: 9.8px 'DejaVu Sans'" transform="translate(392.279534 199.975967)">C = 10^6; no class balancing</text>
+   </g>
+   <g id="text_11">
+    <text style="font: 9.8px 'DejaVu Sans'" transform="translate(366.281972 269.011608)">Refit RF on all outer training households</text>
+    <text style="font: 9.8px 'DejaVu Sans'" transform="translate(405.958956 280.357787)">Apply fixed calibrator to</text>
+    <text style="font: 9.8px 'DejaVu Sans'" transform="translate(404.682659 291.703967)">outer held-out RF scores</text>
+   </g>
+   <g id="text_12">
+    <text style="font: 9.7px 'DejaVu Sans'" transform="translate(367.839198 366.14939)">Evaluate pooled outer OOF probabilities</text>
+    <text style="font: 9.7px 'DejaVu Sans'" transform="translate(371.140988 377.379793)">Brier / calibration intercept and slope /</text>
+    <text style="font: 9.7px 'DejaVu Sans'" transform="translate(383.538042 388.610195)">ECE / exploratory decision curves</text>
+    <text style="font: 9.7px 'DejaVu Sans'" transform="translate(414.044542 399.840597)">Summarise 20 seeds</text>
+   </g>
+   <g id="text_13">
+    <text style="font: 700 10px 'DejaVu Sans'" transform="translate(376.300256 463.170206)">Outer-test households enter no</text>
+    <text style="font: 700 10px 'DejaVu Sans'" transform="translate(357.356506 474.368019)">preprocessing, model or calibrator fit.</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 465.1776 125.835129 
+Q 465.1776 138.297867 465.1776 149.642571 
+" style="fill: none; stroke: #364653; stroke-linecap: round"/>
+    <path d="M 467.1776 145.642571 
+L 465.1776 149.642571 
+L 463.1776 145.642571 
+" style="fill: none; stroke: #364653; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 465.1776 221.088804 
+Q 465.1776 231.78835 465.1776 241.369861 
+" style="fill: none; stroke: #364653; stroke-linecap: round"/>
+    <path d="M 467.1776 237.369861 
+L 465.1776 241.369861 
+L 463.1776 237.369861 
+" style="fill: none; stroke: #364653; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 465.1776 312.817321 
+Q 465.1776 325.634455 465.1776 337.333555 
+" style="fill: none; stroke: #364653; stroke-linecap: round"/>
+    <path d="M 467.1776 333.333555 
+L 465.1776 337.333555 
+L 463.1776 333.333555 
+" style="fill: none; stroke: #364653; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <text style="font: 9.5px 'DejaVu Sans'" transform="translate(681.922372 89.638911)">Repeated-seed descriptive summary</text>
+    <text style="font: 9.5px 'DejaVu Sans'" transform="translate(669.888544 100.637759)">20 separately fitted five-fold comparisons</text>
+    <text style="font: 9.5px 'DejaVu Sans'" transform="translate(682.957723 111.636606)">Partitions and simulated orders vary</text>
+    <text style="font: 9.5px 'DejaVu Sans'" transform="translate(669.640653 122.635454)">Means and seed min/max are descriptive;</text>
+    <text style="font: 9.5px 'DejaVu Sans'" transform="translate(672.07577 133.634302)">seed ranges are not confidence intervals</text>
+   </g>
+   <g id="text_15">
+    <text style="font: 9.5px 'DejaVu Sans'" transform="translate(713.599677 228.642111)">Conditional uncertainty</text>
+    <text style="font: 9.5px 'DejaVu Sans'" transform="translate(688.554559 239.640959)">2000 paired household resamples</text>
+    <text style="font: 9.5px 'DejaVu Sans'" transform="translate(690.833817 250.639806)">Resample saved OOF predictions</text>
+    <text style="font: 9.5px 'DejaVu Sans'" transform="translate(681.508231 261.638654)">Models and order histories stay fixed</text>
+    <text style="font: 9.5px 'DejaVu Sans'" transform="translate(693.173192 272.637502)">No model or calibration refitting</text>
+   </g>
+   <g id="text_16">
+    <text style="font: 9.3px 'DejaVu Sans'" transform="translate(704.431692 374.57314)">Full-refit raw-RF uncertainty</text>
+    <text style="font: 9.3px 'DejaVu Sans'" transform="translate(674.762512 385.340433)">300 household samples; CV seed 0 fixed</text>
+    <text style="font: 9.3px 'DejaVu Sans'" transform="translate(670.379161 396.107726)">Unweighted: rebuild priors, preprocessing,</text>
+    <text style="font: 9.3px 'DejaVu Sans'" transform="translate(704.786981 406.875019)">CV and both raw RF models</text>
+    <text style="font: 9.3px 'DejaVu Sans'" transform="translate(679.376184 417.642312)">IPW: resample 924 source households;</text>
+    <text style="font: 9.3px 'DejaVu Sans'" transform="translate(674.243747 428.409605)">also refit observation model and weights</text>
+    <text style="font: 9.3px 'DejaVu Sans'" transform="translate(665.574403 439.176898)">Copies of each source household share folds</text>
+   </g>
+   <g id="text_17">
+    <text style="font: 9px 'DejaVu Sans'; text-anchor: middle" x="468" y="521.0856" transform="rotate(-0 468 521.0856)">Schematic of archived procedures; no observed screening chronology, new tuning or final deployment model is implied.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb723c60d1f">
+   <rect x="9.36" y="5.292" width="917.28" height="518.616"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "change": "Global OOF training scores were replaced by inner-four-fold baseline scores generated exclusively within each outer training fold for baseline-score ordering.",
+  "reason": "Prevent indirect dependence of training orders on outer-test labels.",
+  "excluded_from_manuscript": "baseline_score_descending initial outputs",
+  "accepted_scenario": "baseline_score_descending_nested",
+  "age_scenarios": "unchanged and reused",
+  "protocol_status": "post-hoc implementation isolation correction, not outcome-based scenario selection"
+}

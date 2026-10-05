@@ -19,8 +19,10 @@
   "table_export_scope": "Accepted 14-table snapshots, not automatic regenerated manuscript tables",
   "current_verification_scope": "No training; executable/config/result/required-protocol hash equality; task/dependency closure; CLI manifest audit; isolated snapshot preparation; ZIP inventory/hash validation",
   "publication_status": "Private team repository prepared; public release and DOI pending",
-  "project_licence_notice": "Copyright holder reported as Zhenyao Guo; explicit MIT release authorization scope pending",
+  "project_licence_notice": "MIT complete: Copyright (c) 2026 Zhenyao Guo; root LICENSE and LICENSING.md added under user instruction; third-party notices preserved",
   "repository_url": "https://github.com/tb-risk-research/tb-risk-dpr-reproducibility",
   "history_scope": "Clean initial commit; complete original history retained locally",
-  "github_actions_enabled": false
+  "github_actions_enabled": false,
+  "licence_spdx": "MIT",
+  "licence_completion_model_fits": 0
 }

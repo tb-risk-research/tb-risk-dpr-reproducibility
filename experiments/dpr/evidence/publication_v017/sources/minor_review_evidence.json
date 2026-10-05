@@ -1,0 +1,27 @@
+{
+  "assistant_verification_date": "2026-10-05",
+  "Bailey": {
+    "url": "https://jamanetwork.com/journals/jama/fullarticle/194678",
+    "doi": "10.1001/jama.287.8.996",
+    "locators": [
+      "Study Variables: ≥5 mm, initial or second test",
+      "Analysis/Table 6: case, contact and exposure variables",
+      "Results/Table 4: threshold 0.10; validation 3162; approximate sensitivity 89%, specificity 36%, PPV 26%"
+    ],
+    "AUROC": "No numerical AUROC located in inspected original article; not invented or derived from the ROC image",
+    "new_claim_human_check": "Pending Jiangdong Wu"
+  },
+  "skill_preprint": {
+    "url": "https://arxiv.org/abs/2609.00065",
+    "version_at_check": "v2, revised 2 September 2026",
+    "authors": "Timothy Kassis; Vinayak Agarwal; Yuhuan He; Darshil Patel; Aubrey M. Brueckner",
+    "purpose": "Attribution of materially used writing procedure, not support for statistical validity or permission to use AI"
+  },
+  "IPW": {
+    "source": "D:/tb_risk_DPR/data/run_homeacf_tst_missingness_ipw.py",
+    "sha256": "90d6b6057ff0f83cb5f05363beedab33c03f63ff8954634cc8e2d6b15abc505e",
+    "implementation": "LogisticRegression(C=1.0,max_iter=2000), no class balancing; L2 regularization as reported in manuscript methods"
+  },
+  "correspondence_email": "Original author-confirmed QQ email retained; no institutional email supplied",
+  "classic_dynamic_prediction": "Optional; existing Bull/Welten discussion retained, no additional reference inserted"
+}

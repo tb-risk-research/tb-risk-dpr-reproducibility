@@ -1,0 +1,11 @@
+{
+  "accepted_scenarios": [
+    "random",
+    "age_ascending",
+    "age_descending",
+    "baseline_score_descending_nested"
+  ],
+  "nested_risk_order": "Outer-training household orders use four-fold inner RF OOF baseline scores; held-out household order uses its frozen outer OOF baseline scores. No current outer-test outcomes enter training-order score models.",
+  "exclusion": "Initial global-OOF score-order audit outputs are retained locally but not used in manuscript or delivered aggregate results.",
+  "protocol_note": "Implementation correction strengthens isolation; no selection based on superior output."
+}

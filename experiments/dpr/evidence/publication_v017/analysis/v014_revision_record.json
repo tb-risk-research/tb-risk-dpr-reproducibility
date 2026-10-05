@@ -1,0 +1,12 @@
+{
+  "revision_date": "2026-10-04",
+  "baseline": "v0.13",
+  "model_fits": 0,
+  "new_empirical_tests": 0,
+  "principal_inference": "existing unweighted 300 full-refit fixed seed 0",
+  "charged": "descriptive, inferential intervals removed from present figures/tables",
+  "reference_changes": "17 total; new refs require final human checking",
+  "public_access": "not established by this local work",
+  "ethics": "existing scope/declaration retained; no new institutional determination",
+  "base_commit": "3cc3c82f42dbf1e2bb8c3c4209e078a99db7c5c7"
+}

@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-10-03T14:56:04.992314+00:00",
+  "status": "frozen before new sensitivity outputs",
+  "post_hoc": true,
+  "question": "Sensitivity to assumed ordering and retrospectively selected charged update parameters; no causal attribution/policy selection",
+  "orders": [
+    "age_ascending",
+    "age_descending",
+    "baseline_score_descending"
+  ],
+  "tie_break": "source row position, outcome-independent",
+  "models": "frozen RF four features, LR single fold-specific EB rate and LR four features; identical group folds; cached baselines",
+  "seed_count": 20,
+  "conditional_bootstrap": 1000,
+  "budget_w": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    12
+  ],
+  "q": [
+    0.01,
+    0.025,
+    0.05,
+    0.075
+  ],
+  "k": [
+    0.5,
+    1,
+    2,
+    4,
+    8
+  ],
+  "existing_data_only": true,
+  "no_best_configuration_selection": true,
+  "script_sha256": "dc458e8910757021b957376ebc9c06d26b5f38ac11b179a5fd21c73af8d6e6cc"
+}
