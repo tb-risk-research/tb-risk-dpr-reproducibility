@@ -1,0 +1,76 @@
+[
+  {
+    "figure": "Figure_1_research_framework",
+    "sources": [
+      {
+        "path": "D:\\tb_risk_DPR\\experiments\\dpr\\evidence\\results\\homeacf_dpr_f1_final_performance_20261002_v3.json",
+        "sha256": "eb0c18880c1023c3afaef2cba17b4168632d8187d618fb22cccd068a3bb836f4"
+      }
+    ],
+    "detail": "Schematic of performed analyses; household outcomes are illustrative, not observed records. EB and four-feature arms are parallel representations of the same information.",
+    "new_model_fits": 0
+  },
+  {
+    "figure": "Figure_2_primary_performance",
+    "sources": [
+      {
+        "path": "D:\\tb_risk_DPR\\experiments\\dpr\\evidence\\results\\homeacf_dpr_a1_fullrefit_20261001.json",
+        "sha256": "bb64cd7c824bfe8ce4b8a5e31a1207efcf6778e51ae9981a2de39bf9b21cc6a9"
+      },
+      {
+        "path": "D:\\tb_risk_DPR\\experiments\\dpr\\evidence\\results\\homeacf_dpr_e1_fullrefit_v2.json",
+        "sha256": "5203a7c7b99c6c82a31f07308c6ed1a4b580fe8a09189397660a3cba8c2bc42c"
+      },
+      {
+        "path": "D:\\tb_risk_DPR\\experiments\\dpr\\evidence\\results\\dpr_same_information_baseline_v1\\result.json",
+        "sha256": "a14d79ac5f1fae2f2a76556182c0c7df93e2ad2ea50a25293db70341043a48ff"
+      }
+    ],
+    "detail": "Full-refit and repeated-seed procedures in distinct panels; no mixing of estimands.",
+    "new_model_fits": 0
+  },
+  {
+    "figure": "Figure_3_same_information",
+    "sources": [
+      {
+        "path": "D:\\tb_risk_DPR\\experiments\\dpr\\evidence\\results\\dpr_same_information_baseline_v1\\result.json",
+        "sha256": "a14d79ac5f1fae2f2a76556182c0c7df93e2ad2ea50a25293db70341043a48ff"
+      }
+    ],
+    "detail": "Existing paired comparisons, conditional intervals preserved.",
+    "new_model_fits": 0
+  },
+  {
+    "figure": "Figure_4_order_sensitivity",
+    "sources": [
+      {
+        "path": "D:\\tb_risk_DPR\\data\\processed\\dpr_final_revision_v017_20261005\\analysis\\order_sensitivity.json",
+        "sha256": "4b523e1afb9fbb73a81bcd67b36bdc2168dbd91aa9146aed5fa410b20486b57f"
+      }
+    ],
+    "detail": "All four accepted scenarios; archived 2000-resample conditional intervals preserved.",
+    "new_model_fits": 0
+  },
+  {
+    "figure": "Figure_5_calibration",
+    "sources": [
+      {
+        "path": "D:\\tb_risk_DPR\\experiments\\dpr\\evidence\\results\\homeacf_dpr_nested_calibration_v1.json",
+        "sha256": "92a518940a0d637336e0cc1f2ce8f7497a237f9078fceca657a312a64fe5575a"
+      }
+    ],
+    "detail": "Seed-0 bin coordinates and 20-seed metrics; preserves unfavourable ECE/CITL results.",
+    "new_model_fits": 0
+  },
+  {
+    "figure": "Figure_S9_selected_charged_rule",
+    "sources": [
+      {
+        "path": "D:\\tb_risk_DPR\\data\\processed\\homeacf_dpr_budget_audit_v2.json",
+        "sha256": "85eaadf01292d69dd502efdd7b07445250665b67e425f59ecbe886580519f8ec"
+      }
+    ],
+    "detail": "Same-cohort selected rule; no inferential intervals or deployment claim.",
+    "new_model_fits": 0
+  }
+]

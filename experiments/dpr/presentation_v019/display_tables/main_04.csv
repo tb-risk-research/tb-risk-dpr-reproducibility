@@ -1,0 +1,7 @@
+﻿Measure,Baseline,SOP
+Brier score,0.1115,0.1060
+Mean predicted probability,0.1385,0.1410
+Calibration-in-the-large offset,-0.0591,-0.0851
+Joint calibration intercept,-0.0613,-0.0451
+Calibration slope,0.9988,1.0250
+ECE (10 equal-width bins),0.0084,0.0129

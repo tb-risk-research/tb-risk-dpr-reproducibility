@@ -1,0 +1,7 @@
+﻿Procedure / estimand,Mean paired ΔAUROC,95% interval and interpretation
+"Principal: unweighted full-refit RF, fixed CV seed 0, 300 household samples",+0.063,"+0.033 to +0.099; rebuilds models/features, does not integrate all seed variation."
+"Sensitivity: IPW-weighted full-refit, 924 source households, fixed CV seed 0, 300 samples",+0.063,+0.030 to +0.103; rebuilds observation model and prediction; missing-at-random assumptions.
+"Descriptive: RF random order, 20 seeds; fixed-prediction bootstrap ×2000",+0.070,Conditional +0.048 to +0.091; omits refitting/order regeneration.
+"Sensitivity: same-four-feature LR, 20 seeds; fixed-prediction bootstrap",+0.059,Conditional +0.039 to +0.081.
+"Sensitivity: single-rate LR, 20 seeds; fixed-prediction bootstrap",+0.059,Conditional +0.039 to +0.079.
+"Sensitivity: IPW, 20 seeds; predictions/weights fixed",+0.070,Conditional +0.047 to +0.091; distinct from weighted full-refit.

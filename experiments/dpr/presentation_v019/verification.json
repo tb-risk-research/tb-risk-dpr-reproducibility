@@ -1,0 +1,108 @@
+{
+  "tested": "2026-11-02",
+  "operation": "actual execution of portable build_figures.py with bundled aggregate inputs",
+  "figure_pngs": [
+    {
+      "figure": "Figure_1_research_framework.png",
+      "sha256": "3680a79edfdde97537f2f53f802ed73776dddb8755cf6df9307d7423e3bdd728",
+      "portable_sha256": "3680a79edfdde97537f2f53f802ed73776dddb8755cf6df9307d7423e3bdd728",
+      "byte_identical": true
+    },
+    {
+      "figure": "Figure_2_primary_performance.png",
+      "sha256": "c3e0dbd277d9239383828d884fee55b148f8d504eac677330a28731bb5e521b8",
+      "portable_sha256": "c3e0dbd277d9239383828d884fee55b148f8d504eac677330a28731bb5e521b8",
+      "byte_identical": true
+    },
+    {
+      "figure": "Figure_3_same_information.png",
+      "sha256": "dab9af1a75313333f501960e2b7508806aa61b6520644ec5473118d8ac9c4d12",
+      "portable_sha256": "dab9af1a75313333f501960e2b7508806aa61b6520644ec5473118d8ac9c4d12",
+      "byte_identical": true
+    },
+    {
+      "figure": "Figure_4_order_sensitivity.png",
+      "sha256": "ae32f60899e12c4cb9b557a124c2fd509dec6e49ca6444fdb2e94dd0c2a8afde",
+      "portable_sha256": "ae32f60899e12c4cb9b557a124c2fd509dec6e49ca6444fdb2e94dd0c2a8afde",
+      "byte_identical": true
+    },
+    {
+      "figure": "Figure_5_calibration.png",
+      "sha256": "ae8030e33368bac41ad68d1c9700e2c6124f9dce117e62d9811be73604103287",
+      "portable_sha256": "ae8030e33368bac41ad68d1c9700e2c6124f9dce117e62d9811be73604103287",
+      "byte_identical": true
+    },
+    {
+      "figure": "Figure_S10_cohort_flow.png",
+      "sha256": "6b60e4676b545c32232dd661bd2ee5286507a3488e783a3a6a9dc20b12f1a650",
+      "portable_sha256": "6b60e4676b545c32232dd661bd2ee5286507a3488e783a3a6a9dc20b12f1a650",
+      "byte_identical": true
+    },
+    {
+      "figure": "Figure_S1_calibration.png",
+      "sha256": "e3982a9c4c29d1573678a63e8e6efbeef87db2faadc2ccb55e728869aa7d78a1",
+      "portable_sha256": "e3982a9c4c29d1573678a63e8e6efbeef87db2faadc2ccb55e728869aa7d78a1",
+      "byte_identical": true
+    },
+    {
+      "figure": "Figure_S2_dca.png",
+      "sha256": "c467db3e2f13b30b2eb85378aa1668d8cf14ecb66cce59fcaf4003964b809771",
+      "portable_sha256": "c467db3e2f13b30b2eb85378aa1668d8cf14ecb66cce59fcaf4003964b809771",
+      "byte_identical": true
+    },
+    {
+      "figure": "Figure_S3_simulation_boundaries.png",
+      "sha256": "bf7c2ff135a9ca9a2190b920ea3b4715aff109ca6f4a201e567720a1aac91bdb",
+      "portable_sha256": "bf7c2ff135a9ca9a2190b920ea3b4715aff109ca6f4a201e567720a1aac91bdb",
+      "byte_identical": true
+    },
+    {
+      "figure": "Figure_S4_all_diagnostic_outputs.png",
+      "sha256": "dca0adf6fef373e7e6c3b54e15038fe3b4703deacde0d0e5e4b0584a37fd0f2e",
+      "portable_sha256": "dca0adf6fef373e7e6c3b54e15038fe3b4703deacde0d0e5e4b0584a37fd0f2e",
+      "byte_identical": true
+    },
+    {
+      "figure": "Figure_S5_order_sensitivity.png",
+      "sha256": "5fea93fafd104b17f5cdf886bbd0aa35090b3f31d7dbad89fc2b2a10bec2b998",
+      "portable_sha256": "5fea93fafd104b17f5cdf886bbd0aa35090b3f31d7dbad89fc2b2a10bec2b998",
+      "byte_identical": true
+    },
+    {
+      "figure": "Figure_S6_charged_parameter_surface.png",
+      "sha256": "3da71daea7207e6fd542391b4cf2d6a3f6603838071c3bec1e4cf3dc91b60d9e",
+      "portable_sha256": "3da71daea7207e6fd542391b4cf2d6a3f6603838071c3bec1e4cf3dc91b60d9e",
+      "byte_identical": true
+    },
+    {
+      "figure": "Figure_S7_household_controls.png",
+      "sha256": "085bbc913a9b741660fccc60b4722b1381cb06c362e52e0c59e2fb89f8d0dce5",
+      "portable_sha256": "085bbc913a9b741660fccc60b4722b1381cb06c362e52e0c59e2fb89f8d0dce5",
+      "byte_identical": true
+    },
+    {
+      "figure": "Figure_S8_model_dataflow.png",
+      "sha256": "1e8849f7962e0e6756af2b15e7c0ef7715f56b724edcff4a8a887f5287f3d870",
+      "portable_sha256": "1e8849f7962e0e6756af2b15e7c0ef7715f56b724edcff4a8a887f5287f3d870",
+      "byte_identical": true
+    },
+    {
+      "figure": "Figure_S9_selected_charged_rule.png",
+      "sha256": "ee0358241da5acd0d7f2d7ebf9463678aad81f6b9727a2e83dbd2c189142152f",
+      "portable_sha256": "ee0358241da5acd0d7f2d7ebf9463678aad81f6b9727a2e83dbd2c189142152f",
+      "byte_identical": true
+    }
+  ],
+  "model_fits": 0,
+  "limitations": [
+    "Not a full scientific-pipeline rerun.",
+    "Fresh dependency installation and Linux execution not tested.",
+    "S1-S8 and S10 copied from accepted snapshots."
+  ],
+  "environment": {
+    "python": "3.13.0",
+    "numpy": "2.1.3",
+    "matplotlib": "3.10.0",
+    "platform": "win32"
+  }
+}

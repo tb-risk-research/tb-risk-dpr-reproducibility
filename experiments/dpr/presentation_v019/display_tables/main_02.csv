@@ -1,0 +1,10 @@
+﻿Measure,Exposure model,Exposure + SOP model,Paired difference or interpretation
+Principal inference: unweighted full-refit ΔAUROC,—,—,"Mean +0.063 (percentile 95% CI +0.033 to +0.099); 300 replicates, fixed CV seed 0; different procedure from 20-seed mean"
+RF AUROC (descriptive 20-seed mean),0.644,0.714,+0.070; descriptive random-order summary
+AUPRC,0.194,0.285,Descriptive 20-seed mean
+Fully nested-calibrated Brier score difference,—,—,−0.0055 (conditional 95% CI −0.0080 to −0.0032); lower is better
+Capture at 5% budget,8.4%,15.6%,Simulated ranking efficiency
+Capture at 10% budget,16.3%,26.2%,TPC: 4.71 versus 2.91
+Capture at 20% budget,31.8%,42.7%,Simulated ranking efficiency
+Capture at 30% budget,46.2%,55.7%,Simulated ranking efficiency
+IPW sensitivity AUROC difference,—,—,"Weighted full-refit mean +0.063 (95% CI +0.030 to +0.103); sensitivity, 300 replicates, fixed CV seed 0; conditional results in Table S13"

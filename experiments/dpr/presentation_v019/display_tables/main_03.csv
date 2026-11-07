@@ -1,0 +1,8 @@
+﻿Model,AUROC,AUPRC,Capture at 10% free-evidence budget
+RF baseline,0.644,0.194,16.3%
+RF with four SOP features,0.714,0.285,26.2%
+RF with one shrinkage rate,0.708,0.276,25.0%
+"RF with shrinkage rate, count and availability",0.708,0.275,24.8%
+LR baseline,0.657,0.206,17.7%
+LR with four SOP features,0.716,0.309,28.3%
+LR with one shrinkage rate,0.716,0.310,28.5%

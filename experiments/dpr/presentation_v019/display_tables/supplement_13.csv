@@ -1,0 +1,8 @@
+﻿Analysis,Result,Interpretation retained in manuscript
+Full-pipeline household bootstrap,ΔAUROC +0.063 (95% CI +0.033 to +0.099),The primary result was robust to household resampling and refitting.
+Logistic-regression replication,Same-four-feature LR ΔAUROC +0.059 (conditional 95% CI +0.039 to +0.081); fold-clean single-rate LR +0.059 (+0.039 to +0.079),The direction did not depend entirely on random forest flexibility.
+Global outcome permutation,ΔAUROC +0.002 (95% CI −0.002 to +0.006),Global permutation removed the detectable gain; this alone does not identify its sole source.
+Missing-outcome IPW sensitivity,"ΔAUROC +0.070 [conditional 95% CI +0.047,+0.091]; full-refit mean +0.063 [+0.030,+0.103]",The direction persisted under the specified observation-model assumptions.
+Within-household outcome permutation,ΔAUROC +0.061 (95% CI +0.039 to +0.082),Benefit was consistent with household positive-count information.
+Fold-clean future-result control,"Future gain +0.066; future minus SOP −0.0041 [conditional 95% CI −0.0075, −0.0010]; window-capped past minus future +0.0015 [−0.0005, +0.0037] and +0.0008 [−0.0015, +0.0033]",All-result and window-capped contrasts differ; neither identifies a causal time mechanism.
+Strengthened known-truth simulation,"Time-only: order-specific output 6/100; both strong mechanisms: 0/100, all indeterminate; household-only/age-sorted: 36/100",Predictive order contrasts do not identify causal mechanisms; diagnostic abstention does not establish attribution reliability.

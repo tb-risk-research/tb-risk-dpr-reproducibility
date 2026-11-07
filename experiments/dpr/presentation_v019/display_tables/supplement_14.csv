@@ -1,0 +1,8 @@
+﻿Domain / target,Observed limitation and safeguards,Remaining implication
+Participants / source,Intervention-arm contacts in two districts; 260 missing TST values; original household grouping retained.,Selection and transportability concerns; no independent external validation.
+Predictors / availability,Fold-clean encoding and coding sensitivities; actual availability times absent.,Uncertain applicability to a real decision; not evidence of feasible sequential screening.
+Outcome,Observed TST ≥10 mm; incomplete observations; no target-outcome timing.,"Not true infection, future disease or treatment benefit; nonignorable missingness remains possible."
+Analysis / development,Frozen model settings; grouped CV and nested calibration; no optimised final clinical model.,"Internal incremental-information comparison, not proof of optimal baseline or clinical policy."
+Analysis / inference,300 full-refit household samples with fixed CV seed; conditional representation intervals explicitly separate.,Full split/order uncertainty not integrated; no formal equivalence conclusion.
+Selected policy,k=2/w=7 chosen using the same cohort; all grids retained; intervals removed from the selected-rule display.,"Charged performance potentially optimistic, descriptive only."
+Interpretation / use,LR simulations often indeterminate and can produce false order-specific signals; RF properties unestablished.,Controls do not identify causal mechanisms; requires process data and decision validation.

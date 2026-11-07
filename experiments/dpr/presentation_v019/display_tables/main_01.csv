@@ -1,0 +1,16 @@
+﻿Characteristic,All contacts (N=2985),TST recorded (N=2725),TST missing (N=260)
+Households represented,924,877,176
+"Contact age, years","17.0 [8.0, 37.0]","16.0 [8.0, 37.0]","21.0 [4.0, 37.2]"
+"Contact age, years missing",0 (0.0%),0 (0.0%),0 (0.0%)
+"Contact BMI, kg/m²","20.1 [16.6, 25.8]","20.2 [16.6, 25.7]","19.8 [16.4, 26.4]"
+"Contact BMI, kg/m² missing",17 (0.6%),16 (0.6%),1 (0.4%)
+Female,1848 (61.9%),1694 (62.2%),154 (59.2%)
+Male,1137 (38.1%),1031 (37.8%),106 (40.8%)
+HIV negative,2485 (83.2%),2335 (85.7%),150 (57.7%)
+HIV positive,349 (11.7%),293 (10.8%),56 (21.5%)
+HIV status explicitly unknown,148 (5.0%),94 (3.4%),54 (20.8%)
+HIV status empty,3 (0.1%),3 (0.1%),0 (0.0%)
+Mangaung site,1687 (56.5%),1481 (54.3%),206 (79.2%)
+Capricorn site,1298 (43.5%),1244 (45.7%),54 (20.8%)
+TST >=10 mm,359/2985 (12.0%; outcome missing for 260),359/2725 (13.2%),Not observed
+TST <10 mm,2366/2985 (79.3%; outcome missing for 260),2366/2725 (86.8%),Not observed

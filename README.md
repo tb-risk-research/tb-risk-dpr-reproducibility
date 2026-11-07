@@ -49,7 +49,11 @@ py -3.12 -m venv .venv
 
 首次上传保留上游工作流源码，但仓库 GitHub Actions 已关闭，避免自动运行原项目全量测试、构建或向翻译服务发送文档。只有明确审核后再启用。
 
-## Archived analysis release v0.17 and current manuscript v0.18
+## v0.19 图表复现材料
+
+[打开 v0.19 图表复现目录](experiments/dpr/presentation_v019)。目录包含绘图脚本、汇总输入、5 张主图和 10 张补图预览，以及 4 张主表和 15 块补充表的 CSV。运行 `python experiments/dpr/presentation_v019/build_figures.py` 可从汇总输入生成图件。运行环境和文件校验值见目录内的 `verification.json` 和 `manifest.json`。
+
+## Archived analysis release v0.17 and manuscript v0.18
 
 This candidate retains the upstream repository and base commit recorded above. It adds current aggregate reviewer sensitivities, original sensitivity execution sources, portable path adapters, and accepted table/figure snapshots. No model fitting was repeated. The existing .git and source repository have not been altered; this repository preserves its delivery commits; original upstream history remains in the local source project.
 

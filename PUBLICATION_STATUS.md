@@ -1,5 +1,7 @@
 # Publication and access status
 
+The [v0.19 display reproduction package](experiments/dpr/presentation_v019) is available on GitHub as of 7 November 2026. It contains aggregate inputs, Python plotting code, figure previews and table CSVs. The local check regenerated or copied all 15 PNGs and matched their SHA-256 hashes. Cite the DOI below for the fixed analytical software archive and the GitHub revision for the v0.19 display materials.
+
 The team authorized public GitHub access on 5 October 2026. This repository supports the DPR manuscript and is not evidence of journal submission or acceptance.
 
 Fixed public software archive: https://doi.org/10.5281/zenodo.23153355 (version 0.17-MIT-r1).
