@@ -1,0 +1,2217 @@
+{
+  "status": "complete",
+  "seeds": 20,
+  "n": 2725,
+  "events": 359,
+  "households": 877,
+  "design": "Same outer 5-fold household CV, inner 4-fold Platt, frozen RF of run_nested_calibration_v1.py",
+  "summary": {
+    "exposure__pooled_auroc_raw": {
+      "mean": 0.6440512883302684,
+      "seed_min": 0.6295853278925916,
+      "seed_max": 0.6572297426165008
+    },
+    "exposure__pooled_auroc_cal": {
+      "mean": 0.6405700417003182,
+      "seed_min": 0.6266255707009939,
+      "seed_max": 0.6536024506883731
+    },
+    "exposure__mean_fold_auroc_raw": {
+      "mean": 0.6459395989653998,
+      "seed_min": 0.628531558905604,
+      "seed_max": 0.6576646744770944
+    },
+    "exposure__mean_fold_auroc_cal": {
+      "mean": 0.6459395989653998,
+      "seed_min": 0.628531558905604,
+      "seed_max": 0.6576646744770944
+    },
+    "exposure_prior__pooled_auroc_raw": {
+      "mean": 0.7141509122974732,
+      "seed_min": 0.6971452588551368,
+      "seed_max": 0.7233309865621844
+    },
+    "exposure_prior__pooled_auroc_cal": {
+      "mean": 0.7129470540173347,
+      "seed_min": 0.6961327723059028,
+      "seed_max": 0.7216509652764206
+    },
+    "exposure_prior__mean_fold_auroc_raw": {
+      "mean": 0.7145491984112438,
+      "seed_min": 0.6973721609095523,
+      "seed_max": 0.7260371795620782
+    },
+    "exposure_prior__mean_fold_auroc_cal": {
+      "mean": 0.7145491984112438,
+      "seed_min": 0.6973721609095523,
+      "seed_max": 0.7260371795620782
+    },
+    "fold_level_exposure_prior__auroc_raw": {
+      "mean": 0.7145491984112438,
+      "min": 0.6289876543209876,
+      "max": 0.7853658536585366,
+      "n_folds": 100
+    },
+    "fold_level_exposure_prior__auroc_cal": {
+      "mean": 0.7145491984112438,
+      "min": 0.6289876543209876,
+      "max": 0.7853658536585366,
+      "n_folds": 100
+    },
+    "fold_level_exposure__auroc_raw": {
+      "mean": 0.6459395989653999,
+      "min": 0.5624830577392248,
+      "max": 0.7319830655248726,
+      "n_folds": 100
+    },
+    "fold_level_exposure__auroc_cal": {
+      "mean": 0.6459395989653999,
+      "min": 0.5624830577392248,
+      "max": 0.7319830655248726,
+      "n_folds": 100
+    }
+  },
+  "rows": [
+    {
+      "seed": 0,
+      "fold_records": [
+        {
+          "seed": 0,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 569,
+          "events": 70,
+          "auroc_raw": 0.6624105353564271,
+          "auroc_cal": 0.6624105353564271
+        },
+        {
+          "seed": 0,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 569,
+          "events": 70,
+          "auroc_raw": 0.7035213283710278,
+          "auroc_cal": 0.7035213283710278
+        },
+        {
+          "seed": 0,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 497,
+          "events": 65,
+          "auroc_raw": 0.6374643874643875,
+          "auroc_cal": 0.6374643874643875
+        },
+        {
+          "seed": 0,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 497,
+          "events": 65,
+          "auroc_raw": 0.7205484330484331,
+          "auroc_cal": 0.7205484330484331
+        },
+        {
+          "seed": 0,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 622,
+          "events": 82,
+          "auroc_raw": 0.7068202348690154,
+          "auroc_cal": 0.7068202348690154
+        },
+        {
+          "seed": 0,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 622,
+          "events": 82,
+          "auroc_raw": 0.7853658536585366,
+          "auroc_cal": 0.7853658536585366
+        },
+        {
+          "seed": 0,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 559,
+          "events": 81,
+          "auroc_raw": 0.6425693475902681,
+          "auroc_cal": 0.6425693475902681
+        },
+        {
+          "seed": 0,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 559,
+          "events": 81,
+          "auroc_raw": 0.7070871429309366,
+          "auroc_cal": 0.7070871429309366
+        },
+        {
+          "seed": 0,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 478,
+          "events": 61,
+          "auroc_raw": 0.5828124385737312,
+          "auroc_cal": 0.5828124385737312
+        },
+        {
+          "seed": 0,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 478,
+          "events": 61,
+          "auroc_raw": 0.6672956716593937,
+          "auroc_cal": 0.6672956716593937
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6474957440245634,
+        "pooled_auroc_cal": 0.6473003105743624,
+        "mean_fold_auroc_raw": 0.6464153887707658,
+        "mean_fold_auroc_cal": 0.6464153887707658
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7166991996647021,
+        "pooled_auroc_cal": 0.7158727280861414,
+        "mean_fold_auroc_raw": 0.7167636859336655,
+        "mean_fold_auroc_cal": 0.7167636859336655
+      }
+    },
+    {
+      "seed": 1,
+      "fold_records": [
+        {
+          "seed": 1,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 526,
+          "events": 72,
+          "auroc_raw": 0.6334740577581988,
+          "auroc_cal": 0.6334740577581988
+        },
+        {
+          "seed": 1,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 526,
+          "events": 72,
+          "auroc_raw": 0.7105053842388644,
+          "auroc_cal": 0.7105053842388644
+        },
+        {
+          "seed": 1,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 623,
+          "events": 76,
+          "auroc_raw": 0.7319830655248726,
+          "auroc_cal": 0.7319830655248726
+        },
+        {
+          "seed": 1,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 623,
+          "events": 76,
+          "auroc_raw": 0.7758828057346291,
+          "auroc_cal": 0.7758828057346291
+        },
+        {
+          "seed": 1,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 542,
+          "events": 78,
+          "auroc_raw": 0.6477950928381964,
+          "auroc_cal": 0.6477950928381964
+        },
+        {
+          "seed": 1,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 542,
+          "events": 78,
+          "auroc_raw": 0.7239445181255527,
+          "auroc_cal": 0.7239445181255527
+        },
+        {
+          "seed": 1,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 518,
+          "events": 79,
+          "auroc_raw": 0.6485107119171881,
+          "auroc_cal": 0.6485107119171881
+        },
+        {
+          "seed": 1,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 518,
+          "events": 79,
+          "auroc_raw": 0.7017675384216142,
+          "auroc_cal": 0.7017675384216142
+        },
+        {
+          "seed": 1,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 516,
+          "events": 54,
+          "auroc_raw": 0.6004890171556839,
+          "auroc_cal": 0.6004890171556839
+        },
+        {
+          "seed": 1,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 516,
+          "events": 54,
+          "auroc_raw": 0.6333573833573833,
+          "auroc_cal": 0.6333573833573833
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6572297426165008,
+        "pooled_auroc_cal": 0.6536024506883731,
+        "mean_fold_auroc_raw": 0.652450389038828,
+        "mean_fold_auroc_cal": 0.652450389038828
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7148260995486194,
+        "pooled_auroc_cal": 0.7133886041106953,
+        "mean_fold_auroc_raw": 0.7090915259756088,
+        "mean_fold_auroc_cal": 0.7090915259756088
+      }
+    },
+    {
+      "seed": 2,
+      "fold_records": [
+        {
+          "seed": 2,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 516,
+          "events": 69,
+          "auroc_raw": 0.6234477839380087,
+          "auroc_cal": 0.6234477839380087
+        },
+        {
+          "seed": 2,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 516,
+          "events": 69,
+          "auroc_raw": 0.6781765716694227,
+          "auroc_cal": 0.6781765716694227
+        },
+        {
+          "seed": 2,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 584,
+          "events": 76,
+          "auroc_raw": 0.6726844177372565,
+          "auroc_cal": 0.6726844177372565
+        },
+        {
+          "seed": 2,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 584,
+          "events": 76,
+          "auroc_raw": 0.7190478657273104,
+          "auroc_cal": 0.7190478657273104
+        },
+        {
+          "seed": 2,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 520,
+          "events": 79,
+          "auroc_raw": 0.6279743965096587,
+          "auroc_cal": 0.6279743965096587
+        },
+        {
+          "seed": 2,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 520,
+          "events": 79,
+          "auroc_raw": 0.6989293607738454,
+          "auroc_cal": 0.6989293607738454
+        },
+        {
+          "seed": 2,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 538,
+          "events": 62,
+          "auroc_raw": 0.5624830577392248,
+          "auroc_cal": 0.5624830577392248
+        },
+        {
+          "seed": 2,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 538,
+          "events": 62,
+          "auroc_raw": 0.6610192464082407,
+          "auroc_cal": 0.6610192464082407
+        },
+        {
+          "seed": 2,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 567,
+          "events": 73,
+          "auroc_raw": 0.664300371582275,
+          "auroc_cal": 0.664300371582275
+        },
+        {
+          "seed": 2,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 567,
+          "events": 73,
+          "auroc_raw": 0.7296877599689423,
+          "auroc_cal": 0.7296877599689423
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6315738043828895,
+        "pooled_auroc_cal": 0.6287411966649163,
+        "mean_fold_auroc_raw": 0.6301780055012848,
+        "mean_fold_auroc_cal": 0.6301780055012848
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.6971452588551368,
+        "pooled_auroc_cal": 0.6961327723059028,
+        "mean_fold_auroc_raw": 0.6973721609095523,
+        "mean_fold_auroc_cal": 0.6973721609095523
+      }
+    },
+    {
+      "seed": 3,
+      "fold_records": [
+        {
+          "seed": 3,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 541,
+          "events": 63,
+          "auroc_raw": 0.6359832635983262,
+          "auroc_cal": 0.6359832635983262
+        },
+        {
+          "seed": 3,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 541,
+          "events": 63,
+          "auroc_raw": 0.7219565650527994,
+          "auroc_cal": 0.7219565650527994
+        },
+        {
+          "seed": 3,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 575,
+          "events": 77,
+          "auroc_raw": 0.6891461951702915,
+          "auroc_cal": 0.6891461951702915
+        },
+        {
+          "seed": 3,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 575,
+          "events": 77,
+          "auroc_raw": 0.747665988629844,
+          "auroc_cal": 0.747665988629844
+        },
+        {
+          "seed": 3,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 545,
+          "events": 77,
+          "auroc_raw": 0.616966366966367,
+          "auroc_cal": 0.616966366966367
+        },
+        {
+          "seed": 3,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 545,
+          "events": 77,
+          "auroc_raw": 0.6908369408369409,
+          "auroc_cal": 0.6908369408369409
+        },
+        {
+          "seed": 3,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 523,
+          "events": 74,
+          "auroc_raw": 0.6270992596159635,
+          "auroc_cal": 0.6270992596159635
+        },
+        {
+          "seed": 3,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 523,
+          "events": 74,
+          "auroc_raw": 0.7275928489736954,
+          "auroc_cal": 0.7275928489736954
+        },
+        {
+          "seed": 3,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 541,
+          "events": 68,
+          "auroc_raw": 0.6336276582514613,
+          "auroc_cal": 0.6336276582514613
+        },
+        {
+          "seed": 3,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 541,
+          "events": 68,
+          "auroc_raw": 0.705011814450939,
+          "auroc_cal": 0.705011814450939
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6369140822751279,
+        "pooled_auroc_cal": 0.6344935330364943,
+        "mean_fold_auroc_raw": 0.6405645487204819,
+        "mean_fold_auroc_cal": 0.6405645487204819
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7177352324127555,
+        "pooled_auroc_cal": 0.7166426887875357,
+        "mean_fold_auroc_raw": 0.7186128315888437,
+        "mean_fold_auroc_cal": 0.7186128315888437
+      }
+    },
+    {
+      "seed": 4,
+      "fold_records": [
+        {
+          "seed": 4,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 566,
+          "events": 60,
+          "auroc_raw": 0.575395256916996,
+          "auroc_cal": 0.575395256916996
+        },
+        {
+          "seed": 4,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 566,
+          "events": 60,
+          "auroc_raw": 0.6989459815546772,
+          "auroc_cal": 0.6989459815546772
+        },
+        {
+          "seed": 4,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 536,
+          "events": 84,
+          "auroc_raw": 0.63824799831437,
+          "auroc_cal": 0.63824799831437
+        },
+        {
+          "seed": 4,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 536,
+          "events": 84,
+          "auroc_raw": 0.7034608091024019,
+          "auroc_cal": 0.7034608091024019
+        },
+        {
+          "seed": 4,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 584,
+          "events": 91,
+          "auroc_raw": 0.6901455542429173,
+          "auroc_cal": 0.6901455542429173
+        },
+        {
+          "seed": 4,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 584,
+          "events": 91,
+          "auroc_raw": 0.7671577914985623,
+          "auroc_cal": 0.7671577914985623
+        },
+        {
+          "seed": 4,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 545,
+          "events": 53,
+          "auroc_raw": 0.6178861788617886,
+          "auroc_cal": 0.6178861788617886
+        },
+        {
+          "seed": 4,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 545,
+          "events": 53,
+          "auroc_raw": 0.6690443319527536,
+          "auroc_cal": 0.6690443319527536
+        },
+        {
+          "seed": 4,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 494,
+          "events": 71,
+          "auroc_raw": 0.7112842539872807,
+          "auroc_cal": 0.7112842539872807
+        },
+        {
+          "seed": 4,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 494,
+          "events": 71,
+          "auroc_raw": 0.7504744780741185,
+          "auroc_cal": 0.7504744780741185
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6492746593453685,
+        "pooled_auroc_cal": 0.6379112637951293,
+        "mean_fold_auroc_raw": 0.6465918484646705,
+        "mean_fold_auroc_cal": 0.6465918484646705
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7213213184929492,
+        "pooled_auroc_cal": 0.7171018396645137,
+        "mean_fold_auroc_raw": 0.7178166784365028,
+        "mean_fold_auroc_cal": 0.7178166784365028
+      }
+    },
+    {
+      "seed": 5,
+      "fold_records": [
+        {
+          "seed": 5,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 598,
+          "events": 76,
+          "auroc_raw": 0.6265880217785843,
+          "auroc_cal": 0.6265880217785843
+        },
+        {
+          "seed": 5,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 598,
+          "events": 76,
+          "auroc_raw": 0.6887981447872555,
+          "auroc_cal": 0.6887981447872555
+        },
+        {
+          "seed": 5,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 590,
+          "events": 84,
+          "auroc_raw": 0.6515386787125917,
+          "auroc_cal": 0.6515386787125917
+        },
+        {
+          "seed": 5,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 590,
+          "events": 84,
+          "auroc_raw": 0.706239412761152,
+          "auroc_cal": 0.706239412761152
+        },
+        {
+          "seed": 5,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 509,
+          "events": 57,
+          "auroc_raw": 0.623505666821922,
+          "auroc_cal": 0.623505666821922
+        },
+        {
+          "seed": 5,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 509,
+          "events": 57,
+          "auroc_raw": 0.6845986648036019,
+          "auroc_cal": 0.6845986648036019
+        },
+        {
+          "seed": 5,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 540,
+          "events": 70,
+          "auroc_raw": 0.7053191489361703,
+          "auroc_cal": 0.7053191489361703
+        },
+        {
+          "seed": 5,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 540,
+          "events": 70,
+          "auroc_raw": 0.772370820668693,
+          "auroc_cal": 0.772370820668693
+        },
+        {
+          "seed": 5,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 488,
+          "events": 72,
+          "auroc_raw": 0.6451655982905983,
+          "auroc_cal": 0.6451655982905983
+        },
+        {
+          "seed": 5,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 488,
+          "events": 72,
+          "auroc_raw": 0.7131076388888888,
+          "auroc_cal": 0.7131076388888888
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6439567503420086,
+        "pooled_auroc_cal": 0.6419929973604711,
+        "mean_fold_auroc_raw": 0.6504234229079733,
+        "mean_fold_auroc_cal": 0.6504234229079733
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7104453292582713,
+        "pooled_auroc_cal": 0.7092256361594267,
+        "mean_fold_auroc_raw": 0.7130229363819183,
+        "mean_fold_auroc_cal": 0.7130229363819183
+      }
+    },
+    {
+      "seed": 6,
+      "fold_records": [
+        {
+          "seed": 6,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 504,
+          "events": 66,
+          "auroc_raw": 0.6609243116092433,
+          "auroc_cal": 0.6609243116092433
+        },
+        {
+          "seed": 6,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 504,
+          "events": 66,
+          "auroc_raw": 0.7301439048014391,
+          "auroc_cal": 0.7301439048014391
+        },
+        {
+          "seed": 6,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 557,
+          "events": 81,
+          "auroc_raw": 0.5940190891171282,
+          "auroc_cal": 0.5940190891171282
+        },
+        {
+          "seed": 6,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 557,
+          "events": 81,
+          "auroc_raw": 0.6843033509700176,
+          "auroc_cal": 0.6843033509700176
+        },
+        {
+          "seed": 6,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 596,
+          "events": 60,
+          "auroc_raw": 0.646610696517413,
+          "auroc_cal": 0.646610696517413
+        },
+        {
+          "seed": 6,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 596,
+          "events": 60,
+          "auroc_raw": 0.7070584577114428,
+          "auroc_cal": 0.7070584577114428
+        },
+        {
+          "seed": 6,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 542,
+          "events": 66,
+          "auroc_raw": 0.674306086070792,
+          "auroc_cal": 0.674306086070792
+        },
+        {
+          "seed": 6,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 542,
+          "events": 66,
+          "auroc_raw": 0.770021645021645,
+          "auroc_cal": 0.770021645021645
+        },
+        {
+          "seed": 6,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 526,
+          "events": 86,
+          "auroc_raw": 0.6757928118393235,
+          "auroc_cal": 0.6757928118393235
+        },
+        {
+          "seed": 6,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 526,
+          "events": 86,
+          "auroc_raw": 0.7364693446088795,
+          "auroc_cal": 0.7364693446088795
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6438849344356095,
+        "pooled_auroc_cal": 0.6385517204030168,
+        "mean_fold_auroc_raw": 0.6503305990307799,
+        "mean_fold_auroc_cal": 0.6503305990307799
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7230001624687719,
+        "pooled_auroc_cal": 0.7216509652764206,
+        "mean_fold_auroc_raw": 0.7255993406226848,
+        "mean_fold_auroc_cal": 0.7255993406226848
+      }
+    },
+    {
+      "seed": 7,
+      "fold_records": [
+        {
+          "seed": 7,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 509,
+          "events": 72,
+          "auroc_raw": 0.6919654207983729,
+          "auroc_cal": 0.6919654207983729
+        },
+        {
+          "seed": 7,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 509,
+          "events": 72,
+          "auroc_raw": 0.7150711924739385,
+          "auroc_cal": 0.7150711924739385
+        },
+        {
+          "seed": 7,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 532,
+          "events": 63,
+          "auroc_raw": 0.6124141198768064,
+          "auroc_cal": 0.6124141198768064
+        },
+        {
+          "seed": 7,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 532,
+          "events": 63,
+          "auroc_raw": 0.7074829931972789,
+          "auroc_cal": 0.7074829931972789
+        },
+        {
+          "seed": 7,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 602,
+          "events": 77,
+          "auroc_raw": 0.6554112554112554,
+          "auroc_cal": 0.6554112554112554
+        },
+        {
+          "seed": 7,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 602,
+          "events": 77,
+          "auroc_raw": 0.7419666048237478,
+          "auroc_cal": 0.7419666048237478
+        },
+        {
+          "seed": 7,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 551,
+          "events": 74,
+          "auroc_raw": 0.6812567284265397,
+          "auroc_cal": 0.6812567284265397
+        },
+        {
+          "seed": 7,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 551,
+          "events": 74,
+          "auroc_raw": 0.7098702476060966,
+          "auroc_cal": 0.7098702476060966
+        },
+        {
+          "seed": 7,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 531,
+          "events": 73,
+          "auroc_raw": 0.6207154393730933,
+          "auroc_cal": 0.6207154393730933
+        },
+        {
+          "seed": 7,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 531,
+          "events": 73,
+          "auroc_raw": 0.711910031704253,
+          "auroc_cal": 0.711910031704253
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6498068034386869,
+        "pooled_auroc_cal": 0.6472579274164875,
+        "mean_fold_auroc_raw": 0.6523525927772135,
+        "mean_fold_auroc_cal": 0.6523525927772135
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7160163598989397,
+        "pooled_auroc_cal": 0.7155348401330831,
+        "mean_fold_auroc_raw": 0.7172602139610629,
+        "mean_fold_auroc_cal": 0.7172602139610629
+      }
+    },
+    {
+      "seed": 8,
+      "fold_records": [
+        {
+          "seed": 8,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 497,
+          "events": 64,
+          "auroc_raw": 0.6254330254041571,
+          "auroc_cal": 0.6254330254041571
+        },
+        {
+          "seed": 8,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 497,
+          "events": 64,
+          "auroc_raw": 0.7098729792147807,
+          "auroc_cal": 0.7098729792147807
+        },
+        {
+          "seed": 8,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 517,
+          "events": 59,
+          "auroc_raw": 0.6679742432092369,
+          "auroc_cal": 0.6679742432092369
+        },
+        {
+          "seed": 8,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 517,
+          "events": 59,
+          "auroc_raw": 0.7097920213159647,
+          "auroc_cal": 0.7097920213159647
+        },
+        {
+          "seed": 8,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 580,
+          "events": 89,
+          "auroc_raw": 0.6050710542575345,
+          "auroc_cal": 0.6050710542575345
+        },
+        {
+          "seed": 8,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 580,
+          "events": 89,
+          "auroc_raw": 0.695004462344676,
+          "auroc_cal": 0.695004462344676
+        },
+        {
+          "seed": 8,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 576,
+          "events": 72,
+          "auroc_raw": 0.6043595679012346,
+          "auroc_cal": 0.6043595679012346
+        },
+        {
+          "seed": 8,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 576,
+          "events": 72,
+          "auroc_raw": 0.6943893298059964,
+          "auroc_cal": 0.6943893298059964
+        },
+        {
+          "seed": 8,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 555,
+          "events": 75,
+          "auroc_raw": 0.7022222222222222,
+          "auroc_cal": 0.7022222222222222
+        },
+        {
+          "seed": 8,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 555,
+          "events": 75,
+          "auroc_raw": 0.7696388888888889,
+          "auroc_cal": 0.7696388888888889
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6359687023925293,
+        "pooled_auroc_cal": 0.6332291021598928,
+        "mean_fold_auroc_raw": 0.6410120225988771,
+        "mean_fold_auroc_cal": 0.6410120225988771
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.714144437092798,
+        "pooled_auroc_cal": 0.7134097956896328,
+        "mean_fold_auroc_raw": 0.7157395363140614,
+        "mean_fold_auroc_cal": 0.7157395363140614
+      }
+    },
+    {
+      "seed": 9,
+      "fold_records": [
+        {
+          "seed": 9,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 559,
+          "events": 70,
+          "auroc_raw": 0.6479111890154834,
+          "auroc_cal": 0.6479111890154834
+        },
+        {
+          "seed": 9,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 559,
+          "events": 70,
+          "auroc_raw": 0.7381536663745252,
+          "auroc_cal": 0.7381536663745252
+        },
+        {
+          "seed": 9,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 572,
+          "events": 53,
+          "auroc_raw": 0.6873523103210092,
+          "auroc_cal": 0.6873523103210092
+        },
+        {
+          "seed": 9,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 572,
+          "events": 53,
+          "auroc_raw": 0.7514087323226815,
+          "auroc_cal": 0.7514087323226815
+        },
+        {
+          "seed": 9,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 534,
+          "events": 79,
+          "auroc_raw": 0.601363193768257,
+          "auroc_cal": 0.601363193768257
+        },
+        {
+          "seed": 9,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 534,
+          "events": 79,
+          "auroc_raw": 0.6948949784392823,
+          "auroc_cal": 0.6948949784392823
+        },
+        {
+          "seed": 9,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 512,
+          "events": 74,
+          "auroc_raw": 0.6413673947920524,
+          "auroc_cal": 0.6413673947920524
+        },
+        {
+          "seed": 9,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 512,
+          "events": 74,
+          "auroc_raw": 0.6880167839071949,
+          "auroc_cal": 0.6880167839071949
+        },
+        {
+          "seed": 9,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 548,
+          "events": 83,
+          "auroc_raw": 0.6431143930560954,
+          "auroc_cal": 0.6431143930560954
+        },
+        {
+          "seed": 9,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 548,
+          "events": 83,
+          "auroc_raw": 0.6984065293431791,
+          "auroc_cal": 0.6984065293431791
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6411512207526778,
+        "pooled_auroc_cal": 0.6378217882396156,
+        "mean_fold_auroc_raw": 0.6442216961905796,
+        "mean_fold_auroc_cal": 0.6442216961905796
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7101980941706676,
+        "pooled_auroc_cal": 0.7086746551070529,
+        "mean_fold_auroc_raw": 0.7141761380773726,
+        "mean_fold_auroc_cal": 0.7141761380773726
+      }
+    },
+    {
+      "seed": 10,
+      "fold_records": [
+        {
+          "seed": 10,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 557,
+          "events": 66,
+          "auroc_raw": 0.6233104980559157,
+          "auroc_cal": 0.6233104980559157
+        },
+        {
+          "seed": 10,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 557,
+          "events": 66,
+          "auroc_raw": 0.7244954638029995,
+          "auroc_cal": 0.7244954638029995
+        },
+        {
+          "seed": 10,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 561,
+          "events": 79,
+          "auroc_raw": 0.6322811072010085,
+          "auroc_cal": 0.6322811072010085
+        },
+        {
+          "seed": 10,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 561,
+          "events": 79,
+          "auroc_raw": 0.7085718787751458,
+          "auroc_cal": 0.7085718787751458
+        },
+        {
+          "seed": 10,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 514,
+          "events": 66,
+          "auroc_raw": 0.5990259740259739,
+          "auroc_cal": 0.5990259740259739
+        },
+        {
+          "seed": 10,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 514,
+          "events": 66,
+          "auroc_raw": 0.6732616341991343,
+          "auroc_cal": 0.6732616341991343
+        },
+        {
+          "seed": 10,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 559,
+          "events": 78,
+          "auroc_raw": 0.6775414467722161,
+          "auroc_cal": 0.6775414467722161
+        },
+        {
+          "seed": 10,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 559,
+          "events": 78,
+          "auroc_raw": 0.7506796737565969,
+          "auroc_cal": 0.7506796737565969
+        },
+        {
+          "seed": 10,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 534,
+          "events": 70,
+          "auroc_raw": 0.6104987684729064,
+          "auroc_cal": 0.6104987684729064
+        },
+        {
+          "seed": 10,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 534,
+          "events": 70,
+          "auroc_raw": 0.6917487684729065,
+          "auroc_cal": 0.6917487684729065
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6295853278925916,
+        "pooled_auroc_cal": 0.6266255707009939,
+        "mean_fold_auroc_raw": 0.628531558905604,
+        "mean_fold_auroc_cal": 0.628531558905604
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7094540342879748,
+        "pooled_auroc_cal": 0.7082166815400156,
+        "mean_fold_auroc_raw": 0.7097514838013567,
+        "mean_fold_auroc_cal": 0.7097514838013567
+      }
+    },
+    {
+      "seed": 11,
+      "fold_records": [
+        {
+          "seed": 11,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 596,
+          "events": 80,
+          "auroc_raw": 0.703125,
+          "auroc_cal": 0.703125
+        },
+        {
+          "seed": 11,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 596,
+          "events": 80,
+          "auroc_raw": 0.7609738372093025,
+          "auroc_cal": 0.7609738372093025
+        },
+        {
+          "seed": 11,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 498,
+          "events": 71,
+          "auroc_raw": 0.6608833327835868,
+          "auroc_cal": 0.6608833327835868
+        },
+        {
+          "seed": 11,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 498,
+          "events": 71,
+          "auroc_raw": 0.7029389451462875,
+          "auroc_cal": 0.7029389451462875
+        },
+        {
+          "seed": 11,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 559,
+          "events": 82,
+          "auroc_raw": 0.6493071534488929,
+          "auroc_cal": 0.6493071534488929
+        },
+        {
+          "seed": 11,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 559,
+          "events": 82,
+          "auroc_raw": 0.7246510200951066,
+          "auroc_cal": 0.7246510200951066
+        },
+        {
+          "seed": 11,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 542,
+          "events": 73,
+          "auroc_raw": 0.5690627099336975,
+          "auroc_cal": 0.5690627099336975
+        },
+        {
+          "seed": 11,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 542,
+          "events": 73,
+          "auroc_raw": 0.6440400736045798,
+          "auroc_cal": 0.6440400736045798
+        },
+        {
+          "seed": 11,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 530,
+          "events": 53,
+          "auroc_raw": 0.7059451762192952,
+          "auroc_cal": 0.7059451762192952
+        },
+        {
+          "seed": 11,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 530,
+          "events": 53,
+          "auroc_raw": 0.7544796487480717,
+          "auroc_cal": 0.7544796487480717
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6528160076478055,
+        "pooled_auroc_cal": 0.6481562149014475,
+        "mean_fold_auroc_raw": 0.6576646744770944,
+        "mean_fold_auroc_cal": 0.6576646744770944
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7151015900748062,
+        "pooled_auroc_cal": 0.7136958820052886,
+        "mean_fold_auroc_raw": 0.7174167049606696,
+        "mean_fold_auroc_cal": 0.7174167049606696
+      }
+    },
+    {
+      "seed": 12,
+      "fold_records": [
+        {
+          "seed": 12,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 539,
+          "events": 58,
+          "auroc_raw": 0.606530934117141,
+          "auroc_cal": 0.606530934117141
+        },
+        {
+          "seed": 12,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 539,
+          "events": 58,
+          "auroc_raw": 0.6592945730876765,
+          "auroc_cal": 0.6592945730876765
+        },
+        {
+          "seed": 12,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 529,
+          "events": 68,
+          "auroc_raw": 0.6866147760622687,
+          "auroc_cal": 0.6866147760622687
+        },
+        {
+          "seed": 12,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 529,
+          "events": 68,
+          "auroc_raw": 0.7630151843817786,
+          "auroc_cal": 0.7630151843817786
+        },
+        {
+          "seed": 12,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 563,
+          "events": 81,
+          "auroc_raw": 0.6539880129091747,
+          "auroc_cal": 0.6539880129091747
+        },
+        {
+          "seed": 12,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 563,
+          "events": 81,
+          "auroc_raw": 0.7630244352236053,
+          "auroc_cal": 0.7630244352236053
+        },
+        {
+          "seed": 12,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 547,
+          "events": 82,
+          "auroc_raw": 0.6292158405455022,
+          "auroc_cal": 0.6292158405455022
+        },
+        {
+          "seed": 12,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 547,
+          "events": 82,
+          "auroc_raw": 0.7023603461841069,
+          "auroc_cal": 0.7023603461841069
+        },
+        {
+          "seed": 12,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 547,
+          "events": 70,
+          "auroc_raw": 0.619257262653489,
+          "auroc_cal": 0.619257262653489
+        },
+        {
+          "seed": 12,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 547,
+          "events": 70,
+          "auroc_raw": 0.711560347409404,
+          "auroc_cal": 0.711560347409404
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6401045922151557,
+        "pooled_auroc_cal": 0.6373838289415749,
+        "mean_fold_auroc_raw": 0.6391213652575151,
+        "mean_fold_auroc_cal": 0.6391213652575151
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.720938692762134,
+        "pooled_auroc_cal": 0.7200521783765838,
+        "mean_fold_auroc_raw": 0.7198509772573142,
+        "mean_fold_auroc_cal": 0.7198509772573142
+      }
+    },
+    {
+      "seed": 13,
+      "fold_records": [
+        {
+          "seed": 13,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 539,
+          "events": 69,
+          "auroc_raw": 0.579155103299414,
+          "auroc_cal": 0.579155103299414
+        },
+        {
+          "seed": 13,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 539,
+          "events": 69,
+          "auroc_raw": 0.6556583410422447,
+          "auroc_cal": 0.6556583410422447
+        },
+        {
+          "seed": 13,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 539,
+          "events": 76,
+          "auroc_raw": 0.6731556212345118,
+          "auroc_cal": 0.6731556212345118
+        },
+        {
+          "seed": 13,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 539,
+          "events": 76,
+          "auroc_raw": 0.7282596339661248,
+          "auroc_cal": 0.7282596339661248
+        },
+        {
+          "seed": 13,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 529,
+          "events": 73,
+          "auroc_raw": 0.6817772170151406,
+          "auroc_cal": 0.6817772170151406
+        },
+        {
+          "seed": 13,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 529,
+          "events": 73,
+          "auroc_raw": 0.7417688055755828,
+          "auroc_cal": 0.7417688055755828
+        },
+        {
+          "seed": 13,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 537,
+          "events": 67,
+          "auroc_raw": 0.7089869799936487,
+          "auroc_cal": 0.7089869799936487
+        },
+        {
+          "seed": 13,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 537,
+          "events": 67,
+          "auroc_raw": 0.7369323594791998,
+          "auroc_cal": 0.7369323594791998
+        },
+        {
+          "seed": 13,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 581,
+          "events": 74,
+          "auroc_raw": 0.62689908843755,
+          "auroc_cal": 0.62689908843755
+        },
+        {
+          "seed": 13,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 581,
+          "events": 74,
+          "auroc_raw": 0.6828988752065676,
+          "auroc_cal": 0.6828988752065676
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6523286013322438,
+        "pooled_auroc_cal": 0.6473886088199352,
+        "mean_fold_auroc_raw": 0.653994801996053,
+        "mean_fold_auroc_cal": 0.653994801996053
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7081342698441476,
+        "pooled_auroc_cal": 0.7068109734704978,
+        "mean_fold_auroc_raw": 0.7091036030539438,
+        "mean_fold_auroc_cal": 0.7091036030539438
+      }
+    },
+    {
+      "seed": 14,
+      "fold_records": [
+        {
+          "seed": 14,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 536,
+          "events": 84,
+          "auroc_raw": 0.6296881584492204,
+          "auroc_cal": 0.6296881584492204
+        },
+        {
+          "seed": 14,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 536,
+          "events": 84,
+          "auroc_raw": 0.7184207753898019,
+          "auroc_cal": 0.7184207753898019
+        },
+        {
+          "seed": 14,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 495,
+          "events": 45,
+          "auroc_raw": 0.6670123456790124,
+          "auroc_cal": 0.6670123456790124
+        },
+        {
+          "seed": 14,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 495,
+          "events": 45,
+          "auroc_raw": 0.6289876543209876,
+          "auroc_cal": 0.6289876543209876
+        },
+        {
+          "seed": 14,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 557,
+          "events": 75,
+          "auroc_raw": 0.6224343015214384,
+          "auroc_cal": 0.6224343015214384
+        },
+        {
+          "seed": 14,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 557,
+          "events": 75,
+          "auroc_raw": 0.7204149377593362,
+          "auroc_cal": 0.7204149377593362
+        },
+        {
+          "seed": 14,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 536,
+          "events": 75,
+          "auroc_raw": 0.6568040491684742,
+          "auroc_cal": 0.6568040491684742
+        },
+        {
+          "seed": 14,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 536,
+          "events": 75,
+          "auroc_raw": 0.7298047722342733,
+          "auroc_cal": 0.7298047722342733
+        },
+        {
+          "seed": 14,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 601,
+          "events": 80,
+          "auroc_raw": 0.660052783109405,
+          "auroc_cal": 0.660052783109405
+        },
+        {
+          "seed": 14,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 601,
+          "events": 80,
+          "auroc_raw": 0.695225527831094,
+          "auroc_cal": 0.695225527831094
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6455155087038523,
+        "pooled_auroc_cal": 0.6425734111613692,
+        "mean_fold_auroc_raw": 0.64719832758551,
+        "mean_fold_auroc_cal": 0.64719832758551
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7049755472725261,
+        "pooled_auroc_cal": 0.703619286220529,
+        "mean_fold_auroc_raw": 0.6985707335070985,
+        "mean_fold_auroc_cal": 0.6985707335070985
+      }
+    },
+    {
+      "seed": 15,
+      "fold_records": [
+        {
+          "seed": 15,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 558,
+          "events": 61,
+          "auroc_raw": 0.6630273443942343,
+          "auroc_cal": 0.6630273443942343
+        },
+        {
+          "seed": 15,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 558,
+          "events": 61,
+          "auroc_raw": 0.7818715572121251,
+          "auroc_cal": 0.7818715572121251
+        },
+        {
+          "seed": 15,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 513,
+          "events": 67,
+          "auroc_raw": 0.6559467237802021,
+          "auroc_cal": 0.6559467237802021
+        },
+        {
+          "seed": 15,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 513,
+          "events": 67,
+          "auroc_raw": 0.6905160297168864,
+          "auroc_cal": 0.6905160297168864
+        },
+        {
+          "seed": 15,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 547,
+          "events": 64,
+          "auroc_raw": 0.6484860248447205,
+          "auroc_cal": 0.6484860248447205
+        },
+        {
+          "seed": 15,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 547,
+          "events": 64,
+          "auroc_raw": 0.7164531573498965,
+          "auroc_cal": 0.7164531573498965
+        },
+        {
+          "seed": 15,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 561,
+          "events": 84,
+          "auroc_raw": 0.6278576420085854,
+          "auroc_cal": 0.6278576420085854
+        },
+        {
+          "seed": 15,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 561,
+          "events": 84,
+          "auroc_raw": 0.7074722970949386,
+          "auroc_cal": 0.7074722970949386
+        },
+        {
+          "seed": 15,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 546,
+          "events": 83,
+          "auroc_raw": 0.6588253662598558,
+          "auroc_cal": 0.6588253662598558
+        },
+        {
+          "seed": 15,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 546,
+          "events": 83,
+          "auroc_raw": 0.7338728564365453,
+          "auroc_cal": 0.7338728564365453
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6474121550187546,
+        "pooled_auroc_cal": 0.6444453339675109,
+        "mean_fold_auroc_raw": 0.6508286202575195,
+        "mean_fold_auroc_cal": 0.6508286202575195
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7233309865621844,
+        "pooled_auroc_cal": 0.7210999842240466,
+        "mean_fold_auroc_raw": 0.7260371795620782,
+        "mean_fold_auroc_cal": 0.7260371795620782
+      }
+    },
+    {
+      "seed": 16,
+      "fold_records": [
+        {
+          "seed": 16,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 513,
+          "events": 63,
+          "auroc_raw": 0.6424338624338624,
+          "auroc_cal": 0.6424338624338624
+        },
+        {
+          "seed": 16,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 513,
+          "events": 63,
+          "auroc_raw": 0.6982363315696649,
+          "auroc_cal": 0.6982363315696649
+        },
+        {
+          "seed": 16,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 585,
+          "events": 79,
+          "auroc_raw": 0.6375644168709661,
+          "auroc_cal": 0.6375644168709661
+        },
+        {
+          "seed": 16,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 585,
+          "events": 79,
+          "auroc_raw": 0.740431280332216,
+          "auroc_cal": 0.740431280332216
+        },
+        {
+          "seed": 16,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 569,
+          "events": 81,
+          "auroc_raw": 0.6734466707144303,
+          "auroc_cal": 0.6734466707144303
+        },
+        {
+          "seed": 16,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 569,
+          "events": 81,
+          "auroc_raw": 0.7256881198138028,
+          "auroc_cal": 0.7256881198138028
+        },
+        {
+          "seed": 16,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 553,
+          "events": 70,
+          "auroc_raw": 0.5851818988464951,
+          "auroc_cal": 0.5851818988464951
+        },
+        {
+          "seed": 16,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 553,
+          "events": 70,
+          "auroc_raw": 0.7045548654244306,
+          "auroc_cal": 0.7045548654244306
+        },
+        {
+          "seed": 16,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 505,
+          "events": 66,
+          "auroc_raw": 0.6901359839856424,
+          "auroc_cal": 0.6901359839856424
+        },
+        {
+          "seed": 16,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 505,
+          "events": 66,
+          "auroc_raw": 0.7242355215020363,
+          "auroc_cal": 0.7242355215020363
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6425369145531991,
+        "pooled_auroc_cal": 0.6388754806367835,
+        "mean_fold_auroc_raw": 0.6457525665702792,
+        "mean_fold_auroc_cal": 0.6457525665702792
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7175492174420822,
+        "pooled_auroc_cal": 0.7170264918282917,
+        "mean_fold_auroc_raw": 0.7186292237284302,
+        "mean_fold_auroc_cal": 0.7186292237284302
+      }
+    },
+    {
+      "seed": 17,
+      "fold_records": [
+        {
+          "seed": 17,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 555,
+          "events": 84,
+          "auroc_raw": 0.6283995551511475,
+          "auroc_cal": 0.6283995551511475
+        },
+        {
+          "seed": 17,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 555,
+          "events": 84,
+          "auroc_raw": 0.6859265999393388,
+          "auroc_cal": 0.6859265999393388
+        },
+        {
+          "seed": 17,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 585,
+          "events": 74,
+          "auroc_raw": 0.6684825725921616,
+          "auroc_cal": 0.6684825725921616
+        },
+        {
+          "seed": 17,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 585,
+          "events": 74,
+          "auroc_raw": 0.7242291214893954,
+          "auroc_cal": 0.7242291214893954
+        },
+        {
+          "seed": 17,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 505,
+          "events": 66,
+          "auroc_raw": 0.6894111962449092,
+          "auroc_cal": 0.6894111962449092
+        },
+        {
+          "seed": 17,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 505,
+          "events": 66,
+          "auroc_raw": 0.7499137157451509,
+          "auroc_cal": 0.7499137157451509
+        },
+        {
+          "seed": 17,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 500,
+          "events": 66,
+          "auroc_raw": 0.651340594888982,
+          "auroc_cal": 0.651340594888982
+        },
+        {
+          "seed": 17,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 500,
+          "events": 66,
+          "auroc_raw": 0.7443094539868733,
+          "auroc_cal": 0.7443094539868733
+        },
+        {
+          "seed": 17,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 580,
+          "events": 69,
+          "auroc_raw": 0.6080716980061828,
+          "auroc_cal": 0.6080716980061828
+        },
+        {
+          "seed": 17,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 580,
+          "events": 69,
+          "auroc_raw": 0.7012393998695368,
+          "auroc_cal": 0.7012393998695368
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6441580703419144,
+        "pooled_auroc_cal": 0.6438613882367901,
+        "mean_fold_auroc_raw": 0.6491411233766766,
+        "mean_fold_auroc_cal": 0.6491411233766766
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7174985931146205,
+        "pooled_auroc_cal": 0.7172384076176662,
+        "mean_fold_auroc_raw": 0.7211236582060591,
+        "mean_fold_auroc_cal": 0.7211236582060591
+      }
+    },
+    {
+      "seed": 18,
+      "fold_records": [
+        {
+          "seed": 18,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 524,
+          "events": 90,
+          "auroc_raw": 0.6500768049155146,
+          "auroc_cal": 0.6500768049155146
+        },
+        {
+          "seed": 18,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 524,
+          "events": 90,
+          "auroc_raw": 0.720942140296979,
+          "auroc_cal": 0.720942140296979
+        },
+        {
+          "seed": 18,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 555,
+          "events": 60,
+          "auroc_raw": 0.6441077441077442,
+          "auroc_cal": 0.6441077441077442
+        },
+        {
+          "seed": 18,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 555,
+          "events": 60,
+          "auroc_raw": 0.6957239057239057,
+          "auroc_cal": 0.6957239057239057
+        },
+        {
+          "seed": 18,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 552,
+          "events": 81,
+          "auroc_raw": 0.5991717124059658,
+          "auroc_cal": 0.5991717124059658
+        },
+        {
+          "seed": 18,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 552,
+          "events": 81,
+          "auroc_raw": 0.7161018059814945,
+          "auroc_cal": 0.7161018059814945
+        },
+        {
+          "seed": 18,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 518,
+          "events": 54,
+          "auroc_raw": 0.6336206896551724,
+          "auroc_cal": 0.6336206896551724
+        },
+        {
+          "seed": 18,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 518,
+          "events": 54,
+          "auroc_raw": 0.6935265006385696,
+          "auroc_cal": 0.6935265006385696
+        },
+        {
+          "seed": 18,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 576,
+          "events": 74,
+          "auroc_raw": 0.6603316463874233,
+          "auroc_cal": 0.6603316463874233
+        },
+        {
+          "seed": 18,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 576,
+          "events": 74,
+          "auroc_raw": 0.7309949391622699,
+          "auroc_cal": 0.7309949391622699
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6382621021575382,
+        "pooled_auroc_cal": 0.6323060911661724,
+        "mean_fold_auroc_raw": 0.6374617194943641,
+        "mean_fold_auroc_cal": 0.6374617194943641
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7129918506605887,
+        "pooled_auroc_cal": 0.7110975589655684,
+        "mean_fold_auroc_raw": 0.7114578583606438,
+        "mean_fold_auroc_cal": 0.7114578583606438
+      }
+    },
+    {
+      "seed": 19,
+      "fold_records": [
+        {
+          "seed": 19,
+          "fold": 0,
+          "arm": "exposure",
+          "n": 563,
+          "events": 69,
+          "auroc_raw": 0.6457489878542509,
+          "auroc_cal": 0.6457489878542509
+        },
+        {
+          "seed": 19,
+          "fold": 0,
+          "arm": "exposure_prior",
+          "n": 563,
+          "events": 69,
+          "auroc_raw": 0.7074752097635393,
+          "auroc_cal": 0.7074752097635393
+        },
+        {
+          "seed": 19,
+          "fold": 1,
+          "arm": "exposure",
+          "n": 539,
+          "events": 76,
+          "auroc_raw": 0.6217744685688302,
+          "auroc_cal": 0.6217744685688302
+        },
+        {
+          "seed": 19,
+          "fold": 1,
+          "arm": "exposure_prior",
+          "n": 539,
+          "events": 76,
+          "auroc_raw": 0.683585313174946,
+          "auroc_cal": 0.683585313174946
+        },
+        {
+          "seed": 19,
+          "fold": 2,
+          "arm": "exposure",
+          "n": 486,
+          "events": 70,
+          "auroc_raw": 0.6353708791208792,
+          "auroc_cal": 0.6353708791208792
+        },
+        {
+          "seed": 19,
+          "fold": 2,
+          "arm": "exposure_prior",
+          "n": 486,
+          "events": 70,
+          "auroc_raw": 0.6866071428571429,
+          "auroc_cal": 0.6866071428571429
+        },
+        {
+          "seed": 19,
+          "fold": 3,
+          "arm": "exposure",
+          "n": 506,
+          "events": 73,
+          "auroc_raw": 0.7087221993735962,
+          "auroc_cal": 0.7087221993735962
+        },
+        {
+          "seed": 19,
+          "fold": 3,
+          "arm": "exposure_prior",
+          "n": 506,
+          "events": 73,
+          "auroc_raw": 0.7593090575469011,
+          "auroc_cal": 0.7593090575469011
+        },
+        {
+          "seed": 19,
+          "fold": 4,
+          "arm": "exposure",
+          "n": 631,
+          "events": 71,
+          "auroc_raw": 0.6611670020120723,
+          "auroc_cal": 0.6611670020120723
+        },
+        {
+          "seed": 19,
+          "fold": 4,
+          "arm": "exposure_prior",
+          "n": 631,
+          "events": 71,
+          "auroc_raw": 0.7309607645875251,
+          "auroc_cal": 0.7309607645875251
+        }
+      ],
+      "exposure": {
+        "pooled_auroc_raw": 0.6510500427363508,
+        "pooled_auroc_cal": 0.6488826151350257,
+        "mean_fold_auroc_raw": 0.6545567073859259,
+        "mean_fold_auroc_cal": 0.6545567073859259
+      },
+      "exposure_prior": {
+        "pooled_auroc_raw": 0.7115119720647897,
+        "pooled_auroc_cal": 0.7124491107778017,
+        "mean_fold_auroc_raw": 0.7135874975860108,
+        "mean_fold_auroc_cal": 0.7135874975860108
+      }
+    }
+  ],
+  "runtime_seconds": 501.18787455558777
+}

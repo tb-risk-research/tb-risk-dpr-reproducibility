@@ -1,0 +1,62 @@
+{
+  "lr_base": {
+    "mean_across_orders": {
+      "mean_predicted": 0.13566115444143753,
+      "ece10": 0.5339040629498669,
+      "calibration_intercept_offset": 2.6053232226681287,
+      "calibration_intercept_joint": 2.520323427296178,
+      "calibration_slope": 0.9555490123368836
+    },
+    "successful_joint_calibration_fits": 20
+  },
+  "lr_eb": {
+    "mean_across_orders": {
+      "mean_predicted": 0.3535240233422775,
+      "ece10": 0.3218867055541143,
+      "calibration_intercept_offset": 1.7558572984643444,
+      "calibration_intercept_joint": 1.168086860262118,
+      "calibration_slope": 0.492487172312018
+    },
+    "successful_joint_calibration_fits": 20
+  },
+  "lr_four": {
+    "mean_across_orders": {
+      "mean_predicted": 0.3469661262639211,
+      "ece10": 0.3335171978350408,
+      "calibration_intercept_offset": 1.7800361280355315,
+      "calibration_intercept_joint": 1.2161721981891194,
+      "calibration_slope": 0.5242866910142946
+    },
+    "successful_joint_calibration_fits": 20
+  },
+  "rf_base": {
+    "mean_across_orders": {
+      "mean_predicted": 0.41933698743429765,
+      "ece10": 0.2502282299570065,
+      "calibration_intercept_offset": 1.143076723048085,
+      "calibration_intercept_joint": 1.054663408813164,
+      "calibration_slope": 0.8059823397158323
+    },
+    "successful_joint_calibration_fits": 20
+  },
+  "rf_eb": {
+    "mean_across_orders": {
+      "mean_predicted": 0.5367924325777461,
+      "ece10": 0.14601770921519602,
+      "calibration_intercept_offset": 0.6343579462865989,
+      "calibration_intercept_joint": 0.6413640600622068,
+      "calibration_slope": 0.8686281858280405
+    },
+    "successful_joint_calibration_fits": 20
+  },
+  "rf_four": {
+    "mean_across_orders": {
+      "mean_predicted": 0.5604859669699767,
+      "ece10": 0.12363408367458832,
+      "calibration_intercept_offset": 0.5307145294839415,
+      "calibration_intercept_joint": 0.5620880292815339,
+      "calibration_slope": 0.786220057364722
+    },
+    "successful_joint_calibration_fits": 20
+  }
+}

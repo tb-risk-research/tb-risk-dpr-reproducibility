@@ -51,6 +51,8 @@ py -3.12 -m venv .venv
 
 ## v0.19 图表复现材料
 
+[当前投稿复现增量](experiments/dpr/submission_reproduction)包含 v0.20 的 HomeACF 编码与逐折校准分析，以及 v0.21 新增的巴西独立队列评估、数据获取说明、汇总结果和复跑核验。v0.22 为语言与投稿材料更新。
+
 [打开 v0.19 图表复现目录](experiments/dpr/presentation_v019)。目录包含绘图脚本、汇总输入、5 张主图和 10 张补图预览，以及 4 张主表和 15 块补充表的 CSV。运行 `python experiments/dpr/presentation_v019/build_figures.py` 可从汇总输入生成图件。运行环境和文件校验值见目录内的 `verification.json` 和 `manifest.json`。
 
 ## Archived analysis release v0.17 and manuscript v0.18

@@ -1,0 +1,7 @@
+{
+  "external_and_internal_summaries_match_prior": true,
+  "external_predictions_byte_values_identical": true,
+  "independent_sklearn_metrics_checked": true,
+  "valid_household_resamples": 2000,
+  "workspace_git_status_unchanged": true
+}

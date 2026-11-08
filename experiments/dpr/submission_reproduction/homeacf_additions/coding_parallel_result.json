@@ -1,0 +1,140 @@
+{
+  "status": "complete",
+  "n": 2725,
+  "events": 359,
+  "households": 877,
+  "seeds": 20,
+  "scenario": "coding-corrected baseline columns, same folds/orders/RF settings as primary",
+  "summary": {
+    "base_auroc": {
+      "mean": 0.6433066986581021,
+      "seed_range": [
+        0.6307449781844467,
+        0.6588120471771639
+      ]
+    },
+    "base_auprc": {
+      "mean": 0.19437828272415644,
+      "seed_range": [
+        0.17852262585068496,
+        0.21105034893177235
+      ]
+    },
+    "base_capture_q0.05": {
+      "mean": 0.08607242339832868,
+      "seed_range": [
+        0.06406685236768803,
+        0.10863509749303621
+      ]
+    },
+    "base_capture_q0.1": {
+      "mean": 0.16420612813370475,
+      "seed_range": [
+        0.14763231197771587,
+        0.18384401114206128
+      ]
+    },
+    "base_capture_q0.2": {
+      "mean": 0.31545961002785516,
+      "seed_range": [
+        0.2841225626740947,
+        0.34818941504178275
+      ]
+    },
+    "base_capture_q0.3": {
+      "mean": 0.46406685236768797,
+      "seed_range": [
+        0.4401114206128134,
+        0.4958217270194986
+      ]
+    },
+    "sop_auroc": {
+      "mean": 0.7126225285321064,
+      "seed_range": [
+        0.7015083694963704,
+        0.7223220319427733
+      ]
+    },
+    "sop_auprc": {
+      "mean": 0.28481039701468325,
+      "seed_range": [
+        0.2559637135532613,
+        0.305466053542235
+      ]
+    },
+    "sop_capture_q0.05": {
+      "mean": 0.15598885793871867,
+      "seed_range": [
+        0.1392757660167131,
+        0.17827298050139276
+      ]
+    },
+    "sop_capture_q0.1": {
+      "mean": 0.2662952646239555,
+      "seed_range": [
+        0.24512534818941503,
+        0.2924791086350975
+      ]
+    },
+    "sop_capture_q0.2": {
+      "mean": 0.4227019498607242,
+      "seed_range": [
+        0.4011142061281337,
+        0.4568245125348189
+      ]
+    },
+    "sop_capture_q0.3": {
+      "mean": 0.553899721448468,
+      "seed_range": [
+        0.5264623955431755,
+        0.5905292479108635
+      ]
+    },
+    "delta_auroc": {
+      "mean": 0.06931582987400431,
+      "conditional_ci95": [
+        0.04690672795039232,
+        0.09032269207796369
+      ],
+      "positive_seeds": 20,
+      "seed_range": [
+        0.056254223599413344,
+        0.08302271972724085
+      ]
+    },
+    "delta_capture_q0.05": {
+      "mean": 0.06991643454038997,
+      "seed_range": [
+        0.03899721448467966,
+        0.09470752089136489
+      ]
+    },
+    "delta_capture_q0.1": {
+      "mean": 0.10208913649025071,
+      "seed_range": [
+        0.07242339832869082,
+        0.13370473537604455
+      ]
+    },
+    "delta_capture_q0.2": {
+      "mean": 0.10724233983286909,
+      "seed_range": [
+        0.08356545961002781,
+        0.14484679665738165
+      ]
+    },
+    "delta_capture_q0.3": {
+      "mean": 0.08983286908077993,
+      "seed_range": [
+        0.06963788300835655,
+        0.11420612813370473
+      ]
+    }
+  },
+  "limits": [
+    "Conditional fixed-prediction intervals; no full refit.",
+    "Coding correction and the availability sensitivity were not combined.",
+    "Capture assumes earlier household results are available without acquisition cost.",
+    "LR and calibration were not recomputed under corrected coding."
+  ]
+}

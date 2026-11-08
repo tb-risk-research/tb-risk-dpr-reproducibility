@@ -1,0 +1,3 @@
+# These archived analysis inputs and outputs are verified byte for byte.
+brazil_external/** -text
+homeacf_additions/** -text
